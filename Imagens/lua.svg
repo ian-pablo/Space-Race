@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 26.458333 26.458333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="lua.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="8.0000001"
+     inkscape:cx="45.9375"
+     inkscape:cy="46.6875"
+     inkscape:window-width="2560"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Terra"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="matrix(1.2674914,0,0,1.2674914,-3.8519242,-3.5814091)">
+    <circle
+       style="opacity:1;fill:#3366cc;stroke-width:0.314"
+       id="path1"
+       cx="14.031277"
+       cy="12.67429"
+       r="8.2016373"
+       inkscape:label="Chao"
+       transform="rotate(2.4515485)" />
+    <g
+       id="g10"
+       inkscape:label="crateras">
+      <circle
+         style="fill:#003399;fill-opacity:1;stroke-width:0.247733"
+         id="path2"
+         cx="15.746406"
+         cy="15.506887"
+         r="2.4788547" />
+      <ellipse
+         style="fill:#003399;fill-opacity:1;stroke-width:0.247733"
+         id="path3"
+         cx="13.202319"
+         cy="6.9874549"
+         rx="2.07441"
+         ry="1.0306817" />
+      <ellipse
+         style="fill:#003399;fill-opacity:1;stroke-width:0.247733"
+         id="path4"
+         cx="11.628815"
+         cy="3.7377634"
+         rx="0.87412244"
+         ry="1.8265245"
+         transform="rotate(31.367135)" />
+      <circle
+         style="fill:#003399;fill-opacity:1;stroke-width:0.247733"
+         id="path5"
+         cx="11.441027"
+         cy="12.584449"
+         r="1.0959147" />
+      <ellipse
+         style="fill:#003399;fill-opacity:1;stroke-width:0.247733"
+         id="path6"
+         cx="-4.5560308"
+         cy="19.509064"
+         rx="0.66537678"
+         ry="1.3177069"
+         transform="rotate(-38.68026)" />
+      <ellipse
+         style="fill:#003399;fill-opacity:1;stroke-width:0.247733"
+         id="path7"
+         cx="11.537701"
+         cy="17.804626"
+         rx="0.91326225"
+         ry="1.9961303"
+         transform="rotate(-29.289984)" />
+      <ellipse
+         style="fill:#003399;fill-opacity:1;stroke-width:0.247733"
+         id="path8"
+         cx="12.485892"
+         cy="21.478249"
+         rx="0.6392836"
+         ry="0.28702527"
+         transform="rotate(-3.0742684)" />
+      <ellipse
+         style="fill:#003399;fill-opacity:1;stroke-width:0.247733"
+         id="path9"
+         cx="7.9706302"
+         cy="13.902156"
+         rx="0.62623698"
+         ry="0.92630887" />
+      <ellipse
+         style="fill:#003399;fill-opacity:1;stroke-width:0.247733"
+         id="path10"
+         cx="11.232281"
+         cy="16.041798"
+         rx="0.46967775"
+         ry="0.48272434" />
+    </g>
+    <path
+       d="M 15.086262,5.2212122 A 8.2016373,8.2016373 0 0 0 7.7815873,13.01906 8.2016373,8.2016373 0 0 0 14.379334,21.408857 8.2016373,8.2016373 0 0 0 21.670427,13.613693 8.2016373,8.2016373 0 0 0 15.086262,5.2212122 Z"
+       style="fill:#2b47c1;fill-opacity:0.458078;stroke-width:0.314"
+       id="path20"
+       inkscape:label="Sombra" />
+  </g>
+</svg>
