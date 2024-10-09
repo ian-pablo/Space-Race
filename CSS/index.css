@@ -220,8 +220,8 @@
     height: 1100px;
 
     /* estética */
-    /*background-image: url(../Imagens/fundoSobre.svg);
-    background-position: 50%;*/
+    background-image: url(../Imagens/fundoSobre.svg);
+    background-position: 50%;
     font-family: var(--interfaceTextFont);
     color: var(--interfaceTextColor);
     font-size: x-large;
@@ -281,6 +281,74 @@
     position: absolute;
     top: calc(70% - var(--size) - 100px);
     left: 10vw;
+}
+
+#future{
+    /* tamanho */
+    height: 1100px;
+
+    /* estética */
+    background-image: url(../Imagens/fundoSobre.svg);
+    background-position: 20%;
+    font-family: var(--interfaceTextFont);
+    color: var(--interfaceTextColor);
+    font-size: x-large;
+    display: block;
+
+    /* posicionamento de elementos internos */
+    position: relative;
+
+    /* posicionamento */
+    margin-top: 70px;
+}
+
+#future h1{
+    /* tamanho */
+    width: 550px;
+
+    /* posicionamento */
+    position: absolute;
+    bottom: 450px;
+    right: 5vw;
+}
+
+#futureButton{
+
+    /* posicionamento */
+    position: absolute;
+    top: 105px;
+    right: 15px;
+}
+
+#ship{
+    /* tamanho */
+    --size: 450px;
+    width: var(--size);
+    height: var(--size);
+
+    /* estética */
+    background-image: url(../Imagens/star-ship.svg);
+
+    /* posicionamento */
+    rotate: 55deg;
+    position: absolute;
+    top: calc(80% - var(--size) - 100px);
+    left: 8vw;
+}
+
+#mars{
+    /* tamanho */
+    --size: 400px;
+    width: var(--size);
+    height: var(--size);
+
+    /* estética */
+    background-image: url(../Imagens/marte.svg);
+
+    /* posicionamento */
+    position: absolute;
+    top: calc(50% - var(--size) - 100px);
+    left: 20vw;
 }
 
 
