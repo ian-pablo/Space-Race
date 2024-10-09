@@ -37,6 +37,9 @@ body{
     display: flex;
     flex-direction: column;
 
+    /* estétic do cursor */
+    cursor: url('../Imagens/mouse_normal.svg') 0 0, default;
+
     
 }
 
