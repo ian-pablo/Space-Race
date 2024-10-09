@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.5"
-     inkscape:cx="1581"
-     inkscape:cy="583"
+     inkscape:cx="1163"
+     inkscape:cy="449"
      inkscape:window-width="2560"
      inkscape:window-height="1057"
      inkscape:window-x="-8"
@@ -1430,6 +1430,14 @@
      inkscape:label="Camada 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#050006;stroke-width:0.079375;fill-opacity:1"
+       id="rect1"
+       width="661.45831"
+       height="291.04166"
+       x="0"
+       y="0"
+       inkscape:label="fundo" />
     <g
        id="g1"
        inkscape:label="estrela"

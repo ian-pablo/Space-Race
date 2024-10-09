@@ -24,8 +24,8 @@
     width: 550px;
     
     /* estética */
-    background-color: var(--Background);
-    border-radius: 5px;
+    /*background-color: var(--Background);
+    border-radius: 5px;*/
 
     /* posicionamento */
     position: absolute;
