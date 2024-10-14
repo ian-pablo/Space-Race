@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Space Race </title>
+
+    <!-- Os arquivos CSS desta página -->
+    <link rel="stylesheet" href="CSS/basicConfig.css"> <!-- configurações padrões que todas as páginas devem possuir -->
+    <link rel="stylesheet" href="CSS/milestones.css">
+
+    <!-- Os scripts em javascript -->
+    <script src="SCRIPTS/basic.js" defer> </script>
+    <script src="SCRIPTS/botaoAbertura.js" defer> </script>
+
+    <!-- Icone da guia -->
+    <link rel="icon" href="Imagens/terra_logo.svg">
+
+    <!-- Fontes do google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <h1 id="titulo"> Space Race </h1>
+        
+        <button id="botaoMenu" class="button"> 
+            <a> &#9776 </a> 
+        </button>
+    </header>
+
+    <nav id="menu">
+
+    </nav>
+
+    <main>
+        <button id="terraBotao" class="total fundo botaoBrilho" onclick="abrir('#terra')">  
+            <div id="terraImgLeft" class="image"> </div>  
+            Terra 
+            <div id="terraImgRight" class="image"> </div>  
+        </button>
+        <div id="terra" class="image" style="display: none;">
+
+            <h1> Terra, a nossa casa </h1>
+
+            <p>
+                O planeta Terra, a nossa casa, clique no botão abaixo para descobrir sobre as mais importantes conquistas da 
+                humanidade no espaço ao redor da nossa casa.
+            </p>
+
+            <button class="button lightButton">
+                Bem aqui
+            </button>
+
+        </div>
+    </main>
+
+    <footer>
+        <h5> <sup>©</sup>2024 Ian_Productions. All rights reserved. </h5>
+    </footer>
+
+</body>
+</html>

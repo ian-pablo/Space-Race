@@ -1,0 +1,110 @@
+header{
+    /* posicionamento dos outros elementos */
+    margin-bottom: 30px;
+}
+
+#terraBotao{
+    /* estética */
+    background-color: var(--interfaceColor);
+    background-image: url('../Imagens/fundoSobre.svg');
+    background-size: 25%;
+
+    /* posicionamento */
+    margin-top: 15px;
+}
+
+#terraImgLeft{
+    /* variáveis locais */
+    --size: 75px;
+
+    /* tamanho */
+    width: var(--size);
+    height: var(--size);
+
+
+    /* estética */
+    background-image: url('../Imagens/terra.svg');
+
+    /* posição */
+    position: absolute;
+    left: 10px;
+    top: 2.5px;
+
+}
+
+#terraImgRight{
+    /* variáveis locais */
+    --size: 75px;
+
+    /* tamanho */
+    width: var(--size);
+    height: var(--size);
+
+
+    /* estética */
+    background-image: url('../Imagens/terra.svg');
+
+    /* posição */
+    position: absolute;
+    right: 10px;
+    top: 2.5px;
+
+}
+
+#terra{
+    /* tamanho */
+    width: 100%;
+    height: 500px;
+
+    /*estética*/
+    background-image: url('../Imagens/terra_do_espaco.svg');
+    background-size: cover;
+    background-position: 50% 100%;
+
+    /* posição */
+    transform: translateZ(80deg);
+
+    /* posicionamento dos itens interiorres */
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#terra h1{
+    /* estética */
+    color: var(--interfaceTextColor);
+    text-align: center;
+    font-size: 3em;
+
+    /* posição */
+    margin-top: 20px;
+
+}
+
+#terra p{
+    /* tamanho */
+    width: 65%;
+
+    /* estética */
+    color: var(--interfaceTextColor);
+    font-size: 20px;
+    text-align: center;
+    font-size: 2em;
+
+    /* posicionamento */
+    margin-top: 15px;
+}
+
+#terra button{
+    /* tamanho */
+    width: 300px;
+    height: 50px;
+
+    /* estética */
+    border-radius: 15px;
+    font-size: 2em;
+    text-decoration: underline;
+
+    /* posicionamento */
+    margin-top: 10px;
+}

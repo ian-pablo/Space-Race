@@ -10,7 +10,12 @@
     --interfaceTextFont: iceland; /* a fonte do texto da interface do site */
     --interfaceTextColor: white; /* a cor do texto da interface do site */
     --menuColor: rgb(0, 0, 0); /* a cor do menu */
-    --pageHeight: 8000px; /* o tamanho da página TODO: remover isso pois é apenas para testes, no caso deve estar no CSS de cada página para funcionar própriamente */
+    --pageHeight: max-content; /* o tamanho da página */
+    --headerHeight: 75px; /* o tamanho do header */
+    --blurColor: var(--Background); /* a cor do efeito de blur */
+
+    /* estética do cursor */
+    cursor: url('../Imagens/mouse_normal.svg') 0 0, default;
 }
 
 /* --- estilo de pseudo elementos ---- */
@@ -19,14 +24,35 @@
     color: black;
 }
 
+::-webkit-scrollbar{
+
+    /* tamanho */
+    width: 6px;
+
+}
+
+::-webkit-scrollbar-thumb{
+    /* estética */
+    background-color: white;
+    border-radius: 25%;
+}
+
+::-webkit-scrollbar-track{
+
+    /* estética */
+    background-color: rgb(10, 10, 10);
+}
+
 /* --- estilos padrões para todos os elementos na página --- */
 *{
     margin: 0 auto;
+    font-family: var(--interfaceTextFont), arial;
 }
 
 /* --- estilos de elementos de estrutura (body, nav, etc.) --- */
 body{
 
+    /* tamanho */
     height: var(--pageHeight);
 
     /* estética */
@@ -37,16 +63,15 @@ body{
     display: flex;
     flex-direction: column;
 
-    /* estétic do cursor */
-    cursor: url('../Imagens/mouse_normal.svg') 0 0, default;
+    
 
     
 }
 
 header{
     /* tamanho */
-    width: 100%;
-    height: 75px;
+    width: 100vw;
+    height: var(--headerHeight);
 
     /* estética */
     background-color: var(--interfaceColor);
@@ -60,7 +85,7 @@ header{
     border-bottom-right-radius: 15px;
 
     /* posicionamento */
-    z-index: 5;
+    z-index: 500;
     position: fixed;
 
     /* posicionamento dos elementos internos */
@@ -84,7 +109,7 @@ nav{
     
 
     /* posicionamento */
-    z-index: 1;
+    z-index: 100;
     position: fixed;
     right: calc(-1 * var(--width));
     top: 0px;
@@ -115,6 +140,10 @@ footer{
     /* posicionamento do conteúdo */
     display: flex;
     align-items: center;
+
+    /* posicionamento */
+    z-index: 500;
+    margin-top: 15px;
 
 }
 
@@ -161,7 +190,7 @@ footer{
 #botaoMenu a{
     position: absolute;
     left: 3px;
-    bottom: -10.5px;
+    bottom: -6px;
     font-weight: 900;
     user-select: none;
 }
@@ -170,9 +199,6 @@ footer{
     /* estética */
     background-repeat: no-repeat;
     background-size: 100%;
-
-    /* posicionamento */
-    z-index: 0;
 }
 
 .styledButton{
@@ -188,21 +214,52 @@ footer{
 }
 
 .lightButton{
-    /* variáveis locais */
-    --interfaceButtonColor: transparent;
-
-}
-
-.lightButton:hover{
-    
-    /* variáveis locais */
-    --interfaceButtonColor: var(--Background);
-
     /* estética */
     background-color: transparent;
+
 }
 
 .blur{
     /* estética */
-    box-shadow: 0px 0px 15px 30px black;
+    box-shadow: 0px 0px 15px 30px var(--blurColor);
 }
+
+.total{
+    /* tamanho */
+    width: 100%;
+    height: 80px;
+
+
+    /* estética */
+    font-size: 45px;
+    border-radius: 15px;
+    font-family: var(--interfaceTextFont);
+    color: var(--interfaceTextColor);
+    border: 0;
+
+    /* posicionamento */
+    z-index: 5;
+
+    /* posicionamento de itens no interior */
+    position: relative;
+    
+}
+
+.botaoBrilho{
+    /* variáveis locais */
+    --shadow: 0px;
+
+    /* estética */
+    box-shadow: 0px 0px var(--shadow) var(--interfaceTextColor);
+    text-shadow: 0px 0px var(--shadow) var(--interfaceTextColor);
+
+    /* animação */
+    transition: --shadow 3s;
+}
+
+.botaoBrilho:hover{
+    /* variáveis locais */
+    --shadow: 45px;
+}
+
+
