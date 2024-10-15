@@ -4,12 +4,10 @@
     // as constantes que o código precissa para funcionar normalmente
     const menu = document.querySelector("#menu");
     const botaoMenu = document.querySelector("#botaoMenu");
-    const width = parseFloat( getComputedStyle(menu).getPropertyValue('--width') );
     const animationFramesCount = 10;
-    const velocidadeMenu = width / animationFramesCount;
-    const velocidadeOpacidade = 1 / animationFramesCount;
 
     // variáveis importantes para controlar a animação do menu
+    let width = parseFloat( getComputedStyle(menu).getPropertyValue('--width') );
     let mostrar = false;
     let posição = -width;
     let opacidade = 0;
@@ -31,14 +29,23 @@
     // responsável por executar a animação em si
     function animação(){
 
+        // com conta da responsividade estes valores podem se alterar logo eles não são mais 
+        // do tipo 'const'
+        width = parseFloat( getComputedStyle(menu).getPropertyValue('--width') );
+        const velocidadeMenu = width / animationFramesCount;
+        const velocidadeOpacidade = 1 / animationFramesCount;
+
+        // muda os valores da posição do menu assim como a sua opacidade
         posição += mostrar == true ? velocidadeMenu : -velocidadeMenu;
         opacidade += mostrar == true ? velocidadeOpacidade : - velocidadeOpacidade;
 
 
+        // verifica se a animação deve continuar...
         if ( ( mostrar == false && posição > -width ) || ( mostrar == true && posição < 0 ) ){
             requestAnimationFrame(animação);
         }
 
+        // caso o contrário posiciona os elementos na posição correta para o caso de eles terem passado desta
         else{
 
             if(mostrar == false ){
@@ -57,6 +64,7 @@
             }
         }
 
+        // muda as propriedades CSS dos elementos
         menu.style.right = `${posição}px`;
         menu.style.opacity = `${opacidade}`;
         
@@ -65,8 +73,8 @@
 
 /* este bloco de código faz com que o evento de menu com o botão direito do mouse não ocorra
    fazendo com que não haaja menu do mouse */
-document.addEventListener('contextmenu', (event) => {
-    event.preventDefault();
+document.addEventListener('contextmenu', (evento) => {
+    evento.preventDefault();
 });
 
 

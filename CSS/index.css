@@ -27,13 +27,13 @@
     position: relative;
 }
 
-#sobre h1{
+#textoSobre{
     /* tamanho */
     width: 550px;
 
     /* posicionamento */
     position: absolute;
-    top: min( 65vh - 75px , 750px );
+    top: min( 65vh - 75px , 550px );
     left: 5vw;
 }
 
@@ -58,7 +58,7 @@
     /* posicionamento */
     position: absolute;
     top: min( 70vh - 70px - var(--size) / 2, 450px );
-    right: calc( 5vw );
+    right: 5vw;
 
 }
 
@@ -96,7 +96,7 @@
     position: relative;
 }
 
-#milestones h1{
+#textoMilestones{
     /* tamanho */
     width: 550px;
 
@@ -156,7 +156,7 @@
     margin-top: 70px;
 }
 
-#incidents h1{
+#textoIncidents{
     /* tamanho */
     width: 550px;
 
@@ -211,7 +211,7 @@
     margin-top: 70px;
 }
 
-#learning h1{
+#textoLearning{
     /* tamanho */
     width: 700px;
 
@@ -282,7 +282,7 @@
     margin-top: 70px;
 }
 
-#future h1{
+#textoFuture{
     /* tamanho */
     width: 550px;
 
@@ -329,6 +329,14 @@
     position: absolute;
     top: calc(44% - var(--size) / 2);
     left: 3vw;
+}
+
+/* medias de responsividade */
+@media screen and (max-width: 1000px) {
+    #earth{
+        /* posição */
+        right: -5vw;
+    }
 }
 
 

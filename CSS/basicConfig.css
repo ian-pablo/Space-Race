@@ -12,6 +12,7 @@
     --pageHeight: max-content; /* o tamanho da página */
     --headerHeight: 75px; /* o tamanho do header */
     --blurColor: var(--Background); /* a cor do efeito de blur */
+    --mouseGrab: url('../Imagens/mouse_grab.svg');
 
     /* estética do cursor */
     cursor: url('../Imagens/mouse_normal.svg') 0 0, default;
@@ -132,7 +133,7 @@ footer{
     background-color: var(--interfaceColor);
     color: var(--interfaceTextColor);
     font-family: var(--interfaceTextFont);
-    font-size: xx-large;
+    font-size: 2em; /* 2em é equivalente a xx-large */
     padding: 15px;
     box-sizing: border-box;
 
@@ -147,7 +148,16 @@ footer{
 }
 
 
+/* estilos gerais para grupos de elementos no site */
+button{
+    /* cursor */
+    cursor: var(--mouseGrab) 0 0, pointer;
+}
+
+
+
 /* configuração de classes e IDs importantes assim como efeitos de :hover */
+
 
 .button{
     /* estética */
@@ -160,7 +170,6 @@ footer{
 
     /* animação */
     transition: color var(--interfaceButtonAnimationTime) ease-in-out, background-size var(--interfaceButtonAnimationTime) ease-in-out;
-    cursor: pointer;
 }
 
 .button:hover{
@@ -181,8 +190,8 @@ footer{
 
     /* posicionamento */
     position: absolute;
-    right: 5px;
-    top: 10px;
+    right: 8px;
+    top: 7px;
     
 }
 
@@ -197,7 +206,7 @@ footer{
 .image{
     /* estética */
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain;
 }
 
 .styledButton{
@@ -262,7 +271,15 @@ footer{
 }
 
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
+    nav{
+        /* tamanho */
+        --width: 100vw;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
     header{
         /* estética */
         font-size: 1.5em;
@@ -280,6 +297,11 @@ footer{
     #botaoMenu a{
         /* estética */
         font-size: 0.75em;
+    }
+
+    footer{
+        /* estética */
+        font-size: 1.5em;
     }
 }
 
