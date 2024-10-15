@@ -105,9 +105,9 @@
     border-radius: 5px;
 
     /* posicionamento */
-    position: relative;
+    position: absolute;
     top: 350px;
-    left: 25vw;
+    right: 5vw;
 }
 
 #milestonesButton{
@@ -332,13 +332,193 @@
 }
 
 /* medias de responsividade */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1085px) {
     #earth{
         /* posição */
         right: -5vw;
     }
+
+    #textoSobre{
+        /* tamanho */
+        width: 450px;
+
+        /* estética */
+        font-size: 0.9em;
+    }
+
+    #sobreBotao{
+        /* estética */
+        font-size: 1.8em;
+
+        /* posição */
+        top: 95px;
+        right: 45px;
+    }
+
+    #vostok{
+        /* variáveis locais */
+        --size: 350px;
+
+        /* posição */
+        left: 5vw;
+        top: 18%;
+    }
+
+    #textoMilestones{
+        /* estética */
+        font-size: 0.9em;
+
+        /* posição */
+        right: 0vw;
+    }
+
+    #milestonesButton{
+        /* estética */
+        font-size: 1.8em;
+
+        /* posição */
+        top: 95px;
+        right: 65px;
+    }
 }
 
+@media screen and (max-width: 930px) {
+    #vostok{
+        /* variáveis locais */
+        --size: 300px;
+
+        /* posição */
+        left: 1vw;
+        top: 21%;
+    }
+
+    #textoMilestones{
+        /* tamanho */
+        width: 500px;
+
+        /* posição */
+        right: 2.5vw;
+    }
+
+    #milestonesButton{
+        /* posição */
+        right: 15px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #earth{
+        /* variáveis locais */
+        --size: 300px;
+    }
+
+    #textoSobre{
+        /* tamanho */
+        width: 350px;
+
+        /* estética */
+        font-size: 0.7em;
+    }
+
+    #sobreBotao{
+        /* estética */
+        font-size: 1.6em;
+
+        /* posição */
+        top: 70px;
+        right: 25px;
+    }
+
+    #textoMilestones{
+        /* tamanho */
+        width: 400px;
+
+        /* estética */
+        font-size: 0.7em;
+    }
+
+    #milestonesButton{
+
+        /* estética */
+        font-size: 1.6em;
+
+        /* posição */
+        top: 75px;
+        right: 23px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    #vostok{
+        /* variáveis locais */
+        --size: 300px;
+
+        /* posição */
+        left: 50%;
+        transform: translateX(-50%);
+        top: 41%;
+    }
+
+    #textoMilestones{
+        /* tamanho */
+        width: 400px;
+
+        /* estética */
+        font-size: 0.7em;
+        text-align: center;
+
+        /* posição */
+        right: 50%;
+        transform: translateX(50%);
+        top: 21%;
+    }
+
+    #milestonesButton{
+
+        /* estética */
+        font-size: 1.6em;
+
+        /* posição */
+        top: 75px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+}
+
+@media screen and (max-width: 630px) {
+    #sun{
+        /* estética */
+        display: none;
+    }
+
+    #earth{
+        /* posição */
+        right: calc( 50vw - var(--size) / 2 );
+        top: 7%;
+    }
+
+    #textoSobre{
+        /* estética */
+        text-align: center;
+
+        /* posição */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #sobreBotao{
+        /* estética */
+        font-size: 1.6em;
+
+        /* posição */
+        top: 70px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+
+}
 
 
 

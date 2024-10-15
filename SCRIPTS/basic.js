@@ -4,7 +4,8 @@
     // as constantes que o código precissa para funcionar normalmente
     const menu = document.querySelector("#menu");
     const botaoMenu = document.querySelector("#botaoMenu");
-    const animationFramesCount = 10;
+    const animationFramesCount = 20;
+    const velocidadeOpacidade = 1 / animationFramesCount;
 
     // variáveis importantes para controlar a animação do menu
     let width = parseFloat( getComputedStyle(menu).getPropertyValue('--width') );
@@ -29,11 +30,10 @@
     // responsável por executar a animação em si
     function animação(){
 
-        // com conta da responsividade estes valores podem se alterar logo eles não são mais 
-        // do tipo 'const'
+        // atualiza a width e a velocidade do menu para uma melhor responsividade
         width = parseFloat( getComputedStyle(menu).getPropertyValue('--width') );
         const velocidadeMenu = width / animationFramesCount;
-        const velocidadeOpacidade = 1 / animationFramesCount;
+        
 
         // muda os valores da posição do menu assim como a sua opacidade
         posição += mostrar == true ? velocidadeMenu : -velocidadeMenu;

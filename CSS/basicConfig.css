@@ -290,13 +290,24 @@ button{
     }
 
     #botaoMenu{
-        /* posicionamento */
-        top: 0px;
+        /* tamanho */
+        width: 50px;
+        height: 50px;
+
+        /* posição */
+        right: 18px;
+        top: 10px;
+
     }
 
     #botaoMenu a{
         /* estética */
         font-size: 0.75em;
+
+        /* posição */
+        left: 5px;
+        bottom: -3px;
+        
     }
 
     footer{
