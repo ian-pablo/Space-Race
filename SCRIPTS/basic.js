@@ -4,7 +4,7 @@
     // as constantes que o código precissa para funcionar normalmente
     const menu = document.querySelector("#menu");
     const botaoMenu = document.querySelector("#botaoMenu");
-    const animationFramesCount = 20;
+    const animationFramesCount = 10;
     const velocidadeOpacidade = 1 / animationFramesCount;
 
     // variáveis importantes para controlar a animação do menu
@@ -41,7 +41,7 @@
 
 
         // verifica se a animação deve continuar...
-        if ( ( mostrar == false && posição > -width ) || ( mostrar == true && posição < 0 ) ){
+        if ( ( mostrar == false && (posição > -width || opacidade > 0)) || ( mostrar == true && (posição < 0 || opacidade < 1)) ){
             requestAnimationFrame(animação);
         }
 

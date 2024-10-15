@@ -51,23 +51,26 @@ header{
 
 }
 
+#terraCartao{
+    /* variáveis locais */
+    --height: 500px;
+}
+
 #terra{
     /* tamanho */
     width: 100%;
-    height: 500px;
+    height: var(--height);
 
     /*estética*/
     background-image: url('../Imagens/terra_do_espaco.svg');
     background-size: cover;
     background-position: 50% 100%;
 
-    /* posição */
-    transform: translateZ(80deg);
-
     /* posicionamento dos itens interiorres */
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 #terra h1{

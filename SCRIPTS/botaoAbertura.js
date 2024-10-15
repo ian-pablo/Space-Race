@@ -1,16 +1,47 @@
 
-function abrir(item) {
-    // consegue o elemento em si
-    item = document.querySelector(`${item}`);
+function abrir(conteudoCartao, cartao) {
+    // consegue os elementos em si
+    let _conteudoCartao = document.querySelector(`${conteudoCartao}`);
+    let _cartao = document.querySelector(`${cartao}`)
+
+    // consegue a propriedade --height do 'cartao'
+    cartaoHeight = parseFloat( getComputedStyle(_cartao).getPropertyValue('--height') );
+    tempoAnimacao = parseFloat( getComputedStyle(_cartao).getPropertyValue('--time') );
+
+    // caso o display seja nulo muda ele para 'none'
+    if (_cartao.style.display == ""){
+        _cartao.style.display = "none";
+    }
 
     // altera a sua propriedade display
-    if (item.style.display == "none") {
-        item.style.display = "flex";
-        console.log("a");
-    } else /*if (item.style.display == "flex")*/ {
-        item.style.display = "none";
-        console.log("b");
-    } /*else{
-        */console.error(item.style.display);/*
-    }*/
+    if (_cartao.style.display == "none") {
+
+        _cartao.style.display = "block";
+
+        setTimeout(() => {
+            _cartao.style.height = `${cartaoHeight}px`;
+        }, 5);
+
+        setTimeout(() => {
+            _conteudoCartao.style.transform = "rotateX(0deg)";
+        }, tempoAnimacao * 1000);
+
+
+    } else {
+
+        _conteudoCartao.style.transform = "rotateX(90deg)";
+
+        setTimeout(() =>{
+            _cartao.style.height = "0px";
+
+            setTimeout(() => {
+                _cartao.style.display = "none";
+            }, tempoAnimacao * 1000);
+        }, tempoAnimacao * 1000);
+        
+
+        
+
+    }
+
 }

@@ -45,8 +45,15 @@
 
 /* --- estilos padrões para todos os elementos na página --- */
 *{
-    margin: 0 auto;
+    /* tamanho */
+    max-width: 100vw;
+
+    /* estética */
     font-family: var(--interfaceTextFont), arial;
+
+
+    /* posicionamento */
+    margin: 0 auto;
 }
 
 /* --- estilos de elementos de estrutura (body, nav, etc.) --- */
@@ -268,6 +275,30 @@ button{
 .botaoBrilho:hover{
     /* variáveis locais */
     --shadow: 45px;
+}
+
+.cartao{
+    /* variáveis locais */
+    --time: 0.5s;
+
+    /* posição itens interiores */
+    display: none;
+
+    /* tamanho */
+    height: 0px;
+    width: 100%;
+
+    /* animação */
+    transition: height var(--time) ease-in;
+}
+
+.conteudoCartao{
+    /* posição */
+    transform: rotateX(90deg);
+
+    /* animação */
+    transition: transform var(--time) ease-in;
+
 }
 
 
