@@ -1,7 +1,6 @@
 /* --- a 'raíz' do documento que normalmente é a tag <html> --- */
 :root{
     /* algumas variáveis globais */
-
     --Background: rgb(15, 15, 15);/* a cor tema do fundo do site */
     --interfaceColor: black;/* a cor tema da interface do site */
     --interfaceButtonColor: black;/* a cor tema dos botões da interface do site */
@@ -78,7 +77,7 @@ header{
     color: var(--interfaceTextColor);
     text-align: center;
     font-family: var(--interfaceTextFont);
-    font-size: xx-large;
+    font-size: 2em;
     padding-top: 5px;
     box-sizing: border-box;
     border-bottom-left-radius: 15px;
@@ -89,7 +88,7 @@ header{
     position: fixed;
 
     /* posicionamento dos elementos internos */
-    display: flex;
+    display: relative;
 
 
 }
@@ -181,7 +180,7 @@ footer{
     box-sizing: border-box;
 
     /* posicionamento */
-    position: fixed;
+    position: absolute;
     right: 5px;
     top: 10px;
     
@@ -260,6 +259,28 @@ footer{
 .botaoBrilho:hover{
     /* variáveis locais */
     --shadow: 45px;
+}
+
+
+@media screen and (max-width: 500px) {
+    header{
+        /* estética */
+        font-size: 1.5em;
+
+        /* posicionamento dos itens interiores */
+        padding-top: 0.5em;
+
+    }
+
+    #botaoMenu{
+        /* posicionamento */
+        top: 0px;
+    }
+
+    #botaoMenu a{
+        /* estética */
+        font-size: 0.75em;
+    }
 }
 
 
