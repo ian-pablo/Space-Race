@@ -165,6 +165,29 @@ button{
 
 /* configuração de classes e IDs importantes assim como efeitos de :hover */
 
+#titulo{
+    /* tamanho */
+    width: calc(5 * 1em);
+
+    /* estética */
+    text-shadow: 0px 0px 0px var(--interfaceTextColor);
+    border-radius: 15px;
+
+    /* o cursor do mouse */
+    cursor: var(--mouseGrab), pointer;
+
+    /* animação */
+    transition: text-shadow 0.2s ease-in;
+}
+
+#titulo:hover{
+
+    /* estética */
+    text-decoration: underline;
+    text-shadow: 0px 0px 20px var(--interfaceTextColor);
+
+}
+
 
 .button{
     /* estética */
@@ -261,20 +284,18 @@ button{
 }
 
 .botaoBrilho{
-    /* variáveis locais */
-    --shadow: 0px;
 
     /* estética */
-    box-shadow: 0px 0px var(--shadow) var(--interfaceTextColor);
-    text-shadow: 0px 0px var(--shadow) var(--interfaceTextColor);
+    outline-offset: -5px;
 
     /* animação */
-    transition: --shadow 3s;
+    transition: outline 0.2s ease-in, text-shadow 0.2s ease-in;
 }
 
 .botaoBrilho:hover{
-    /* variáveis locais */
-    --shadow: 45px;
+    /* estética */
+    text-shadow: 0px 0px 90px var(--interfaceTextColor);
+    outline: solid var(--interfaceTextColor) 5px; /* outline é como o border mas não afeta o fluxo do documento */
 }
 
 .cartao{

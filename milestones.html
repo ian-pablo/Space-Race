@@ -25,7 +25,7 @@
 <body>
 
     <header>
-        <h1 id="titulo"> Space Race </h1>
+        <h1 id="titulo" onclick="window.location.href = 'index.html'"> Space Race </h1>
         
         <button id="botaoMenu" class="button"> 
             <a> &#9776 </a> 
@@ -49,7 +49,7 @@
                 <h1> Terra, a nossa casa </h1>
 
                 <p>
-                    O planeta Terra, a nossa casa, clique no botão abaixo para descobrir sobre as mais importantes conquistas da 
+                    O planeta Terra, nossa casa. Clique no botão abaixo para descobrir sobre as mais importantes conquistas da 
                     humanidade no espaço ao redor da nossa casa.
                 </p>
 
@@ -59,6 +59,33 @@
 
             </div>
         </div>
+
+
+
+
+        <button id="terraBotao" class="total fundo botaoBrilho" onclick="abrir('#lua', '#luaCartao')">  
+            <div id="terraImgLeft" class="image"> </div>  
+            Lua 
+            <div id="terraImgRight" class="image"> </div>  
+        </button>
+        
+        <div id="luaCartao" class="cartao">
+            <div id="lua" class="image conteudoCartao">
+
+                <h1> Lua, nosso satélite natural </h1>
+
+                <p>
+                    O planeta Terra, nossa casa. Clique no botão abaixo para descobrir sobre as mais importantes conquistas da 
+                    humanidade no espaço ao redor da nossa casa.
+                </p>
+
+                <button class="button lightButton">
+                    Bem aqui
+                </button>
+
+            </div>
+        </div>
+
     </main>
 
     <footer>

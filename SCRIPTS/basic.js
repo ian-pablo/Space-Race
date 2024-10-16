@@ -1,3 +1,14 @@
+// algumas funções utilitárias
+function isNumero(numero){
+    let a = parseFloat(numero);
+    if (isNaN(a))
+        return false;
+
+    else{
+        return true;
+    }
+}
+
 // este bloco de código é responsável pela animação do menu do site
 {
 
@@ -8,9 +19,8 @@
     const velocidadeOpacidade = 1 / animationFramesCount;
 
     // variáveis importantes para controlar a animação do menu
-    let width = parseFloat( getComputedStyle(menu).getPropertyValue('--width') );
     let mostrar = false;
-    let posição = -width;
+    let posição = "-var(--width)";
     let opacidade = 0;
 
     // função a ser executada toda vez que o botão de abrir menu for pressionado
@@ -22,7 +32,7 @@
             menu.style.display = "block";
         }
 
-        if ( posição == 0 || posição == -width ){
+        if ( posição == 0 || !isNumero(posição) ){
             animação();
         }
     });
@@ -33,6 +43,11 @@
         // atualiza a width e a velocidade do menu para uma melhor responsividade
         width = parseFloat( getComputedStyle(menu).getPropertyValue('--width') );
         const velocidadeMenu = width / animationFramesCount;
+
+        // checa se a posição é igual a 'var(--width)', caso sim muda ela para o valor desta variável CSS
+        if (!isNumero(posição)){
+            posição = -width;
+        }
         
 
         // muda os valores da posição do menu assim como a sua opacidade
@@ -54,7 +69,7 @@
 
                 if(posição < -width){
 
-                    posição = -width;
+                    posição = "-var(--width)";
 
                 }
             }
@@ -65,7 +80,8 @@
         }
 
         // muda as propriedades CSS dos elementos
-        menu.style.right = `${posição}px`;
+        menu.style.right = isNumero(posição) ? `${posição}px` : posição;
+        console.log(isNumero(posição) ? `${posição}px` : posição);
         menu.style.opacity = `${opacidade}`;
         
     }
