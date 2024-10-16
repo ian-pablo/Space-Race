@@ -28,7 +28,8 @@ header{
     /* posição */
     position: absolute;
     left: 10px;
-    top: 2.5px;
+    bottom: 50%;
+    transform: translateY(50%);
 
 }
 
@@ -47,7 +48,8 @@ header{
     /* posição */
     position: absolute;
     right: 10px;
-    top: 2.5px;
+    bottom: 50%;
+    transform: translateY(50%);
 
 }
 
@@ -86,12 +88,11 @@ header{
 
 #terra p{
     /* tamanho */
-    width: 65%;
+    width: 50%;
 
     /* estética */
     color: var(--interfaceTextColor);
     font-size: 20px;
-    text-align: center;
     font-size: 2em;
 
     /* posicionamento */
@@ -111,3 +112,373 @@ header{
     /* posicionamento */
     margin-top: 10px;
 }
+
+#luaBotao{
+    /* estética */
+    background-color: var(--interfaceColor);
+    background-image: url('../Imagens/fundoSobre.svg');
+    background-size: 25%;
+
+    /* posicionamento */
+    margin-top: 15px;
+}
+
+#luaImgLeft{
+    /* variáveis locais */
+    --size: 45px;
+
+    /* tamanho */
+    width: var(--size);
+    height: var(--size);
+
+
+    /* estética */
+    background-image: url('../Imagens/lua.svg');
+
+    /* posição */
+    position: absolute;
+    left: 25px;
+    bottom: 50%;
+    transform: translateY(50%);
+
+}
+
+#luaImgRight{
+    /* variáveis locais */
+    --size: 45px;
+
+    /* tamanho */
+    width: var(--size);
+    height: var(--size);
+
+
+    /* estética */
+    background-image: url('../Imagens/lua.svg');
+
+    /* posição */
+    position: absolute;
+    right: 25px;
+    bottom: 50%;
+    transform: translateY(50%);
+
+}
+
+#luaCartao{
+    /* variáveis locais */
+    --height: 500px;
+}
+
+#lua{
+    /* tamanho */
+    width: 100%;
+    height: var(--height);
+
+    /*estética*/
+    background-image: url('../Imagens/lua_do_espaco.svg');
+    background-size: cover;
+    background-position: 50% 100%;
+
+    /* posicionamento dos itens interiorres */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* posição */
+    position: relative;
+    z-index: 1;
+
+}
+
+#lua h1{
+    /* estética */
+    color: var(--interfaceTextColor);
+    text-align: center;
+    font-size: 3em;
+
+    /* posição */
+    margin-top: 20px;
+
+}
+
+#lua p{
+    /* tamanho */
+    width: 50%;
+
+    /* estética */
+    color: var(--interfaceTextColor);
+    font-size: 20px;
+    font-size: 2em;
+
+    /* posicionamento */
+    margin-top: 15px;
+}
+
+#lua button{
+    /* tamanho */
+    width: 300px;
+    height: 50px;
+
+    /* estética */
+    border-radius: 15px;
+    font-size: 2em;
+    text-decoration: underline;
+
+    /* posicionamento */
+    margin-top: 10px;
+}
+
+#terra_fundo{
+    /* tamanho */
+    --size: 250px;
+    width: var(--size);
+    height: var(--size);
+
+    /* estética */
+    background-image: url(../Imagens/terra.svg);
+
+    /* posicionamento */
+    position: absolute;
+    right: 5vw;
+    top: 20%;
+    z-index: -15 !important;
+}
+
+
+
+
+
+
+
+
+#marteBotao{
+    /* estética */
+    background-color: var(--interfaceColor);
+    background-image: url('../Imagens/fundoSobre.svg');
+    background-size: 25%;
+
+    /* posicionamento */
+    margin-top: 15px;
+}
+
+#marteImgLeft{
+    /* variáveis locais */
+    --size: 65px;
+
+    /* tamanho */
+    width: var(--size);
+    height: var(--size);
+
+
+    /* estética */
+    background-image: url('../Imagens/marte.svg');
+
+    /* posição */
+    position: absolute;
+    left: 15px;
+    bottom: 50%;
+    transform: translateY(50%);
+
+}
+
+#marteImgRight{
+    /* variáveis locais */
+    --size: 65px;
+
+    /* tamanho */
+    width: var(--size);
+    height: var(--size);
+
+
+    /* estética */
+    background-image: url('../Imagens/marte.svg');
+
+    /* posição */
+    position: absolute;
+    right: 15px;
+    bottom: 50%;
+    transform: translateY(50%);
+
+}
+
+#marteCartao{
+    /* variáveis locais */
+    --height: 500px;
+}
+
+#marte{
+    /* tamanho */
+    width: 100%;
+    height: var(--height);
+
+    /*estética*/
+    background-image: url('../Imagens/marte_do_espaco.svg');
+    background-size: cover;
+    background-position: 50% 100%;
+
+    /* posicionamento dos itens interiorres */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#marte h1{
+    /* estética */
+    color: var(--interfaceTextColor);
+    text-align: center;
+    font-size: 3em;
+
+    /* posição */
+    margin-top: 20px;
+
+}
+
+#marte p{
+    /* tamanho */
+    width: 50%;
+
+    /* estética */
+    color: var(--interfaceTextColor);
+    font-size: 20px;
+    font-size: 2em;
+
+    /* posicionamento */
+    margin-top: 15px;
+}
+
+#marte button{
+    /* tamanho */
+    width: 300px;
+    height: 50px;
+
+    /* estética */
+    border-radius: 15px;
+    font-size: 2em;
+    text-decoration: underline;
+
+    /* posicionamento */
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+#venusBotao{
+    /* estética */
+    background-color: var(--interfaceColor);
+    background-image: url('../Imagens/fundoSobre.svg');
+    background-size: 25%;
+
+    /* posicionamento */
+    margin-top: 15px;
+}
+
+#venusImgLeft{
+    /* variáveis locais */
+    --size: 65px;
+
+    /* tamanho */
+    width: var(--size);
+    height: var(--size);
+
+
+    /* estética */
+    background-image: url('../Imagens/venus.svg');
+
+    /* posição */
+    position: absolute;
+    left: 15px;
+    bottom: 50%;
+    transform: translateY(50%);
+
+}
+
+#venusImgRight{
+    /* variáveis locais */
+    --size: 65px;
+
+    /* tamanho */
+    width: var(--size);
+    height: var(--size);
+
+
+    /* estética */
+    background-image: url('../Imagens/venus.svg');
+
+    /* posição */
+    position: absolute;
+    right: 15px;
+    bottom: 50%;
+    transform: translateY(50%);
+
+}
+
+#venusCartao{
+    /* variáveis locais */
+    --height: 500px;
+}
+
+#venus{
+    /* tamanho */
+    width: 100%;
+    height: var(--height);
+
+    /*estética*/
+    background-image: url('../Imagens/venus_do_espaco.svg');
+    background-size: cover;
+    background-position: 50% 100%;
+
+    /* posicionamento dos itens interiorres */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#venus h1{
+    /* estética */
+    color: var(--interfaceTextColor);
+    text-align: center;
+    font-size: 3em;
+
+    /* posição */
+    margin-top: 20px;
+
+}
+
+#venus p{
+    /* tamanho */
+    width: 50%;
+
+    /* estética */
+    color: var(--interfaceTextColor);
+    font-size: 20px;
+    font-size: 2em;
+
+    /* posicionamento */
+    margin-top: 15px;
+}
+
+#venus button{
+    /* tamanho */
+    width: 300px;
+    height: 50px;
+
+    /* estética */
+    border-radius: 15px;
+    font-size: 2em;
+    text-decoration: underline;
+
+    /* posicionamento */
+    margin-top: 10px;
+}
+
+
+
+
+
+

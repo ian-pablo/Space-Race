@@ -221,7 +221,8 @@ button{
     /* posicionamento */
     position: absolute;
     right: 8px;
-    top: 7px;
+    top: 50%;
+    transform: translateY(-50%);
     
 }
 
@@ -300,7 +301,7 @@ button{
 
 .cartao{
     /* variáveis locais */
-    --time: 0.5s;
+    --time: 0.25s;
 
     /* posição itens interiores */
     display: none;
@@ -353,7 +354,6 @@ button{
 
         /* posição */
         right: 18px;
-        top: 10px;
 
     }
 

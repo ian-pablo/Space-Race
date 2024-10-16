@@ -74,7 +74,8 @@
     /* posicionamento */
     position: absolute;
     top: calc( 20% - var(--size) / 2 - 75px);
-    left: calc( 50vw - var(--size) / 2 );
+    left: calc(50%);
+    transform: translateX(-50%);
 }
 
 

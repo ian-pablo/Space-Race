@@ -24,6 +24,37 @@ function abrir(conteudoCartao, cartao) {
         _cartao.style.display = "none";
     }
 
+    // otimização para dispositivos móveis com baixo processamento 
+    if (tempoAnimacao <= 0){
+        // ele é provavelmente um dispositivo modbile...
+        // altera a sua propriedade display
+        if (_cartao.style.display == "none") {
+
+            _cartao.style.display = "block";
+
+            setTimeout(() => {
+                _cartao.style.height = 'var(--height)';
+            }, 5);
+            _conteudoCartao.style.transform = "rotateX(0deg)";
+            canAbrir = true;
+
+
+        } else {
+
+            _conteudoCartao.style.transform = "rotateX(90deg)";
+            _cartao.style.height = "0px";
+
+            setTimeout(() => {
+                _cartao.style.display = "none";
+                canAbrir = true;
+            }, tempoAnimacao * 5);
+            
+
+            
+
+        }
+    }
+
     // altera a sua propriedade display
     if (_cartao.style.display == "none") {
 
