@@ -81,7 +81,6 @@ function isNumero(numero){
 
         // muda as propriedades CSS dos elementos
         menu.style.right = isNumero(posição) ? `${posição}px` : posição;
-        console.log(isNumero(posição) ? `${posição}px` : posição);
         menu.style.opacity = `${opacidade}`;
         
     }

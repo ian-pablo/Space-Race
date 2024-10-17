@@ -334,13 +334,14 @@
 
 /* medias de responsividade */
 @media screen and (max-width: 1245px) {
+
     #voyager{
         /* tamanho */
         --size: 600px;
     
         /* posicionamento */
         bottom: 10px;
-        left: 6vw;
+        left: 1.5vw;
     }
     
     #jupter{
@@ -349,14 +350,14 @@
     
         /* posicionamento */
         top: calc(70% - var(--size) - 100px);
-        left: 7vw;
+        left: 3vw;
     }
 }
 
 
 @media screen and (max-width: 1085px) {
 
-    /* sobre nós */
+
     #earth{
         /* posição */
         right: -5vw;
@@ -379,7 +380,12 @@
         right: 45px;
     }
 
-    /* milestones */
+
+
+
+
+
+
     #vostok{
         /* variáveis locais */
         --size: 350px;
@@ -408,7 +414,10 @@
 
 
 
-    /* catástrofes */
+
+
+
+
     #challenger{
         /* tamanho */
         --size: 500px;
@@ -435,7 +444,148 @@
         top: 95px;
         right: 20px;
     }
+
+
+
+
+
+    #textoLearning{
+        /* tamanho */
+        width: 600px;
+
+        /* estética */
+        text-align: center;
+        font-size: 0.9em;
+    
+        /* posicionamento */
+        bottom: 200px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    
+    #learningButton{
+
+        /* estética */
+        font-size: 1.8em;
+    
+        /* posicionamento */
+        top: 105px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    #voyager{
+        /* tamanho */
+        --size: 600px;
+    
+        /* posicionamento */
+        bottom: auto;
+        top: 30%;
+        left: 50%;
+        transform: translateX(calc(-50% + 150px));
+    }
+    
+    #jupter{
+        /* tamanho */
+        --size: 250px;
+    
+        /* posicionamento */
+        top: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+
+
+    #textoFuture{
+        /* tamanho */
+        width: 500px;
+
+        /* estética */
+        font-size: 0.9em;
+    
+        /* posicionamento */
+        bottom: 550px;
+        right: 5vw;
+    }
+    
+    #futureButton{
+    
+        /* estética */
+        font-size: 1.8em;
+
+        /* posicionamento */
+        top: auto;
+        bottom: -40px;
+        right: 15px;
+    }
+    
+    #mars{
+        /* tamanho */
+        --size: 380px;
+    
+        /* posicionamento */
+        top: calc(50% - var(--size) - 100px);
+        left: 20vw;
+    }
+    
+    #ship{
+        /* tamanho */
+        --size: 420px;
+    
+        /* posicionamento */
+        top: calc(44% - var(--size) / 2);
+        left: 3vw;
+    }
+
+
+
 }
+
+
+@media screen and (max-width: 1000px) {
+    #textoFuture{
+
+        /* estética */
+        text-align: center;
+    
+        /* posicionamento */
+        bottom: 250px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    
+    #futureButton{
+
+        /* posicionamento */
+        bottom: -40px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    
+    #mars{
+        /* tamanho */
+        --size: 380px;
+    
+        /* posicionamento */
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #ship{
+        /* tamanho */
+        --size: 250px;
+    
+        /* posicionamento */
+        top: 50%;
+        left: 50%;
+        transform: translateX(-30%);
+    }
+}
+
+
 
 @media screen and (max-width: 930px) {
     #vostok{
@@ -468,26 +618,15 @@
         --size: 450px;
     
         /* posicionamento */
-        /*bottom: 100px;*/
         right: 0;
     }
 
     #textoIncidents{
         /* tamanho */
         width: 500px;
-
-        /* estética */
-        font-size: 0.9em;
-    
-        /* posicionamento */
-       /* bottom: 450px;
-        left: 5vw;*/
     }
     
     #incidentsButton{
-    
-        /* estética */
-        font-size: 1.8em;
 
         /* posicionamento */
         top: 95px;
@@ -564,6 +703,53 @@
         top: 70px;
         right: 22px;
     }
+
+
+
+    #textoLearning{
+        /* tamanho */
+        width: 500px;
+
+        /* estética */
+        font-size: 0.7em;
+    
+        /* posicionamento */
+        bottom: 200px;
+    }
+    
+    #learningButton{
+
+        /* estética */
+        font-size: 1.6em;
+    
+        /* posicionamento */
+        top: auto;
+        bottom: -35px;
+    }
+
+
+
+
+    #textoFuture{
+        /* tamanho */
+        width: 400px;
+
+        /* estética */
+        font-size: 0.7em;
+    
+        /* posicionamento */
+        bottom: 250px;
+    }
+    
+    #futureButton{
+    
+        /* estética */
+        font-size: 1.6em;
+
+        /* posicionamento */
+        bottom: -30px;
+    }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -640,6 +826,29 @@
         transform: translateX(50%);
     }
 
+
+
+    #voyager{
+        /* tamanho */
+        --size: 400px;
+    
+        /* posicionamento */
+        bottom: auto;
+        top: 30%;
+        left: 50%;
+        transform: translateX(calc(-50% + 50px));
+    }
+    
+    #jupter{
+        /* tamanho */
+        --size: 200px;
+    
+        /* posicionamento */
+        top: 30%;
+        left: 50%;
+        transform: translateX(calc(-50% - 25px));
+    }
+
     #textoIncidents{
         /* estética */
         text-align: center;
@@ -658,6 +867,31 @@
     }
 
 
+
+
+
+
+}
+
+
+@media screen and (max-width: 545px) {
+    #mars{
+        /* tamanho */
+        --size: 380px;
+    
+        /* posicionamento */
+        top: calc(50% - var(--size) - 100px);
+        left: 20vw;
+    }
+    
+    #ship{
+        /* tamanho */
+        --size: 420px;
+    
+        /* posicionamento */
+        top: calc(44% - var(--size) / 2);
+        left: 3vw;
+    }
 }
 
 
