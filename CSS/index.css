@@ -360,7 +360,7 @@
 
     #earth{
         /* posição */
-        right: -5vw;
+        right: 0vw;
     }
 
     #textoSobre{
@@ -476,13 +476,13 @@
 
     #voyager{
         /* tamanho */
-        --size: 600px;
+        --size: 350px;
     
         /* posicionamento */
         bottom: auto;
         top: 30%;
         left: 50%;
-        transform: translateX(calc(-50% + 150px));
+        transform: translateX(calc(-50% + 60px));
     }
     
     #jupter{
@@ -830,21 +830,21 @@
 
     #voyager{
         /* tamanho */
-        --size: 400px;
+        --size: 180px;
     
         /* posicionamento */
         bottom: auto;
-        top: 30%;
+        top: 40%;
         left: 50%;
         transform: translateX(calc(-50% + 50px));
     }
     
     #jupter{
         /* tamanho */
-        --size: 200px;
+        --size: 150px;
     
         /* posicionamento */
-        top: 30%;
+        top: 35%;
         left: 50%;
         transform: translateX(calc(-50% - 25px));
     }
@@ -874,23 +874,30 @@
 }
 
 
+@media screen and (max-width: 500px) {
+    #vostok{
+        /* tamanho */
+        --size: 200px;
+    }
+}
+
+
+
 @media screen and (max-width: 545px) {
     #mars{
         /* tamanho */
-        --size: 380px;
+        --size: 250px;
     
         /* posicionamento */
-        top: calc(50% - var(--size) - 100px);
-        left: 20vw;
+        top: 30%;
     }
     
     #ship{
         /* tamanho */
-        --size: 420px;
+        --size: 150px;
     
         /* posicionamento */
-        top: calc(44% - var(--size) / 2);
-        left: 3vw;
+        top: 50%;
     }
 }
 
