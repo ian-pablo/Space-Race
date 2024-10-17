@@ -482,3 +482,120 @@ header{
 
 
 
+
+
+#mercurioBotao{
+    /* estética */
+    background-color: var(--interfaceColor);
+    background-image: url('../Imagens/fundoSobre.svg');
+    background-size: 25%;
+
+    /* posicionamento */
+    margin-top: 15px;
+}
+
+#mercurioImgLeft{
+    /* variáveis locais */
+    --size: 55px;
+
+    /* tamanho */
+    width: var(--size);
+    height: var(--size);
+
+
+    /* estética */
+    background-image: url('../Imagens/mercurio.svg');
+
+    /* posição */
+    position: absolute;
+    left: 20px;
+    bottom: 50%;
+    transform: translateY(50%);
+
+}
+
+#mercurioImgRight{
+    /* variáveis locais */
+    --size: 55px;
+
+    /* tamanho */
+    width: var(--size);
+    height: var(--size);
+
+
+    /* estética */
+    background-image: url('../Imagens/mercurio.svg');
+
+    /* posição */
+    position: absolute;
+    right: 20px;
+    bottom: 50%;
+    transform: translateY(50%);
+
+}
+
+#mercurioCartao{
+    /* variáveis locais */
+    --height: 500px;
+}
+
+#mercurio{
+    /* tamanho */
+    width: 100%;
+    height: var(--height);
+
+    /*estética*/
+    background-image: url('../Imagens/venus_do_espaco.svg');
+    background-size: cover;
+    background-position: 50% 100%;
+
+    /* posicionamento dos itens interiorres */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#mercurio h1{
+    /* estética */
+    color: var(--interfaceTextColor);
+    text-align: center;
+    font-size: 3em;
+
+    /* posição */
+    margin-top: 20px;
+
+}
+
+#mercurio p{
+    /* tamanho */
+    width: 50%;
+
+    /* estética */
+    color: var(--interfaceTextColor);
+    font-size: 20px;
+    font-size: 2em;
+
+    /* posicionamento */
+    margin-top: 15px;
+}
+
+#mercurio button{
+    /* tamanho */
+    width: 300px;
+    height: 50px;
+
+    /* estética */
+    border-radius: 15px;
+    font-size: 2em;
+    text-decoration: underline;
+
+    /* posicionamento */
+    margin-top: 10px;
+}
+
+
+
+
+
+
