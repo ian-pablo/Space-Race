@@ -373,4 +373,12 @@ button{
     }
 }
 
+@media screen and (max-width: 385px) {
+    footer{
+        /* estética */
+        font-size: 1.2em;
+    }
+}
+
+
 
