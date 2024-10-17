@@ -187,7 +187,7 @@
     /* posicionamento */
     position: absolute;
     bottom: 100px;
-    right: 5vw;
+    right: 0;
 }
 
 #learning{
@@ -333,7 +333,30 @@
 }
 
 /* medias de responsividade */
+@media screen and (max-width: 1245px) {
+    #voyager{
+        /* tamanho */
+        --size: 600px;
+    
+        /* posicionamento */
+        bottom: 10px;
+        left: 6vw;
+    }
+    
+    #jupter{
+        /* tamanho */
+        --size: 250px;
+    
+        /* posicionamento */
+        top: calc(70% - var(--size) - 100px);
+        left: 7vw;
+    }
+}
+
+
 @media screen and (max-width: 1085px) {
+
+    /* sobre nós */
     #earth{
         /* posição */
         right: -5vw;
@@ -356,6 +379,7 @@
         right: 45px;
     }
 
+    /* milestones */
     #vostok{
         /* variáveis locais */
         --size: 350px;
@@ -381,6 +405,36 @@
         top: 95px;
         right: 65px;
     }
+
+
+
+    /* catástrofes */
+    #challenger{
+        /* tamanho */
+        --size: 500px;
+    
+        /* posicionamento */
+        /*bottom: 100px;*/
+        right: 0;
+    }
+
+    #textoIncidents{
+        /* tamanho */
+        width: 500px;
+
+        /* estética */
+        font-size: 0.9em;
+    }
+    
+    #incidentsButton{
+    
+        /* estética */
+        font-size: 1.8em;
+
+        /* posicionamento */
+        top: 95px;
+        right: 20px;
+    }
 }
 
 @media screen and (max-width: 930px) {
@@ -404,6 +458,40 @@
     #milestonesButton{
         /* posição */
         right: 15px;
+    }
+}
+
+
+@media screen and (max-width: 870px) {
+    #challenger{
+        /* tamanho */
+        --size: 450px;
+    
+        /* posicionamento */
+        /*bottom: 100px;*/
+        right: 0;
+    }
+
+    #textoIncidents{
+        /* tamanho */
+        width: 500px;
+
+        /* estética */
+        font-size: 0.9em;
+    
+        /* posicionamento */
+       /* bottom: 450px;
+        left: 5vw;*/
+    }
+    
+    #incidentsButton{
+    
+        /* estética */
+        font-size: 1.8em;
+
+        /* posicionamento */
+        top: 95px;
+        right: 20px;
     }
 }
 
@@ -446,6 +534,35 @@
         /* posição */
         top: 75px;
         right: 23px;
+    }
+
+    #challenger{
+        /* tamanho */
+        --size: 350px;
+    
+        /* posicionamento */
+        right: 2vw;
+    }
+
+    #textoIncidents{
+        /* tamanho */
+        width: 400px;
+
+        /* estética */
+        font-size: 0.7em;
+    
+        /* posicionamento */
+        bottom: 400px;
+    }
+    
+    #incidentsButton{
+    
+        /* estética */
+        font-size: 1.6em;
+
+        /* posicionamento */
+        top: 70px;
+        right: 22px;
     }
 }
 
@@ -509,11 +626,33 @@
     }
 
     #sobreBotao{
-        /* estética */
-        font-size: 1.6em;
 
         /* posição */
         top: 70px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+
+    #challenger{
+        /* posicionamento */
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    #textoIncidents{
+        /* estética */
+        text-align: center;
+    
+        /* posicionamento */
+        bottom: 500px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #incidentsButton{
+
+        /* posicionamento */
         right: 50%;
         transform: translateX(50%);
     }

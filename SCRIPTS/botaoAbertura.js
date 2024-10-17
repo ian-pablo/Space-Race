@@ -47,6 +47,8 @@ function abrir(conteudoCartao, cartao) {
         }
 
         canAbrir = true;
+
+        return;
     }
 
     // altera a sua propriedade display
