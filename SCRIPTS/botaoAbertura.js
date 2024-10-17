@@ -19,44 +19,38 @@ function abrir(conteudoCartao, cartao) {
     // consegue a propriedade --time do 'cartao'
     tempoAnimacao = parseFloat( getComputedStyle(_cartao).getPropertyValue('--time') );
 
+    //estoca o 'display' do '_cartao'
+    _display = _cartao.style.display;
+
     // caso o display seja nulo muda ele para 'none'
-    if (_cartao.style.display == ""){
-        _cartao.style.display = "none";
+    if (_display == ""){
+        _display = "none";
     }
 
     // otimização para dispositivos móveis com baixo processamento 
     if (tempoAnimacao <= 0){
         // ele é provavelmente um dispositivo modbile...
         // altera a sua propriedade display
-        if (_cartao.style.display == "none") {
+        if (_display == "none") {
 
             _cartao.style.display = "block";
-
-            setTimeout(() => {
-                _cartao.style.height = 'var(--height)';
-            }, 5);
+            _cartao.style.height = 'var(--height)';
             _conteudoCartao.style.transform = "rotateX(0deg)";
-            canAbrir = true;
-
+            
 
         } else {
 
             _conteudoCartao.style.transform = "rotateX(90deg)";
             _cartao.style.height = "0px";
-
-            setTimeout(() => {
-                _cartao.style.display = "none";
-                canAbrir = true;
-            }, tempoAnimacao * 5);
-            
-
-            
+            _cartao.style.display = "none";
 
         }
+
+        canAbrir = true;
     }
 
     // altera a sua propriedade display
-    if (_cartao.style.display == "none") {
+    if (_display == "none") {
 
         _cartao.style.display = "block";
 
