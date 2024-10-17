@@ -28,11 +28,13 @@ function abrir(conteudoCartao, cartao) {
     }
 
     // otimização para dispositivos móveis com baixo processamento 
-    if (tempoAnimacao <= 0){
+    if (window.innerWidth <= 700){
         // ele é provavelmente um dispositivo modbile...
         // altera a sua propriedade display
-        if (_display == "none") {
 
+        _cartao.transition = "";
+        _conteudoCartao.transition = "";
+        if (_display == "none") {
             _cartao.style.display = "block";
             _cartao.style.height = 'var(--height)';
             _conteudoCartao.style.transform = "rotateX(0deg)";
@@ -50,6 +52,10 @@ function abrir(conteudoCartao, cartao) {
 
         return;
     }
+
+
+    _cartao.transition = "height var(--time) ease-in;";
+    _conteudoCartao.transition = "transform var(--time) ease-in;";
 
     // altera a sua propriedade display
     if (_display == "none") {

@@ -358,11 +358,6 @@ button{
         /* tamanho */
         --width: 100vw;
     }
-
-    .cartao{
-        /* variáveis locais */
-        --time: 0s;
-    }
 }
 
 
