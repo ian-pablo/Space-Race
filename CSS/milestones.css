@@ -75,29 +75,6 @@ header{
 
 }
 
-#terra h1{
-    /* estética */
-    color: var(--interfaceTextColor);
-    text-align: center;
-    font-size: var(--titleFontSize);
-    /* posição */
-    margin-top: 20px;
-
-}
-
-#terra p{
-    /* tamanho */
-    width: 50%;
-
-    /* estética */
-    color: var(--interfaceTextColor);
-    font-size: 20px;
-    font-size: var(--contentFontSize);
-
-    /* posicionamento */
-    margin-top: 15px;
-}
-
 #luaBotao{
     /* estética */
     background-color: var(--interfaceColor);
@@ -172,30 +149,6 @@ header{
     position: relative;
     z-index: 1;
 
-}
-
-#lua h1{
-    /* estética */
-    color: var(--interfaceTextColor);
-    text-align: center;
-    font-size: var(--titleFontSize);
-
-    /* posição */
-    margin-top: 20px;
-
-}
-
-#lua p{
-    /* tamanho */
-    width: 50%;
-
-    /* estética */
-    color: var(--interfaceTextColor);
-    font-size: 20px;
-    font-size: var(--contentFontSize);
-
-    /* posicionamento */
-    margin-top: 15px;
 }
 
 #terra_fundo{
@@ -293,30 +246,6 @@ header{
 
 }
 
-#marte h1{
-    /* estética */
-    color: var(--interfaceTextColor);
-    text-align: center;
-    font-size: var(--titleFontSize);
-
-    /* posição */
-    margin-top: 20px;
-
-}
-
-#marte p{
-    /* tamanho */
-    width: 50%;
-
-    /* estética */
-    color: var(--interfaceTextColor);
-    font-size: 20px;
-    font-size: var(--contentFontSize);
-
-    /* posicionamento */
-    margin-top: 15px;
-}
-
 
 
 
@@ -396,30 +325,6 @@ header{
 
 }
 
-#venus h1{
-    /* estética */
-    color: var(--interfaceTextColor);
-    text-align: center;
-    font-size: var(--titleFontSize);
-
-    /* posição */
-    margin-top: 20px;
-
-}
-
-#venus p{
-    /* tamanho */
-    width: 50%;
-
-    /* estética */
-    color: var(--interfaceTextColor);
-    font-size: 20px;
-    font-size: var(--contentFontSize);
-
-    /* posicionamento */
-    margin-top: 15px;
-}
-
 
 
 
@@ -497,30 +402,6 @@ header{
     flex-direction: column;
     align-items: center;
 
-}
-
-#mercurio h1{
-    /* estética */
-    color: var(--interfaceTextColor);
-    text-align: center;
-    font-size: var(--titleFontSize);
-
-    /* posição */
-    margin-top: 20px;
-
-}
-
-#mercurio p{
-    /* tamanho */
-    width: 50%;
-
-    /* estética */
-    color: var(--interfaceTextColor);
-    font-size: 20px;
-    font-size: var(--contentFontSize);
-
-    /* posicionamento */
-    margin-top: 15px;
 }
 
 

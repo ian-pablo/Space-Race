@@ -10,6 +10,29 @@
     --botaoCartaoMargin: 10px;
 }
 
+.conteudoCartao h1{
+    /* estética */
+    color: var(--interfaceTextColor);
+    text-align: center;
+    font-size: var(--titleFontSize);
+
+    /* posição */
+    margin-top: 20px;
+}
+
+.conteudoCartao p{
+    /* tamanho */
+    width: 50%;
+
+    /* estética */
+    color: var(--interfaceTextColor);
+    font-size: 20px;
+    font-size: var(--contentFontSize);
+
+    /* posicionamento */
+    margin-top: 15px;
+}
+
 .conteudoCartao button{
     /* tamanho */
     width: 22vw;
