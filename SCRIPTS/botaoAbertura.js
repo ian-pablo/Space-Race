@@ -68,11 +68,11 @@ function abrir(conteudoCartao, cartao) {
 
         setTimeout(() => {
             _conteudoCartao.style.transform = "rotateX(0deg)";
-
-            setTimeout(() => {
-                canAbrir = true;
-            }, tempoAnimacao * 1000);
         }, tempoAnimacao * 1000);
+
+        setTimeout(() => {
+            canAbrir = true;
+        }, tempoAnimacao * 1000 * 2);
 
 
     } else {
@@ -81,12 +81,12 @@ function abrir(conteudoCartao, cartao) {
 
         setTimeout(() =>{
             _cartao.style.height = "0px";
-
-            setTimeout(() => {
-                _cartao.style.display = "none";
-                canAbrir = true;
-            }, tempoAnimacao * 1000);
         }, tempoAnimacao * 1000);
+
+        setTimeout(() => {
+            _cartao.style.display = "none";
+            canAbrir = true;
+        }, tempoAnimacao * 1000 * 2);
         
 
         

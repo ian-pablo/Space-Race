@@ -1,0 +1,51 @@
+:root{
+
+    /* variáveis do tamanho das fontes dentro dos cartões */
+    --titleFontSize: 3em;
+    --contentFontSize: 2em;
+
+    /* variáveis do tamanho dos botões */
+    --botaoCartaoWidth: 300px;
+    --botaoCartaoHeight: 50px;
+    --botaoCartaoMargin: 10px;
+}
+
+.conteudoCartao button{
+    /* tamanho */
+    width: 22vw;
+    min-width: calc(var(--contentFontSize) * 4 + 60px);
+    height: 50px;
+
+    /* estética */
+    border-radius: 15px;
+    font-size: var(--contentFontSize);
+    text-decoration: underline;
+
+    /* posicionamento */
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+    :root{
+        /* variáveis locais */
+        --titleFontSize: 2.5em;
+        --contentFontSize: 1.6em;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    :root{
+        /* variáveis locais */
+        --titleFontSize: 2em;
+        --contentFontSize: 1.6em;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    :root{
+        /* variáveis locais */
+        --titleFontSize: 1.6em;
+        --contentFontSize: 1.3em;
+    }
+}

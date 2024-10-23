@@ -16,7 +16,6 @@ function isNumero(numero){
     const menu = document.querySelector("#menu");
     const botaoMenu = document.querySelector("#botaoMenu");
     const animationFramesCount = 10;
-    const velocidadeOpacidade = 1 / animationFramesCount;
 
     // variáveis importantes para controlar a animação do menu
     let mostrar = false;
@@ -43,6 +42,7 @@ function isNumero(numero){
         // atualiza a width e a velocidade do menu para uma melhor responsividade
         width = parseFloat( getComputedStyle(menu).getPropertyValue('--width') );
         const velocidadeMenu = width / animationFramesCount;
+        const velocidadeOpacidade = 1 / animationFramesCount;
 
         // checa se a posição é igual a 'var(--width)', caso sim muda ela para o valor desta variável CSS
         if (!isNumero(posição)){
@@ -56,7 +56,7 @@ function isNumero(numero){
 
 
         // verifica se a animação deve continuar...
-        if ( ( mostrar == false && (posição > -width || opacidade > 0)) || ( mostrar == true && (posição < 0 || opacidade < 1)) ){
+        if ( ( mostrar == false && (posição >= -width || opacidade >= 0)) || ( mostrar == true && (posição <= 0 || opacidade <= 1)) ){
             requestAnimationFrame(animação);
         }
 

@@ -79,8 +79,7 @@ header{
     /* estética */
     color: var(--interfaceTextColor);
     text-align: center;
-    font-size: 3em;
-
+    font-size: var(--titleFontSize);
     /* posição */
     margin-top: 20px;
 
@@ -93,24 +92,10 @@ header{
     /* estética */
     color: var(--interfaceTextColor);
     font-size: 20px;
-    font-size: 2em;
+    font-size: var(--contentFontSize);
 
     /* posicionamento */
     margin-top: 15px;
-}
-
-#terra button{
-    /* tamanho */
-    width: 300px;
-    height: 50px;
-
-    /* estética */
-    border-radius: 15px;
-    font-size: 2em;
-    text-decoration: underline;
-
-    /* posicionamento */
-    margin-top: 10px;
 }
 
 #luaBotao{
@@ -193,7 +178,7 @@ header{
     /* estética */
     color: var(--interfaceTextColor);
     text-align: center;
-    font-size: 3em;
+    font-size: var(--titleFontSize);
 
     /* posição */
     margin-top: 20px;
@@ -207,24 +192,10 @@ header{
     /* estética */
     color: var(--interfaceTextColor);
     font-size: 20px;
-    font-size: 2em;
+    font-size: var(--contentFontSize);
 
     /* posicionamento */
     margin-top: 15px;
-}
-
-#lua button{
-    /* tamanho */
-    width: 300px;
-    height: 50px;
-
-    /* estética */
-    border-radius: 15px;
-    font-size: 2em;
-    text-decoration: underline;
-
-    /* posicionamento */
-    margin-top: 10px;
 }
 
 #terra_fundo{
@@ -326,7 +297,7 @@ header{
     /* estética */
     color: var(--interfaceTextColor);
     text-align: center;
-    font-size: 3em;
+    font-size: var(--titleFontSize);
 
     /* posição */
     margin-top: 20px;
@@ -340,24 +311,10 @@ header{
     /* estética */
     color: var(--interfaceTextColor);
     font-size: 20px;
-    font-size: 2em;
+    font-size: var(--contentFontSize);
 
     /* posicionamento */
     margin-top: 15px;
-}
-
-#marte button{
-    /* tamanho */
-    width: 300px;
-    height: 50px;
-
-    /* estética */
-    border-radius: 15px;
-    font-size: 2em;
-    text-decoration: underline;
-
-    /* posicionamento */
-    margin-top: 10px;
 }
 
 
@@ -443,7 +400,7 @@ header{
     /* estética */
     color: var(--interfaceTextColor);
     text-align: center;
-    font-size: 3em;
+    font-size: var(--titleFontSize);
 
     /* posição */
     margin-top: 20px;
@@ -457,24 +414,10 @@ header{
     /* estética */
     color: var(--interfaceTextColor);
     font-size: 20px;
-    font-size: 2em;
+    font-size: var(--contentFontSize);
 
     /* posicionamento */
     margin-top: 15px;
-}
-
-#venus button{
-    /* tamanho */
-    width: 300px;
-    height: 50px;
-
-    /* estética */
-    border-radius: 15px;
-    font-size: 2em;
-    text-decoration: underline;
-
-    /* posicionamento */
-    margin-top: 10px;
 }
 
 
@@ -545,7 +488,7 @@ header{
     height: var(--height);
 
     /*estética*/
-    background-image: url('../Imagens/venus_do_espaco.svg');
+    background-image: url('../Imagens/mercurio_do_espaco.svg');
     background-size: cover;
     background-position: 50% 100%;
 
@@ -560,7 +503,7 @@ header{
     /* estética */
     color: var(--interfaceTextColor);
     text-align: center;
-    font-size: 3em;
+    font-size: var(--titleFontSize);
 
     /* posição */
     margin-top: 20px;
@@ -574,24 +517,10 @@ header{
     /* estética */
     color: var(--interfaceTextColor);
     font-size: 20px;
-    font-size: 2em;
+    font-size: var(--contentFontSize);
 
     /* posicionamento */
     margin-top: 15px;
-}
-
-#mercurio button{
-    /* tamanho */
-    width: 300px;
-    height: 50px;
-
-    /* estética */
-    border-radius: 15px;
-    font-size: 2em;
-    text-decoration: underline;
-
-    /* posicionamento */
-    margin-top: 10px;
 }
 
 
