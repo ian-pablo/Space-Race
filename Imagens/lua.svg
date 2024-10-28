@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="8.0000001"
-     inkscape:cx="45.9375"
-     inkscape:cy="46.6875"
+     inkscape:cx="46.812499"
+     inkscape:cy="49.062499"
      inkscape:window-width="2560"
      inkscape:window-height="1057"
      inkscape:window-x="-8"
@@ -118,7 +118,7 @@
     </g>
     <path
        d="M 15.086262,5.2212122 A 8.2016373,8.2016373 0 0 0 7.7815873,13.01906 8.2016373,8.2016373 0 0 0 14.379334,21.408857 8.2016373,8.2016373 0 0 0 21.670427,13.613693 8.2016373,8.2016373 0 0 0 15.086262,5.2212122 Z"
-       style="fill:#2b47c1;fill-opacity:0.458078;stroke-width:0.314"
+       style="fill:#000000;fill-opacity:0.15000001;stroke-width:0.314"
        id="path20"
        inkscape:label="Sombra" />
   </g>

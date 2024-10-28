@@ -186,7 +186,7 @@ header{
 
 
     /* estética */
-    background-image: url('../Imagens/marte.svg');
+    background-image: url('../Imagens/marte_2.svg');
 
     /* posição */
     position: absolute;
@@ -206,7 +206,7 @@ header{
 
 
     /* estética */
-    background-image: url('../Imagens/marte.svg');
+    background-image: url('../Imagens/marte_2.svg');
 
     /* posição */
     position: absolute;
@@ -365,6 +365,150 @@ header{
 }
 
 #mercurio{
+    /* tamanho */
+    width: 100%;
+    height: var(--height);
+
+    /*estética*/
+    background-image: url('../Imagens/mercurio_do_espaco.svg');
+    background-size: cover;
+    background-position: 50% 100%;
+
+    /* posicionamento dos itens interiorres */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#gasososImgLeft{
+    /* variáveis locais */
+    --size: 55px;
+
+    /* tamanho */
+    width: var(--size);
+    height: var(--size);
+
+
+    /* estética */
+    background-image: url('../Imagens/outer_planets.svg');
+
+    /* posição */
+    position: absolute;
+    left: 20px;
+    bottom: 50%;
+    transform: translateY(50%);
+
+}
+
+#gasososImgRight{
+    /* variáveis locais */
+    --size: 55px;
+
+    /* tamanho */
+    width: var(--size);
+    height: var(--size);
+
+
+    /* estética */
+    background-image: url('../Imagens/outer_planets.svg');
+
+    /* posição */
+    position: absolute;
+    right: 20px;
+    bottom: 50%;
+    transform: translateY(50%);
+
+}
+
+#gasososCartao{
+    /* variáveis locais */
+    --height: 500px;
+}
+
+#gasosos{
+    /* tamanho */
+    width: 100%;
+    height: var(--height);
+
+    /*estética*/
+    background-image: url('../Imagens/mercurio_do_espaco.svg');
+    background-size: cover;
+    background-position: 50% 100%;
+
+    /* posicionamento dos itens interiorres */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#dwarfImgLeft{
+    /* variáveis locais */
+    --size: 55px;
+
+    /* tamanho */
+    width: var(--size);
+    height: var(--size);
+
+
+    /* estética */
+    background-image: url('../Imagens/dwarf_planets.svg');
+
+    /* posição */
+    position: absolute;
+    left: 20px;
+    bottom: 50%;
+    transform: translateY(50%);
+
+}
+
+#dwarfImgRight{
+    /* variáveis locais */
+    --size: 55px;
+
+    /* tamanho */
+    width: var(--size);
+    height: var(--size);
+
+
+    /* estética */
+    background-image: url('../Imagens/dwarf_planets.svg');
+
+    /* posição */
+    position: absolute;
+    right: 20px;
+    bottom: 50%;
+    transform: translateY(50%);
+
+}
+
+#dwarfCartao{
+    /* variáveis locais */
+    --height: 500px;
+}
+
+#dwarf{
     /* tamanho */
     width: 100%;
     height: var(--height);
