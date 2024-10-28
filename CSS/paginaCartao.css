@@ -10,6 +10,16 @@
     --botaoCartaoMargin: 10px;
 }
 
+.cartaoBotao{
+    
+    /* estética */
+    background-color: var(--interfaceColor);
+    background-size: 25%;
+
+    /* posicionamento */
+    margin-top: 15px;
+}
+
 .conteudoCartao h1{
     /* estética */
     color: var(--interfaceTextColor);

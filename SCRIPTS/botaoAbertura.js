@@ -1,7 +1,7 @@
 
 /* esta variável controla se é possível executar a função 'abrir()', pois se ela for executada a qualquer 
    momento isso pode causar efeitos visuais desagradaveis */
-canAbrir = true;
+let canAbrir = true;
 
 function abrir(conteudoCartao, cartao) {
 
@@ -17,10 +17,10 @@ function abrir(conteudoCartao, cartao) {
     let _cartao = document.querySelector(`${cartao}`)
 
     // consegue a propriedade --time do 'cartao'
-    tempoAnimacao = parseFloat( getComputedStyle(_cartao).getPropertyValue('--time') );
+    let tempoAnimacao = parseFloat( getComputedStyle(_cartao).getPropertyValue('--time') );
 
     //estoca o 'display' do '_cartao'
-    _display = _cartao.style.display;
+    let _display = _cartao.style.display;
 
     // caso o display seja nulo muda ele para 'none'
     if (_display == ""){
@@ -28,7 +28,7 @@ function abrir(conteudoCartao, cartao) {
     }
 
     // otimização para dispositivos móveis com baixo processamento 
-    if (window.innerWidth <= 700){
+    /*if (window.innerWidth <= 700){
         // ele é provavelmente um dispositivo modbile...
         // altera a sua propriedade display
 
@@ -51,7 +51,7 @@ function abrir(conteudoCartao, cartao) {
         canAbrir = true;
 
         return;
-    }
+    }*/
 
 
     _cartao.transition = "height var(--time) ease-in;";
@@ -64,29 +64,25 @@ function abrir(conteudoCartao, cartao) {
 
         setTimeout(() => {
             _cartao.style.height = 'var(--height)';
-        }, 5);
-
-        setTimeout(() => {
             _conteudoCartao.style.transform = "rotateX(0deg)";
-        }, tempoAnimacao * 1000);
+        }, tempoAnimacao * 0);
 
         setTimeout(() => {
             canAbrir = true;
-        }, tempoAnimacao * 1000 * 2);
+        }, tempoAnimacao * 1000);
 
 
     } else {
 
         _conteudoCartao.style.transform = "rotateX(90deg)";
 
-        setTimeout(() =>{
-            _cartao.style.height = "0px";
-        }, tempoAnimacao * 1000);
+        
+        _cartao.style.height = "0px";
 
         setTimeout(() => {
             _cartao.style.display = "none";
             canAbrir = true;
-        }, tempoAnimacao * 1000 * 2);
+        }, tempoAnimacao * 1000);
         
 
         

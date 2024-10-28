@@ -3,15 +3,15 @@ header{
     margin-bottom: 30px;
 }
 
-#terraBotao{
-    /* estética */
-    background-color: var(--interfaceColor);
-    background-image: url('../Imagens/fundoSobre.svg');
-    background-size: 25%;
 
-    /* posicionamento */
-    margin-top: 15px;
+._botoesCartao{
+    /* estética */
+    background-image: url('../Imagens/fundoSobre.svg');
 }
+
+
+
+
 
 #terraImgLeft{
     /* variáveis locais */
@@ -75,15 +75,13 @@ header{
 
 }
 
-#luaBotao{
-    /* estética */
-    background-color: var(--interfaceColor);
-    background-image: url('../Imagens/fundoSobre.svg');
-    background-size: 25%;
 
-    /* posicionamento */
-    margin-top: 15px;
-}
+
+
+
+
+
+
 
 #luaImgLeft{
     /* variáveis locais */
@@ -174,15 +172,9 @@ header{
 
 
 
-#marteBotao{
-    /* estética */
-    background-color: var(--interfaceColor);
-    background-image: url('../Imagens/fundoSobre.svg');
-    background-size: 25%;
 
-    /* posicionamento */
-    margin-top: 15px;
-}
+
+
 
 #marteImgLeft{
     /* variáveis locais */
@@ -253,15 +245,7 @@ header{
 
 
 
-#venusBotao{
-    /* estética */
-    background-color: var(--interfaceColor);
-    background-image: url('../Imagens/fundoSobre.svg');
-    background-size: 25%;
 
-    /* posicionamento */
-    margin-top: 15px;
-}
 
 #venusImgLeft{
     /* variáveis locais */
@@ -332,15 +316,8 @@ header{
 
 
 
-#mercurioBotao{
-    /* estética */
-    background-color: var(--interfaceColor);
-    background-image: url('../Imagens/fundoSobre.svg');
-    background-size: 25%;
 
-    /* posicionamento */
-    margin-top: 15px;
-}
+
 
 #mercurioImgLeft{
     /* variáveis locais */
