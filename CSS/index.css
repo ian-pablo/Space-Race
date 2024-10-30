@@ -85,7 +85,7 @@
     color: var(--interfaceTextColor);
     font-size: x-large;
     display: block;
-    background-size: cover;
+    background-size: cover !important;
     background-position: 50% 100%;
     background-repeat: no-repeat;
 
@@ -140,7 +140,7 @@
     color: var(--interfaceTextColor);
     font-size: x-large;
     display: block;
-    background-size: cover;
+    background-size: cover !important;
     background-position: 50% 100%;
     background-repeat: no-repeat;
 
