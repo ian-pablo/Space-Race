@@ -1,0 +1,51 @@
+header{
+    /* posicionamento dos outros elementos */
+    margin-bottom: 30px;
+}
+
+
+._botoesCartao{
+    /* estética */
+    background-image: url('../Imagens/fundoSobre.svg');
+}
+
+
+
+
+
+#terraImgLeft{
+    /* variáveis locais */
+    --size: 75px;
+
+
+    /* estética */
+    background-image: url('../Imagens/terra.svg');
+
+    /* posição */
+    left: 10px;
+
+}
+
+#terraImgRight{
+    /* variáveis locais */
+    --size: 75px;
+
+    /* estética */
+    background-image: url('../Imagens/terra.svg');
+
+    /* posição */
+    right: 10px;
+
+}
+
+#terraCartao{
+    /* variáveis locais */
+    --height: 500px;
+}
+
+#terra{
+
+    /*estética*/
+    background-image: url('../Imagens/terra_do_espaco.svg');
+
+}

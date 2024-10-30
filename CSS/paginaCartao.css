@@ -103,8 +103,16 @@
 @media screen and (max-width: 470px) {
     .cartaoBotao{
         /* estética */
-        font-size: 0.1em;
+        font-size: 2em;
     }
 }
+
+@media screen and (max-width: 385px) {
+    .cartaoBotao{
+        /* estética */
+        font-size: 1.25em;
+    }
+}
+
 
 
