@@ -28,8 +28,8 @@
     <header>
         <h1 id="titulo" onclick="window.location.href = 'index.html'"> Space Race </h1>
         
-        <button id="botaoMenu" class="button"> 
-            <a> &#9776 </a> 
+        <button id="botaoMenu" class="button" type="button" aria-label="clique para expandir o menu lateral"> 
+            <p> &#9776 </p> 
         </button>
     </header>
 
@@ -38,7 +38,7 @@
     </nav>
 
     <main>
-        <button id="terraBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" onclick="abrir('#terra', '#terraCartao')">  
+        <button id="terraBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="clique para mais detalhes sobre a terra" onclick="abrir('#terra', '#terraCartao')">  
             <div id="terraImgLeft" class="image"> </div>  
             Terra 
             <div id="terraImgRight" class="image"> </div>  
@@ -54,7 +54,7 @@
                     conquistas da humanidade no espaço ao redor da nossa casa
                 </p>
 
-                <button class="button almostTransparent">
+                <button class="button almostTransparent" type="button" aria-label="clique para saber mais sobre">
                     Bem aqui
                 </button>
 
@@ -64,7 +64,7 @@
 
 
 
-        <button id="luaBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" onclick="abrir('#lua', '#luaCartao')">  
+        <button id="luaBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="clique para mais detalhes sobre a lua" onclick="abrir('#lua', '#luaCartao')">  
             <div id="luaImgLeft" class="image"> </div>  
             Lua 
             <div id="luaImgRight" class="image"> </div>  
@@ -83,7 +83,7 @@
                     pouco mais sobre eles
                 </p>
 
-                <button class="button almostTransparent">
+                <button class="button almostTransparent" type="button" aria-label="clique para saber mais sobre">
                     Bem aqui
                 </button>
 
@@ -93,7 +93,7 @@
 
 
 
-        <button id="marteBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" onclick="abrir('#marte', '#marteCartao')">  
+        <button id="marteBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="clique para mais detalhes sobre marte" onclick="abrir('#marte', '#marteCartao')">  
             <div id="marteImgLeft" class="image"> </div>  
             Marte 
             <div id="marteImgRight" class="image"> </div>  
@@ -109,7 +109,7 @@
                     os maiores feitos no planeta vermelho e suas luas, Phobos e Deimos
                 </p>
 
-                <button class="button lightButton">
+                <button class="button lightButton" type="button" aria-label="clique para saber mais sobre">
                     Bem aqui
                 </button>
 
@@ -119,7 +119,7 @@
 
 
 
-        <button id="venusBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" onclick="abrir('#venus', '#venusCartao')">  
+        <button id="venusBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="clique para mais detalhes sobre vênus" onclick="abrir('#venus', '#venusCartao')">  
             <div id="venusImgLeft" class="image"> </div>  
             Vênus 
             <div id="venusImgRight" class="image"> </div>  
@@ -136,7 +136,7 @@
                     chumbo. Agora você pode descobrir um pouco mais sobre as conquistas da humanidade por lá
                 </p>
 
-                <button class="button almostTransparent">
+                <button class="button almostTransparent" type="button" aria-label="clique para saber mais sobre">
                     Bem aqui
                 </button>
 
@@ -146,7 +146,7 @@
 
 
 
-        <button id="mercurioBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" onclick="abrir('#mercurio', '#mercurioCartao')">  
+        <button id="mercurioBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="clique para mais detalhes sobre mercúrio" onclick="abrir('#mercurio', '#mercurioCartao')">  
             <div id="mercurioImgLeft" class="image"> </div>  
             Mercúrio 
             <div id="mercurioImgRight" class="image"> </div>  
@@ -163,7 +163,7 @@
                     agora você tem a oportunidade de descobrir as conquistas humanas por lá
                 </p>
 
-                <button class="button lightButton">
+                <button class="button lightButton" type="button" aria-label="clique para saber mais sobre">
                     Bem aqui
                 </button>
 
@@ -173,7 +173,7 @@
 
 
 
-        <button id="gasososBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" onclick="abrir('#gasosos', '#gasososCartao')">  
+        <button id="gasososBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="clique para mais detalhes sobre os planetas gasosos" onclick="abrir('#gasosos', '#gasososCartao')">  
             <div id="gasososImgLeft" class="image"> </div>  
             Planetas Gasosos
             <div id="gasososImgRight" class="image"> </div>  
@@ -182,15 +182,15 @@
         <div id="gasososCartao" class="cartao">
             <div id="gasosos" class="image conteudoCartao">
 
-                <h1> Mecúrio, o menor planeta </h1>
+                <h1> Os planetas gasosos </h1>
 
                 <p>
-                    O menor planeta do Sitema Solar, Mercúrio que diferentemente de Plutão é um planeta, é o 
-                    planeta mais próximo do Sol e que possui a atmosfera mais fina dentre todos os planetas, e 
-                    agora você tem a oportunidade de descobrir as conquistas humanas por lá
+                    Os massivos e gigantes planetas gasosos, considerados os mais belos do nosso sistema por uma grande quantidade de 
+                    pessoas, alguns possuindo dezenas de satélites naturais, agora você pode descobrir o que nós conseguimos realizar 
+                    ao seu redor e em suas luas
                 </p>
 
-                <button class="button lightButton">
+                <button class="button lightButton" type="button" aria-label="clique para saber mais sobre">
                     Bem aqui
                 </button>
 
@@ -200,7 +200,7 @@
 
 
 
-        <button id="dwarfBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" onclick="abrir('#dwarf', '#dwarfCartao')">  
+        <button id="dwarfBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="clique para mais detalhes sobre os planetas anões" onclick="abrir('#dwarf', '#dwarfCartao')">  
             <div id="dwarfImgLeft" class="image"> </div>  
             Planetas Anões 
             <div id="dwarfImgRight" class="image"> </div>  
@@ -209,42 +209,15 @@
         <div id="dwarfCartao" class="cartao">
             <div id="dwarf" class="image conteudoCartao">
 
-                <h1> Mecúrio, o menor planeta </h1>
+                <h1> Os planetas anões </h1>
 
                 <p>
-                    O menor planeta do Sitema Solar, Mercúrio que diferentemente de Plutão é um planeta, é o 
-                    planeta mais próximo do Sol e que possui a atmosfera mais fina dentre todos os planetas, e 
-                    agora você tem a oportunidade de descobrir as conquistas humanas por lá
+                    Os planetas anões, os menores corpos celestes encontrados em nosso sistema solar sem serem simplesmente considerados
+                    asteróides, os principais sendo Plutão, Éris, Makemake, Ceres e Haumea, agora você tera a possibilidade de descobrir
+                    as consquistas humanas neste anões celestiais
                 </p>
 
-                <button class="button lightButton">
-                    Bem aqui
-                </button>
-
-            </div>
-        </div>
-        
-
-
-
-        <button id="mercurioBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" onclick="abrir('#mercurio', '#mercurioCartao')">  
-            <div id="mercurioImgLeft" class="image"> </div>  
-            Objetos Menores
-            <div id="mercurioImgRight" class="image"> </div>  
-        </button>
-        
-        <div id="mercurioCartao" class="cartao">
-            <div id="mercurio" class="image conteudoCartao">
-
-                <h1> Mecúrio, o menor planeta </h1>
-
-                <p>
-                    O menor planeta do Sitema Solar, Mercúrio que diferentemente de Plutão é um planeta, é o 
-                    planeta mais próximo do Sol e que possui a atmosfera mais fina dentre todos os planetas, e 
-                    agora você tem a oportunidade de descobrir as conquistas humanas por lá
-                </p>
-
-                <button class="button lightButton">
+                <button class="button lightButton" type="button" aria-label="clique para saber mais sobre">
                     Bem aqui
                 </button>
 

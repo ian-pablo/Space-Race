@@ -26,8 +26,8 @@
     <header>
         <h1 id="titulo" onclick="window.location.href = 'index.html'"> Space Race </h1>
         
-        <button id="botaoMenu" class="button"> 
-            <a> &#9776 </a> 
+        <button id="botaoMenu" class="button" type="button" aria-label="clique para expandir o menu lateral"> 
+            <p> &#9776 </p> 
         </button>
     </header>
 
@@ -36,50 +36,50 @@
     </nav>
 
     <main>
-        <div id="sobre" class="fundo blur" role="img" aria-label="Uma imagem com o Sol e o planeta Terra com um fundo estrelado">
+        <div id="sobre" class="fundo blur">
 
-            <div id="sun" class="image"> </div>
+            <div id="sun" class="image" role="img" aria-label="Uma imagem com o Sol e o planeta Terra com um fundo estrelado"> </div>
 
             <div id="earth" class="image"> </div>
 
             <div id="textoSobre">
                 <h1> - Um Website educativo sobre exploração espacial </h1>
 
-                <button id="sobreBotao" class="button styledButton lightButton" aria-label="Saiba mais sobre o nosso site bem aqui"> saiba mais </button>
+                <button id="sobreBotao" class="button styledButton lightButton" type="button" aria-label="Saiba mais sobre o nosso site bem aqui"> saiba mais </button>
             </div>
 
             
             
         </div>
 
-        <div id="milestones" class="fundo" role="img" aria-label="Uma imagem com a capsula da missão Vostok 1 (uma capsula esférica com uma janela ao lado para o tripulante poder enchegar o lado de fora) ao redor do planeta Terra">
+        <div id="milestones" class="fundo">
 
-            <div id="vostok" class="image"> </div>
+            <div id="vostok" class="image" role="img" aria-label="Uma imagem com a capsula da missão Vostok 1 (uma capsula esférica com uma janela ao lado para o tripulante poder enchegar o lado de fora) ao redor do planeta Terra"> </div>
 
             <div id="textoMilestones">
                 <h1> - Aprenda sobre os mais importantes feitos no espaço </h1>
 
-                <button id="milestonesButton" class="button styledButton" aria-label="Saiba um pouco mais sobre os mais importantes feitos no espaço bem aqui" onclick="window.location.href = 'milestones.html'"> começe aqui </button>
+                <button id="milestonesButton" class="button styledButton" type="button" aria-label="Saiba um pouco mais sobre os mais importantes feitos no espaço bem aqui" onclick="window.location.href = 'milestones.html'"> começe aqui </button>
             </div>
             
         </div>
 
-        <div id="incidents" class="fundo" role="img" aria-label="Uma imagem com a explosão do ônibus espacial Challenger em pleno voo com os propulsores auxiliares da espaçonave voando para longe após terem sido soltos por uma falha estrutural durante a explossão">
+        <div id="incidents" class="fundo">
             
-            <div id="challenger" class="image"> </div>
+            <div id="challenger" class="image" role="img" aria-label="Uma imagem com a explosão do ônibus espacial Challenger em pleno voo com os propulsores auxiliares da espaçonave voando para longe após terem sido soltos por uma falha estrutural durante a explossão"> </div>
 
             <div id="textoIncidents">
                 <h1> - Saiba o que deu de errado nos piores incidentes </h1>
 
-                <button id="incidentsButton" class="button styledButton lightButton" aria-label="Descutra aqui o que ocorreu nos piores incidentes na exploração espacial bem aqui"> o que ocorreu? </button>
+                <button id="incidentsButton" class="button styledButton lightButton" type="button" aria-label="Descutra aqui o que ocorreu nos piores incidentes na exploração espacial bem aqui" onclick="window.location.href = 'incidents.html'"> o que ocorreu? </button>
             </div>
 
 
         </div>
 
-        <div id="learning" class="fundo blur" role="img" aria-label="Uma imagem com a sonda Voyager passando por Jupíter">
+        <div id="learning" class="fundo blur" >
 
-            <div id="jupter" class="image"> </div>
+            <div id="jupter" class="image" role="img" aria-label="Uma imagem com a sonda Voyager passando por Jupíter"> </div>
             
             <div id="voyager" class="image"> </div>
 
@@ -88,14 +88,14 @@
 
                 <h1> - Explore os conhecimentos trazidos pela era da exploração espacial </h1>
 
-                <button id="learningButton" class="button styledButton lightButton" aria-label="Descubra aqui sobre os conhecimentos adquiridos pela humanidade pela exploração espacial"> bem aqui </button>
+                <button id="learningButton" class="button styledButton lightButton" type="button" aria-label="Descubra aqui sobre os conhecimentos adquiridos pela humanidade pela exploração espacial"> bem aqui </button>
             </div>
 
         </div>
 
-        <div id="future" class="fundo blur" role="img" aria-label="Uma imagem do foguete da empresa Space X, a Ship, voando por perto do planeta Marte">
+        <div id="future" class="fundo blur">
 
-            <div id="mars" class="image"> </div>
+            <div id="mars" class="image" role="img" aria-label="Uma imagem do foguete da empresa Space X, a Ship, voando por perto do planeta Marte"> </div>
 
             <div id="ship" class="image"> </div>
 
@@ -104,7 +104,7 @@
 
                 <h1> - Descubra as possibilidades que o futuro nos reserva </h1>
     
-                <button id="futureButton" class="button styledButton lightButton" aria-label="Descubra aqui o que o futuro da exploração espacial nos reserva bem aqui"> o futuro </button>    
+                <button id="futureButton" class="button styledButton lightButton" type="button" aria-label="Descubra aqui o que o futuro da exploração espacial nos reserva bem aqui"> o futuro </button>    
             </div>
 
         </div>

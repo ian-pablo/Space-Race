@@ -20,6 +20,16 @@
     margin-top: 15px;
 }
 
+.conteudoCartao{
+    /* tamanho */
+    width: 100%;
+    height: var(--height);
+
+    /* estética */
+    background-size: 100%;
+    background-position: 50% 100%;
+}
+
 .conteudoCartao h1{
     /* estética */
     color: var(--interfaceTextColor);
@@ -82,3 +92,12 @@
         --contentFontSize: 1.3em;
     }
 }
+
+@media screen and (max-width: 470px) {
+    .cartaoBotao{
+        /* estética */
+        font-size: 0.1em;
+    }
+}
+
+

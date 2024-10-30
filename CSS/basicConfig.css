@@ -226,11 +226,15 @@ button{
     
 }
 
-#botaoMenu a{
+#botaoMenu p{
     position: absolute;
     left: 3px;
     bottom: -6px;
     font-weight: 900;
+
+    /* impede que o botão fique selecionado, evitando que depois de o usuário clicar nele uma vez ele poder clicar novamente com as telcas do teclado 
+    para evitar efeitos indesejados */
+    -webkit-user-select: none;/* este é apenas para que ele funcione no Safari +3, pois ele não aceita o uso do user-select normal */
     user-select: none;
 }
 
@@ -381,7 +385,7 @@ button{
 
     }
 
-    #botaoMenu a{
+    #botaoMenu p{
         /* estética */
         font-size: 0.75em;
 
@@ -403,6 +407,22 @@ button{
         font-size: 1.2em;
     }
 }
+
+
+
+@media screen and (max-width: 364px){
+    header{
+        /* estética */
+        font-size: 1em;
+
+        /* posicionamento dos itens interiores */
+        padding-top: 1.25em;
+
+    }
+}
+
+
+
 
 
 

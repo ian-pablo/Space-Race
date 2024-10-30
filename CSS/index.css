@@ -903,6 +903,47 @@
 
 
 
+@media screen and (max-width: 358px) {
+    #incidentsButton{
+        /* posição */
+        top: 100px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    #voyager{
+        /* tamanho */
+        --size: 150px;
+    }
+}
+
+
+@media screen and (max-width: 342px){
+    #incidentsButton{
+        /* tamanho */
+        max-width: auto;
+        width: max-content;
+    }
+}
+
+
+@media screen and (max-width: 335px){
+    #sobreBotao{
+        /* posição */
+        top: 105px;
+    }
+}
+
+
+@media screen and (max-width: 330px){
+    #vostok{
+        /* tamanho */
+        --size: 180px;
+    }
+}
+
+
+
 
 
 

@@ -59,14 +59,9 @@ header{
 }
 
 #terra{
-    /* tamanho */
-    width: 100%;
-    height: var(--height);
 
     /*estética*/
     background-image: url('../Imagens/terra_do_espaco.svg');
-    background-size: cover;
-    background-position: 50% 100%;
 
     /* posicionamento dos itens interiorres */
     display: flex;
@@ -129,14 +124,9 @@ header{
 }
 
 #lua{
-    /* tamanho */
-    width: 100%;
-    height: var(--height);
 
     /*estética*/
     background-image: url('../Imagens/lua_do_espaco.svg');
-    background-size: cover;
-    background-position: 50% 100%;
 
     /* posicionamento dos itens interiorres */
     display: flex;
@@ -222,14 +212,9 @@ header{
 }
 
 #marte{
-    /* tamanho */
-    width: 100%;
-    height: var(--height);
 
     /*estética*/
     background-image: url('../Imagens/marte_do_espaco.svg');
-    background-size: cover;
-    background-position: 50% 100%;
 
     /* posicionamento dos itens interiorres */
     display: flex;
@@ -293,14 +278,9 @@ header{
 }
 
 #venus{
-    /* tamanho */
-    width: 100%;
-    height: var(--height);
 
     /*estética*/
     background-image: url('../Imagens/venus_do_espaco.svg');
-    background-size: cover;
-    background-position: 50% 100%;
 
     /* posicionamento dos itens interiorres */
     display: flex;
@@ -365,14 +345,9 @@ header{
 }
 
 #mercurio{
-    /* tamanho */
-    width: 100%;
-    height: var(--height);
 
     /*estética*/
     background-image: url('../Imagens/mercurio_do_espaco.svg');
-    background-size: cover;
-    background-position: 50% 100%;
 
     /* posicionamento dos itens interiorres */
     display: flex;
@@ -437,14 +412,9 @@ header{
 }
 
 #gasosos{
-    /* tamanho */
-    width: 100%;
-    height: var(--height);
 
     /*estética*/
-    background-image: url('../Imagens/mercurio_do_espaco.svg');
-    background-size: cover;
-    background-position: 50% 100%;
+    background-image: url('../Imagens/jupiter_do_espaco.svg');
 
     /* posicionamento dos itens interiorres */
     display: flex;
@@ -509,14 +479,9 @@ header{
 }
 
 #dwarf{
-    /* tamanho */
-    width: 100%;
-    height: var(--height);
 
     /*estética*/
-    background-image: url('../Imagens/mercurio_do_espaco.svg');
-    background-size: cover;
-    background-position: 50% 100%;
+    background-image: url('../Imagens/plutao_do_espaco.svg');
 
     /* posicionamento dos itens interiorres */
     display: flex;
@@ -524,7 +489,6 @@ header{
     align-items: center;
 
 }
-
 
 
 
