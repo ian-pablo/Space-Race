@@ -40,7 +40,7 @@ header{
 
 #terraCartao{
     /* variáveis locais */
-    --height: 500px;
+    --height: calc(100vh - var(--headerHeight) - 80px);
 }
 
 #terra{
@@ -86,7 +86,7 @@ header{
 
 #luaCartao{
     /* variáveis locais */
-    --height: 500px;
+    --height: calc(100vh - var(--headerHeight) - 80px);
 }
 
 #lua{
@@ -152,7 +152,7 @@ header{
 
 #marteCartao{
     /* variáveis locais */
-    --height: 500px;
+    --height: calc(100vh - var(--headerHeight) - 80px);
 }
 
 #marte{
@@ -199,7 +199,7 @@ header{
 
 #venusCartao{
     /* variáveis locais */
-    --height: 500px;
+    --height: calc(100vh - var(--headerHeight) - 80px);
 }
 
 #venus{
@@ -247,7 +247,7 @@ header{
 
 #mercurioCartao{
     /* variáveis locais */
-    --height: 500px;
+    --height: calc(100vh - var(--headerHeight) - 80px);
 }
 
 #mercurio{
@@ -295,7 +295,7 @@ header{
 
 #gasososCartao{
     /* variáveis locais */
-    --height: 500px;
+    --height: calc(100vh - var(--headerHeight) - 80px);
 }
 
 #gasosos{
@@ -342,7 +342,7 @@ header{
 
 #dwarfCartao{
     /* variáveis locais */
-    --height: 500px;
+    --height: calc(100vh - var(--headerHeight) - 80px);
 }
 
 #dwarf{
