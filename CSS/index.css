@@ -49,8 +49,6 @@
 #earth{
     /* tamanho */
     --size: 400px;
-    width: var(--size);
-    height: var(--size);
 
     /* estética */
     background-image: url(../Imagens/terra.svg);
@@ -65,8 +63,6 @@
 #sun{
     /* tamanho */
     --size: 800px;
-    width: var(--size);
-    height: var(--size);
 
     /* estética */
     background-image: url(../Imagens/sol.svg);
@@ -122,8 +118,6 @@
 #vostok{
     /* tamanho */
     --size: 400px;
-    width: var(--size);
-    height: var(--size);
 
     /* estética */
     background-image: url(../Imagens/vostok.svg);
@@ -178,8 +172,6 @@
 #challenger{
     /* tamanho */
     --size: 600px;
-    width: var(--size);
-    height: var(--size);
 
     /* estética */
     background-image: url(../Imagens/challenger_explosion.svg);
@@ -233,8 +225,6 @@
 #voyager{
     /* tamanho */
     --size: 700px;
-    width: var(--size);
-    height: var(--size);
 
     /* estética */
     background-image: url(../Imagens/voyager.svg);
@@ -249,8 +239,6 @@
 #jupter{
     /* tamanho */
     --size: 300px;
-    width: var(--size);
-    height: var(--size);
 
     /* estética */
     background-image: url(../Imagens/jupiter.svg);
@@ -304,8 +292,6 @@
 #mars{
     /* tamanho */
     --size: 380px;
-    width: var(--size);
-    height: var(--size);
 
     /* estética */
     background-image: url(../Imagens/marte.svg);
@@ -319,8 +305,6 @@
 #ship{
     /* tamanho */
     --size: 420px;
-    width: var(--size);
-    height: var(--size);
 
     /* estética */
     background-image: url(../Imagens/star-ship.svg);

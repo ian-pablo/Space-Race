@@ -68,6 +68,13 @@
     margin-top: 10px;
 }
 
+.conteudoCenter{
+    /* posicionamento dos itens interiorres */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 @media screen and (max-width: 900px) {
     :root{

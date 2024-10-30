@@ -17,19 +17,12 @@ header{
     /* variáveis locais */
     --size: 75px;
 
-    /* tamanho */
-    width: var(--size);
-    height: var(--size);
-
 
     /* estética */
     background-image: url('../Imagens/terra.svg');
 
     /* posição */
-    position: absolute;
     left: 10px;
-    bottom: 50%;
-    transform: translateY(50%);
 
 }
 
@@ -37,19 +30,11 @@ header{
     /* variáveis locais */
     --size: 75px;
 
-    /* tamanho */
-    width: var(--size);
-    height: var(--size);
-
-
     /* estética */
     background-image: url('../Imagens/terra.svg');
 
     /* posição */
-    position: absolute;
     right: 10px;
-    bottom: 50%;
-    transform: translateY(50%);
 
 }
 
@@ -62,11 +47,6 @@ header{
 
     /*estética*/
     background-image: url('../Imagens/terra_do_espaco.svg');
-
-    /* posicionamento dos itens interiorres */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
 }
 
@@ -82,19 +62,12 @@ header{
     /* variáveis locais */
     --size: 45px;
 
-    /* tamanho */
-    width: var(--size);
-    height: var(--size);
-
 
     /* estética */
     background-image: url('../Imagens/lua.svg');
 
     /* posição */
-    position: absolute;
     left: 25px;
-    bottom: 50%;
-    transform: translateY(50%);
 
 }
 
@@ -102,19 +75,12 @@ header{
     /* variáveis locais */
     --size: 45px;
 
-    /* tamanho */
-    width: var(--size);
-    height: var(--size);
-
 
     /* estética */
     background-image: url('../Imagens/lua.svg');
 
     /* posição */
-    position: absolute;
     right: 25px;
-    bottom: 50%;
-    transform: translateY(50%);
 
 }
 
@@ -128,11 +94,6 @@ header{
     /*estética*/
     background-image: url('../Imagens/lua_do_espaco.svg');
 
-    /* posicionamento dos itens interiorres */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
     /* posição */
     position: relative;
     z-index: 1;
@@ -142,8 +103,6 @@ header{
 #terra_fundo{
     /* tamanho */
     --size: 250px;
-    width: var(--size);
-    height: var(--size);
 
     /* estética */
     background-image: url(../Imagens/terra.svg);
@@ -170,19 +129,12 @@ header{
     /* variáveis locais */
     --size: 65px;
 
-    /* tamanho */
-    width: var(--size);
-    height: var(--size);
-
 
     /* estética */
     background-image: url('../Imagens/marte_2.svg');
 
     /* posição */
-    position: absolute;
     left: 15px;
-    bottom: 50%;
-    transform: translateY(50%);
 
 }
 
@@ -190,19 +142,11 @@ header{
     /* variáveis locais */
     --size: 65px;
 
-    /* tamanho */
-    width: var(--size);
-    height: var(--size);
-
-
     /* estética */
     background-image: url('../Imagens/marte_2.svg');
 
     /* posição */
-    position: absolute;
     right: 15px;
-    bottom: 50%;
-    transform: translateY(50%);
 
 }
 
@@ -215,11 +159,6 @@ header{
 
     /*estética*/
     background-image: url('../Imagens/marte_do_espaco.svg');
-
-    /* posicionamento dos itens interiorres */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
 }
 
@@ -236,19 +175,12 @@ header{
     /* variáveis locais */
     --size: 65px;
 
-    /* tamanho */
-    width: var(--size);
-    height: var(--size);
-
 
     /* estética */
     background-image: url('../Imagens/venus.svg');
 
     /* posição */
-    position: absolute;
     left: 15px;
-    bottom: 50%;
-    transform: translateY(50%);
 
 }
 
@@ -256,19 +188,12 @@ header{
     /* variáveis locais */
     --size: 65px;
 
-    /* tamanho */
-    width: var(--size);
-    height: var(--size);
-
 
     /* estética */
     background-image: url('../Imagens/venus.svg');
 
     /* posição */
-    position: absolute;
     right: 15px;
-    bottom: 50%;
-    transform: translateY(50%);
 
 }
 
@@ -281,11 +206,6 @@ header{
 
     /*estética*/
     background-image: url('../Imagens/venus_do_espaco.svg');
-
-    /* posicionamento dos itens interiorres */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
 }
 
@@ -303,19 +223,12 @@ header{
     /* variáveis locais */
     --size: 55px;
 
-    /* tamanho */
-    width: var(--size);
-    height: var(--size);
-
 
     /* estética */
     background-image: url('../Imagens/mercurio.svg');
 
     /* posição */
-    position: absolute;
     left: 20px;
-    bottom: 50%;
-    transform: translateY(50%);
 
 }
 
@@ -323,19 +236,12 @@ header{
     /* variáveis locais */
     --size: 55px;
 
-    /* tamanho */
-    width: var(--size);
-    height: var(--size);
-
 
     /* estética */
     background-image: url('../Imagens/mercurio.svg');
 
     /* posição */
-    position: absolute;
     right: 20px;
-    bottom: 50%;
-    transform: translateY(50%);
 
 }
 
@@ -348,11 +254,6 @@ header{
 
     /*estética*/
     background-image: url('../Imagens/mercurio_do_espaco.svg');
-
-    /* posicionamento dos itens interiorres */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
 }
 
@@ -370,19 +271,12 @@ header{
     /* variáveis locais */
     --size: 55px;
 
-    /* tamanho */
-    width: var(--size);
-    height: var(--size);
-
 
     /* estética */
     background-image: url('../Imagens/outer_planets.svg');
 
     /* posição */
-    position: absolute;
     left: 20px;
-    bottom: 50%;
-    transform: translateY(50%);
 
 }
 
@@ -390,19 +284,12 @@ header{
     /* variáveis locais */
     --size: 55px;
 
-    /* tamanho */
-    width: var(--size);
-    height: var(--size);
-
 
     /* estética */
     background-image: url('../Imagens/outer_planets.svg');
 
     /* posição */
-    position: absolute;
     right: 20px;
-    bottom: 50%;
-    transform: translateY(50%);
 
 }
 
@@ -415,11 +302,6 @@ header{
 
     /*estética*/
     background-image: url('../Imagens/jupiter_do_espaco.svg');
-
-    /* posicionamento dos itens interiorres */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
 }
 
@@ -437,19 +319,12 @@ header{
     /* variáveis locais */
     --size: 55px;
 
-    /* tamanho */
-    width: var(--size);
-    height: var(--size);
-
 
     /* estética */
     background-image: url('../Imagens/dwarf_planets.svg');
 
     /* posição */
-    position: absolute;
     left: 20px;
-    bottom: 50%;
-    transform: translateY(50%);
 
 }
 
@@ -457,19 +332,11 @@ header{
     /* variáveis locais */
     --size: 55px;
 
-    /* tamanho */
-    width: var(--size);
-    height: var(--size);
-
-
     /* estética */
     background-image: url('../Imagens/dwarf_planets.svg');
 
     /* posição */
-    position: absolute;
     right: 20px;
-    bottom: 50%;
-    transform: translateY(50%);
 
 }
 
@@ -482,11 +349,6 @@ header{
 
     /*estética*/
     background-image: url('../Imagens/plutao_do_espaco.svg');
-
-    /* posicionamento dos itens interiorres */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
 }
 

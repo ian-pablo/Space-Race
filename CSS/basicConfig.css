@@ -234,11 +234,15 @@ button{
 
     /* impede que o botão fique selecionado, evitando que depois de o usuário clicar nele uma vez ele poder clicar novamente com as telcas do teclado 
     para evitar efeitos indesejados */
-    -webkit-user-select: none;/* este é apenas para que ele funcione no Safari +3, pois ele não aceita o uso do user-select normal */
+    -webkit-user-select: none; /* este é apenas para que ele funcione no Safari +3, pois ele não aceita o uso do user-select normal */
     user-select: none;
 }
 
 .image{
+    /* tamanho */
+    width: var(--size);
+    height: var(--size);
+
     /* estética */
     background-repeat: no-repeat;
     background-size: contain;
@@ -354,6 +358,13 @@ button{
     top: calc(var(--tamanho) / -2);
     z-index: -1;
 
+}
+
+.yCenter{
+    /* posição */
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
 }
 
 
