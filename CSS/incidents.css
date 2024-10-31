@@ -96,3 +96,97 @@ header{
 
 /*}*/
 
+
+
+
+
+
+
+
+
+
+#nedelinImgLeft{
+    /* variáveis locais */
+    --size: 75px;
+
+
+    /* estética */
+    background-image: url('../Imagens/nedelinDisaster.svg');
+
+    /* posição */
+    left: 10px;
+
+}
+
+#nedelinImgRight{
+    /* variáveis locais */
+    --size: 75px;
+
+    /* estética */
+    background-image: url('../Imagens/nedelinDisaster.svg');
+
+    /* posição */
+    right: 10px;
+
+}
+
+#nedelinCartao{
+    /* variáveis locais */
+    --height: 500px;
+}
+
+/*#nedelin{
+
+    /*estética*/
+    /*background-image: url('../Imagens/challenger_do_espaco.svg');*/
+
+/*}*/
+
+
+
+
+
+
+
+
+
+
+#soyuz11ImgLeft{
+    /* variáveis locais */
+    --size: 75px;
+
+
+    /* estética */
+    background-image: url('../Imagens/soyuz_landed.svg');
+
+    /* posição */
+    left: 10px;
+
+}
+
+#soyuz11ImgRight{
+    /* variáveis locais */
+    --size: 75px;
+
+    /* estética */
+    background-image: url('../Imagens/soyuz_landed.svg');
+
+    /* posição */
+    right: 10px;
+
+}
+
+#soyuz11Cartao{
+    /* variáveis locais */
+    --height: 500px;
+}
+
+/*#soyuz11{
+
+    /*estética*/
+    /*background-image: url('../Imagens/challenger_do_espaco.svg');*/
+
+/*}*/
+
+
+

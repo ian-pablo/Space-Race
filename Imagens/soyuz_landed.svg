@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300"
+   height="300"
+   viewBox="0 0 79.374998 79.375"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="soyuz_landed.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="134.88062"
+     inkscape:cy="158.92225"
+     inkscape:window-width="2560"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     id="circle84"
+     style="fill:#877e0f;fill-opacity:1;stroke-width:0.444439;paint-order:stroke fill markers"
+     d="m 18.441437,48.678018 a 5.6175128,5.6175128 0 0 0 -5.61713,5.617998 5.6175128,5.6175128 0 0 0 5.61713,5.61713 5.6175128,5.6175128 0 0 0 5.617999,-5.61713 5.6175128,5.6175128 0 0 0 -5.617999,-5.617998 z m 39.21748,7.385341 a 5.6175128,5.6175128 0 0 0 -5.61713,5.617999 5.6175128,5.6175128 0 0 0 5.61713,5.61713 5.6175128,5.6175128 0 0 0 5.61713,-5.61713 5.6175128,5.6175128 0 0 0 -5.61713,-5.617999 z"
+     inkscape:label="dirt"
+     inkscape:highlight-color="#877e0f" />
+  <g
+     id="g77"
+     inkscape:label="soyuz capsule"
+     inkscape:highlight-color="#07420a"
+     transform="matrix(1.6797728,0,0,1.6797728,-25.267316,-47.113534)">
+    <path
+       d="M 50.498642,68.341343 48.236455,67.881817 26.418293,63.449812 24.156614,62.990389 a 13.440006,2.3327324 11.482471 0 0 12.706677,4.961343 13.440006,2.3327324 11.482471 0 0 13.635351,0.389611 z"
+       style="fill:#4c3b08;stroke-width:0.390702;paint-order:stroke fill markers"
+       id="path76" />
+    <path
+       id="path77"
+       style="fill:#07420a;fill-opacity:1;stroke-width:0.2758;paint-order:stroke fill markers"
+       d="m 42.252029,41.422398 a 13.440265,12.36927 11.482471 0 0 -15.633595,9.44618 l -2.462327,12.121708 13.171267,2.675528 13.171268,2.675529 2.462327,-12.121708 A 13.440265,12.36927 11.482471 0 0 42.252029,41.422398 Z" />
+    <circle
+       style="fill:#040d24;fill-opacity:1;stroke-width:0.200544;paint-order:stroke fill markers"
+       id="path73"
+       cx="49.65226"
+       cy="43.158413"
+       r="2.782944"
+       transform="rotate(11.482471)" />
+    <rect
+       style="fill:#063508;fill-opacity:1;stroke-width:0.271585;paint-order:stroke fill markers"
+       id="rect77"
+       width="17.845837"
+       height="3.0152457"
+       x="40.72934"
+       y="32.182323"
+       transform="rotate(11.482471)" />
+  </g>
+  <path
+     id="path78"
+     style="fill:#877e0f;fill-opacity:1;stroke-width:0.444439;paint-order:stroke fill markers"
+     d="m 17.145444,54.592021 a 5.6175128,5.6175128 0 0 0 -5.61713,5.617997 5.6175128,5.6175128 0 0 0 2.00866,4.250824 5.6175128,5.6175128 0 0 0 -0.04514,0.624127 5.6175128,5.6175128 0 0 0 5.617997,5.617996 5.6175128,5.6175128 0 0 0 2.096333,-0.419266 5.6175128,5.6175128 0 0 0 5.476506,4.434851 5.6175128,5.6175128 0 0 0 4.371484,-2.10675 5.6175128,5.6175128 0 0 0 1.702238,0.388018 5.6175128,5.6175128 0 0 0 5.12408,3.320277 5.6175128,5.6175128 0 0 0 5.289008,-3.764716 5.6175128,5.6175128 0 0 0 1.239572,-0.342012 5.6175128,5.6175128 0 0 0 5.562441,4.848909 5.6175128,5.6175128 0 0 0 5.536402,-4.703945 5.6175128,5.6175128 0 0 0 3.105872,0.943567 5.6175128,5.6175128 0 0 0 5.617998,-5.61713 5.6175128,5.6175128 0 0 0 -5.617998,-5.617998 5.6175128,5.6175128 0 0 0 -5.533798,4.698737 5.6175128,5.6175128 0 0 0 -3.108476,-0.938359 5.6175128,5.6175128 0 0 0 -2.135394,0.434023 5.6175128,5.6175128 0 0 0 -5.564178,-4.848908 5.6175128,5.6175128 0 0 0 -4.733459,2.594592 5.6175128,5.6175128 0 0 0 -4.452211,-2.19529 5.6175128,5.6175128 0 0 0 -3.477395,1.221341 5.6175128,5.6175128 0 0 0 -5.549422,-4.751687 5.6175128,5.6175128 0 0 0 -1.563353,0.223087 5.6175128,5.6175128 0 0 0 -5.350639,-3.912285 z"
+     inkscape:label="dirt"
+     inkscape:highlight-color="#877e0f" />
+</svg>
