@@ -926,6 +926,143 @@
     }
 }
 
+@media screen and (max-width: 315px) {
+
+    #earth{
+        /* posição */
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    #textoSobre{
+        /* tamanho */
+        width: 220px;
+
+        /* estética */
+        font-size: 0.45em;
+    }
+
+    #sobreBotao{
+        /* estética */
+        font-size: 1.2em;
+
+        /* posição */
+        top: 50px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    #vostok{
+        /* posição */
+        left: 50%;
+        transform: translateX(-60%);
+    }
+
+    #textoMilestones{
+        /* tamanho */
+        width: 200px;
+
+        /* estética */
+        font-size: 0.45em;
+    }
+
+    #milestonesButton{
+
+        /* estética */
+        font-size: 1.2em;
+
+        /* posição */
+        top: 75px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    #textoIncidents{
+        /* tamanho */
+        width: 200px;
+
+        /* estética */
+        font-size: 0.45em;
+    
+        /* posicionamento */
+        bottom: 450px;
+    }
+    
+    #incidentsButton{
+    
+        /* estética */
+        font-size: 1.2em;
+
+        /* posicionamento */
+        top: 70px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+
+
+    #textoLearning{
+        /* tamanho */
+        width: 250px;
+
+        /* estética */
+        font-size: 0.45em;
+    
+        /* posicionamento */
+        bottom: 200px;
+    }
+    
+    #learningButton{
+
+        /* estética */
+        font-size: 1.2em;
+    
+        /* posicionamento */
+        top: auto;
+        bottom: -35px;
+    }
+
+    #voyager{
+    
+        /* posicionamento */
+        left: 50%;
+        transform: translateX(calc(-60% + 20px));
+    }
+
+
+
+
+    #textoFuture{
+        /* tamanho */
+        width: 200px;
+
+        /* estética */
+        font-size: 0.45em;
+    
+        /* posicionamento */
+        bottom: 250px;
+    }
+    
+    #futureButton{
+    
+        /* estética */
+        font-size: 1.2em;
+
+        /* posicionamento */
+        bottom: -30px;
+    }
+
+    #ship{
+    
+        /* posicionamento */
+        top: 45%;
+        left: 50%;
+        transform: translateX(-50%);
+        transform: translateY(50%);
+    }
+
+}
+
 
 
 
