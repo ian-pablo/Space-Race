@@ -107,10 +107,30 @@
     }
 }
 
+@media screen and (max-width: 445px){
+    :root{
+        /* variáveis locais */
+        --titleFontSize: 1em;
+        --contentFontSize: 0.75em;
+    }
+
+    .conteudoCartao button{
+        /* tamanho */
+        height: 30px;
+    }
+}
+
 @media screen and (max-width: 385px) {
     .cartaoBotao{
         /* estética */
         font-size: 1.25em;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    .icon{
+        width: calc(var(--size) / 2);
+        height: calc(var(--size) / 2);
     }
 }
 

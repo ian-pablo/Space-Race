@@ -13,39 +13,86 @@ header{
 
 
 
-#terraImgLeft{
+#challengerImgLeft{
     /* variáveis locais */
     --size: 75px;
 
 
     /* estética */
-    background-image: url('../Imagens/terra.svg');
+    background-image: url('../Imagens/space_shuttle.svg');
 
     /* posição */
     left: 10px;
 
 }
 
-#terraImgRight{
+#challengerImgRight{
     /* variáveis locais */
     --size: 75px;
 
     /* estética */
-    background-image: url('../Imagens/terra.svg');
+    background-image: url('../Imagens/space_shuttle.svg');
 
     /* posição */
     right: 10px;
 
 }
 
-#terraCartao{
+#challengerCartao{
     /* variáveis locais */
     --height: 500px;
 }
 
-#terra{
+/*#challenger{
 
     /*estética*/
-    background-image: url('../Imagens/terra_do_espaco.svg');
+    /*background-image: url('../Imagens/challenger_do_espaco.svg');*/
+
+/*}*/
+
+
+
+
+
+
+
+
+
+
+#columbiaImgLeft{
+    /* variáveis locais */
+    --size: 75px;
+
+
+    /* estética */
+    background-image: url('../Imagens/space_shuttle.svg');
+
+    /* posição */
+    left: 10px;
 
 }
+
+#columbiaImgRight{
+    /* variáveis locais */
+    --size: 75px;
+
+    /* estética */
+    background-image: url('../Imagens/space_shuttle.svg');
+
+    /* posição */
+    right: 10px;
+
+}
+
+#columbiaCartao{
+    /* variáveis locais */
+    --height: 500px;
+}
+
+/*#columbia{
+
+    /*estética*/
+    /*background-image: url('../Imagens/challenger_do_espaco.svg');*/
+
+/*}*/
+

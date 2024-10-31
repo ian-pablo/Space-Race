@@ -433,6 +433,45 @@ button{
 }
 
 
+@media screen and (max-width: 310px) {
+    header{
+        /* estética */
+        font-size: 0.8em;
+
+        /* posicionamento dos itens interiores */
+        padding-top: 1.9em;
+    }
+
+    #botaoMenu{
+        /* tamanho */
+        width: 25px;
+        height: 25px;
+
+        /* posição */
+        right: 12px;
+
+    }
+
+    #botaoMenu p{
+        /* estética */
+        font-size: 0.375em;
+
+        /* posição */
+        left: 2px;
+        bottom: -2px;
+        
+    }
+
+    footer{
+        /* estética */
+        font-size: 0.8em;
+    }
+
+
+
+}
+
+
 
 
 

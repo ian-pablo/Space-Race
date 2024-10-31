@@ -13,6 +13,7 @@
     <!-- Os scripts em javascript -->
     <script src="SCRIPTS/basic.js" defer> </script>
     <script src="SCRIPTS/botaoAbertura.js" defer> </script>
+    <script src="SCRIPTS/resizeTexto.js" defer> </script>
 
     <!-- Icone da guia -->
     <link rel="icon" href="Imagens/terra_logo.svg">
@@ -39,9 +40,9 @@
 
     <main>
         <button id="terraBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="clique para mais detalhes sobre a terra" onclick="abrir('#terra', '#terraCartao')">  
-            <div id="terraImgLeft" class="image yCenter"> </div>  
+            <div id="terraImgLeft" class="image yCenter icon"> </div>  
             Terra 
-            <div id="terraImgRight" class="image yCenter"> </div>  
+            <div id="terraImgRight" class="image yCenter icon"> </div>  
         </button>
         
         <div id="terraCartao" class="cartao">
@@ -65,9 +66,9 @@
 
 
         <button id="luaBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="clique para mais detalhes sobre a lua" onclick="abrir('#lua', '#luaCartao')">  
-            <div id="luaImgLeft" class="image yCenter"> </div>  
+            <div id="luaImgLeft" class="image yCenter icon"> </div>  
             Lua 
-            <div id="luaImgRight" class="image yCenter"> </div>  
+            <div id="luaImgRight" class="image yCenter icon"> </div>  
         </button>
         
         <div id="luaCartao" class="cartao">
@@ -94,9 +95,9 @@
 
 
         <button id="marteBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="clique para mais detalhes sobre marte" onclick="abrir('#marte', '#marteCartao')">  
-            <div id="marteImgLeft" class="image yCenter"> </div>  
+            <div id="marteImgLeft" class="image yCenter icon"> </div>  
             Marte 
-            <div id="marteImgRight" class="image yCenter"> </div>  
+            <div id="marteImgRight" class="image yCenter icon"> </div>  
         </button>
         
         <div id="marteCartao" class="cartao">
@@ -120,9 +121,9 @@
 
 
         <button id="venusBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="clique para mais detalhes sobre vênus" onclick="abrir('#venus', '#venusCartao')">  
-            <div id="venusImgLeft" class="image yCenter"> </div>  
+            <div id="venusImgLeft" class="image yCenter icon"> </div>  
             Vênus 
-            <div id="venusImgRight" class="image yCenter"> </div>  
+            <div id="venusImgRight" class="image yCenter icon"> </div>  
         </button>
         
         <div id="venusCartao" class="cartao">
@@ -147,9 +148,9 @@
 
 
         <button id="mercurioBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="clique para mais detalhes sobre mercúrio" onclick="abrir('#mercurio', '#mercurioCartao')">  
-            <div id="mercurioImgLeft" class="image yCenter"> </div>  
+            <div id="mercurioImgLeft" class="image yCenter icon"> </div>  
             Mercúrio 
-            <div id="mercurioImgRight" class="image yCenter"> </div>  
+            <div id="mercurioImgRight" class="image yCenter icon"> </div>  
         </button>
         
         <div id="mercurioCartao" class="cartao">
@@ -174,9 +175,9 @@
 
 
         <button id="gasososBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="clique para mais detalhes sobre os planetas gasosos" onclick="abrir('#gasosos', '#gasososCartao')">  
-            <div id="gasososImgLeft" class="image yCenter"> </div>  
-            Planetas Gasosos
-            <div id="gasososImgRight" class="image yCenter"> </div>  
+            <div id="gasososImgLeft" class="image yCenter icon"> </div>  
+            <p class="textoAdaptavel" data-larguras-adaptavel="290" data-textos-adaptavel="Planetas Cagosos; P. Gasosos">Planetas Gasosos</p>
+            <div id="gasososImgRight" class="image yCenter icon"> </div>  
         </button>
         
         <div id="gasososCartao" class="cartao">
@@ -201,9 +202,9 @@
 
 
         <button id="dwarfBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="clique para mais detalhes sobre os planetas anões" onclick="abrir('#dwarf', '#dwarfCartao')">  
-            <div id="dwarfImgLeft" class="image yCenter"> </div>  
-            Planetas Anões 
-            <div id="dwarfImgRight" class="image yCenter"> </div>  
+            <div id="dwarfImgLeft" class="image yCenter icon"> </div>  
+            <p class="textoAdaptavel" data-larguras-adaptavel="290" data-textos-adaptavel="Planetas Anões; P. Anões"> Planetas Anões </p>
+            <div id="dwarfImgRight" class="image yCenter icon"> </div>  
         </button>
         
         <div id="dwarfCartao" class="cartao">
