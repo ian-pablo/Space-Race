@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="73.185552"
-     inkscape:cy="65.407377"
-     inkscape:window-width="2560"
-     inkscape:window-height="1057"
+     inkscape:zoom="2.8284272"
+     inkscape:cx="123.03658"
+     inkscape:cy="184.73164"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g59" />
+     inkscape:current-layer="g58" />
   <defs
      id="defs1" />
   <g
@@ -50,6 +50,14 @@
        height="59.223991"
        x="15.434815"
        y="16.079199" />
+    <rect
+       style="fill:#000000;fill-opacity:0.15;stroke-width:0.264583"
+       id="rect2"
+       width="2.2450633"
+       height="59.223991"
+       x="17.679878"
+       y="16.079199"
+       inkscape:label="shadow" />
   </g>
   <g
      id="g38"
@@ -210,6 +218,12 @@
        transform="matrix(0.97874698,0,0,2.5399557,3.3035978,-61.132337)"
        inkscape:transform-center-x="1.7791323e-06"
        inkscape:label="warhead" />
+    <path
+       id="path104"
+       style="fill:#000000;stroke-width:0.218927;paint-order:stroke fill markers;fill-opacity:0.15000001"
+       d="m 39.687458,6.0662699 v 8.0186311 6.289539 8.690426 l -0.128157,0.90537 0.128157,-0.193269 v 6.215642 1.935282 26.665039 2.503723 4.423503 1.788521 h 1.991093 1.99161 1.991093 l -0.573092,-1.788521 h 0.0083 1.701188 l -1.701194,-6.87865 V 37.927891 l -1.284159,-1.935282 h 1.295011 l -1.295011,-6.878651 v -6.87865 L 42.870752,20.37444 Z"
+       transform="matrix(1.2085429,0,0,1.2085429,-8.276547,-21.609263)"
+       inkscape:label="shadow" />
   </g>
   <g
      id="g59"

@@ -18,6 +18,12 @@
     cursor: url('../Imagens/mouse_normal.svg') 0 0, default;
 }
 
+/* --- fontes customizadas --- */
+@font-face { /* créditos: www.w3schools.com, sem vocês esta fonte local não seria possível! :) */
+    font-family: iceland;
+    src: url('../Fonts/Iceland/Iceland-Regular.ttf');
+}
+
 /* --- estilo de pseudo elementos ---- */
 ::selection{
     background-color: white;
@@ -34,7 +40,7 @@
 ::-webkit-scrollbar-thumb{
     /* estética */
     background-color: white;
-    border-radius: 25%;
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track{

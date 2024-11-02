@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Space Race </title>
+
+    <!-- Os arquivos CSS desta página -->
+    <link rel="stylesheet" href="CSS/basicConfig.css"> <!-- configurações padrões que todas as páginas devem possuir -->
+    <link rel="stylesheet" href="CSS/future.css">
+    <link rel="stylesheet" href="CSS/paginaCartao.css">
+
+    <!-- Os scripts em javascript -->
+    <script src="SCRIPTS/basic.js" defer> </script>
+    <script src="SCRIPTS/botaoAbertura.js" defer> </script>
+    <script src="SCRIPTS/resizeTexto.js" defer> </script>
+
+    <!-- Icone da guia -->
+    <link rel="icon" href="Imagens/terra_logo.svg">
+
+</head>
+<body>
+
+    <header>
+        <h1 id="titulo" onclick="window.location.href = 'index.html'"> Space Race </h1>
+        
+        <button id="botaoMenu" class="button" type="button" aria-label="clique para expandir o menu lateral"> 
+            <p> &#9776 </p> 
+        </button>
+    </header>
+
+    <nav id="menu">
+
+    </nav>
+
+    <main>
+        <button id="challengerBotao" class="total fundo botaoBrilho _botaoCartao cartaoBotao" type="button" aria-label="clique para mais detalhes sobre os planetas anões" onclick="abrir('#challenger', '#challengerCartao')">  
+            <div id="challengerImgLeft" class="image yCenter icon"> </div>  
+            <p class="textoAdaptavel" data-textos-adaptavel="Turismo Espacial;Turismo"> Turismo Espacial </p>
+            <div id="challengerImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="challengerCartao" class="cartao">
+            <div id="challenger" class="image conteudoCartao">
+
+                <h1> O desastre do ônibus espacial Challenger </h1>
+
+                <p>
+                    O desastre do ônibus espacial Challenger ocorreu em 28 de janeiro de 1986, 73 segundos após a decolagem, 
+                    quando o ônibus espacial acabou explodindo, resultando na morte de todos os sete tripulantes a bordo.
+                </p>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h5> <sup>©</sup>2024 Ian_Productions. All rights reserved. </h5>
+    </footer>
+
+</body>
+</html>

@@ -190,3 +190,96 @@ header{
 
 
 
+
+
+
+
+
+
+
+#apolloImgLeft{
+    /* variáveis locais */
+    --size: 75px;
+
+
+    /* estética */
+    background-image: url('../Imagens/apollo_service_module.svg');
+
+    /* posição */
+    left: 10px;
+
+}
+
+#apolloImgRight{
+    /* variáveis locais */
+    --size: 75px;
+
+    /* estética */
+    background-image: url('../Imagens/apollo_service_module.svg');
+
+    /* posição */
+    right: 10px;
+
+}
+
+#apolloCartao{
+    /* variáveis locais */
+    --height: 500px;
+}
+
+/*#apollo{
+
+    /*estética*/
+    /*background-image: url('../Imagens/challenger_do_espaco.svg');*/
+
+/*}*/
+
+
+
+
+
+
+
+
+
+
+#soyuz1ImgLeft{
+    /* variáveis locais */
+    --size: 75px;
+
+
+    /* estética */
+    background-image: url('../Imagens/soyuz_crashed.svg');
+
+    /* posição */
+    left: 10px;
+
+}
+
+#soyuz1ImgRight{
+    /* variáveis locais */
+    --size: 75px;
+
+    /* estética */
+    background-image: url('../Imagens/soyuz_crashed.svg');
+
+    /* posição */
+    right: 10px;
+
+}
+
+#soyuz1Cartao{
+    /* variáveis locais */
+    --height: 500px;
+}
+
+/*#soyuz1{
+
+    /*estética*/
+    /*background-image: url('../Imagens/challenger_do_espaco.svg');*/
+
+/*}*/
+
+
+
+
