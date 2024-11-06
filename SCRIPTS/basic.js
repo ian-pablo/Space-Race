@@ -9,6 +9,10 @@ function isNumero(numero){
     }
 }
 
+function cprint(str){
+    console.log(str);
+}
+
 // este bloco de código é responsável pela animação do menu do site
 {
 

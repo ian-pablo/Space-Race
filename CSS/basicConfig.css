@@ -118,8 +118,6 @@ nav{
     /* estética */
     background-color: var(--menuColor);
     display: none;
-    opacity: 0;
-    
 
     /* posicionamento */
     z-index: 100;
@@ -162,7 +160,7 @@ footer{
 
 
 /* estilos gerais para grupos de elementos no site */
-button{
+button, a{
     /* cursor */
     cursor: var(--mouseGrab) 0 0, pointer;
 }
@@ -371,6 +369,30 @@ button{
     position: absolute;
     bottom: 50%;
     transform: translateY(50%);
+}
+
+/* configuração de estilos para todos os links presentes no site */
+a{
+    /* estética */
+    border-radius: 5px;
+    color: var(--interfaceTextColor);
+    background-color: var(--interfaceButtonColor);/* tecnicamente estas partes são para animação mas decidi colocar aqui.... :) */
+    background-image: linear-gradient(to right, var(--interfaceHoverButtonColor), var(--interfaceHoverButtonColor));
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+
+    /* animação */
+    transition: color var(--interfaceButtonAnimationTime) ease-in-out, background-size var(--interfaceButtonAnimationTime) ease-in-out;
+}
+
+a:hover{
+
+    /* retiramento do sublinhado */
+    text-decoration: none;
+
+    /* animação do link */
+    color: var(--interfaceColor);
+    background-size: 100% 100%;
 }
 
 

@@ -6,8 +6,6 @@ function resize(){
     // procura por todos os elementos que podem ter o seu texto adaptado
     let elementos = document.querySelectorAll(".textoAdaptavel");
 
-    console.log(elementos)
-
     elementos.forEach(element => {
         try{
             // consegue todas as larguras e textos para mudar no futuro

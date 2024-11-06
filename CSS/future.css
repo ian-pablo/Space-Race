@@ -1,0 +1,219 @@
+header{
+    /* posicionamento dos outros elementos */
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#turismoImgLeft{
+    /* variáveis locais */
+    --size: 75px;
+
+
+    /* estética */
+    background-image: url('../Imagens/tourism.svg');
+
+    /* posição */
+    left: 10px;
+
+}
+
+#turismoImgRight{
+    /* variáveis locais */
+    --size: 75px;
+
+    /* estética */
+    background-image: url('../Imagens/tourism.svg');
+
+    /* posição */
+    right: 10px;
+
+}
+
+#turismoCartao{
+    /* variáveis locais */
+    --height: calc(100vh - var(--headerHeight) - 80px);
+}
+
+/* #turismo{ */
+
+    /*estética*/
+    /* background-image: url('../Imagens/turismo_do_espaco.svg');
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#mineracaoImgLeft{
+    /* variáveis locais */
+    --size: 75px;
+
+
+    /* estética */
+    background-image: url('../Imagens/mining.svg');
+
+    /* posição */
+    left: 10px;
+
+}
+
+#mineracaoImgRight{
+    /* variáveis locais */
+    --size: 75px;
+
+    /* estética */
+    background-image: url('../Imagens/mining.svg');
+
+    /* posição */
+    right: 10px;
+
+}
+
+#mineracaoCartao{
+    /* variáveis locais */
+    --height: calc(100vh - var(--headerHeight) - 80px);
+}
+
+/* #mineracao{ */
+
+    /*estética*/
+    /* background-image: url('../Imagens/mineracao_do_espaco.svg');
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#colonizacaoImgLeft{
+    /* variáveis locais */
+    --size: 75px;
+
+
+    /* estética */
+    background-image: url('../Imagens/colonization.svg');
+
+    /* posição */
+    left: 10px;
+
+}
+
+#colonizacaoImgRight{
+    /* variáveis locais */
+    --size: 75px;
+
+    /* estética */
+    background-image: url('../Imagens/colonization.svg');
+
+    /* posição */
+    right: 10px;
+
+}
+
+#colonizacaoCartao{
+    /* variáveis locais */
+    --height: calc(100vh - var(--headerHeight) - 80px);
+}
+
+/* #colonizacao{
+
+    /*estética*/
+    /* background-image: url('../Imagens/mineracao_do_espaco.svg');
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#interestelarImgLeft{
+    /* variáveis locais */
+    --size: 75px;
+
+
+    /* estética */
+    background-image: url('../Imagens/interstellar.svg');
+
+    /* posição */
+    left: 10px;
+
+}
+
+#interestelarImgRight{
+    /* variáveis locais */
+    --size: 75px;
+
+    /* estética */
+    background-image: url('../Imagens/interstellar.svg');
+
+    /* posição */
+    right: 10px;
+
+}
+
+#interestelarCartao{
+    /* variáveis locais */
+    --height: calc(100vh - var(--headerHeight) - 80px);
+}
+
+/*#interestelar{
+
+    /*estética*/
+    /*background-image: url('../Imagens/mineracao_do_espaco.svg');
+
+}*/
+
+
+
+
+
+
+
+

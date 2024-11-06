@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Space Race </title>
+
+    <!-- Os arquivos CSS desta página -->
+    <link rel="stylesheet" href="CSS/basicConfig.css"> <!-- configurações padrões que todas as páginas devem possuir -->
+    <link rel="stylesheet" href="CSS/future.css">
+    <link rel="stylesheet" href="CSS/paginaCartao.css">
+
+    <!-- Os scripts em javascript -->
+    <script src="SCRIPTS/basic.js" defer> </script>
+    <script src="SCRIPTS/botaoAbertura.js" defer> </script>
+    <script src="SCRIPTS/resizeTexto.js" defer> </script>
+
+    <!-- Icone da guia -->
+    <link rel="icon" href="Imagens/terra_logo.svg">
+
+</head>
+<body>
+
+    <header>
+        <h1 id="titulo" onclick="window.location.href = 'index.html'"> Space Race </h1>
+        
+        <button id="botaoMenu" class="button" type="button" aria-label="clique para expandir o menu lateral"> 
+            <p> &#9776 </p> 
+        </button>
+    </header>
+
+    <nav id="menu">
+
+    </nav>
+
+    <main>
+        <button id="nomeBotao" class="total fundo botaoBrilho _botaoCartao cartaoBotao" type="button" aria-label="descrição" onclick="abrir('#nome', '#nomeCartao')">  
+            <div id="nomeImgLeft" class="image yCenter icon"> </div>  
+            <p class="textoAdaptavel"  data-larguras-adaptavel="450" data-textos-adaptavel="Texto Botão;Texto"> Texto Botão </p>
+            <div id="nomeImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="nomeCartao" class="cartao">
+            <div id="nome" class="image conteudoCartao">
+
+                <h1> Título </h1>
+
+                <p>
+                    Texto
+                </p>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h5> <sup>©</sup>2024 Ian_Productions. All rights reserved. </h5>
+    </footer>
+
+</body>
+</html>

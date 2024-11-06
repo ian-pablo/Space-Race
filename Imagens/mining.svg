@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300"
+   height="300"
+   viewBox="0 0 79.374998 79.375"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="mining.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="4"
+     inkscape:cx="132.5"
+     inkscape:cy="155.625"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Asteroid"
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:highlight-color="#2c2c2c">
+    <path
+       id="path1"
+       style="fill:#808080;stroke-width:0.264583;fill-opacity:1"
+       d="m 42.350957,24.856435 c -20.225849,2.499225 -22.602714,8.727734 -22.602755,19.493901 2.8e-5,7.325099 6.950666,4.710717 12.92425,8.041688 2.806175,1.564771 6.044833,2.656651 9.480068,2.45638 5.672938,-0.33077 15.789693,-7.074088 16.583484,-10.498068 1.407983,-6.073479 1.471448,-14.741767 -2.221333,-17.542833 -2.6706,-2.025716 -7.038905,-2.831396 -14.163714,-1.951068 z"
+       sodipodi:nodetypes="ccsccsc"
+       inkscape:label="asteroid it self" />
+    <g
+       id="g11"
+       inkscape:label="craters">
+      <ellipse
+         style="fill:#6b6b6b;fill-opacity:1;stroke-width:0.264583"
+         id="path5"
+         cx="40.911037"
+         cy="-13.122387"
+         rx="1.6370258"
+         ry="5.3554134"
+         transform="rotate(64.48216)" />
+      <ellipse
+         style="fill:#6b6b6b;fill-opacity:1;stroke-width:0.264583"
+         id="path6"
+         cx="42.086349"
+         cy="51.709808"
+         rx="5.1363339"
+         ry="1.7571324" />
+      <ellipse
+         style="fill:#6b6b6b;fill-opacity:1;stroke-width:0.264583"
+         id="path7"
+         cx="44.660378"
+         cy="46.101822"
+         rx="1.9176589"
+         ry="5.0401993"
+         transform="rotate(-16.121877)" />
+      <ellipse
+         style="fill:#6b6b6b;fill-opacity:1;stroke-width:0.264583"
+         id="path8"
+         cx="44.379375"
+         cy="42.069405"
+         rx="5.2778454"
+         ry="5.3108015" />
+      <ellipse
+         style="fill:#6b6b6b;fill-opacity:1;stroke-width:0.264583"
+         id="path9"
+         cx="13.026991"
+         cy="49.621033"
+         rx="1.4265511"
+         ry="2.5023112"
+         transform="rotate(-12.497596)" />
+      <ellipse
+         style="fill:#6b6b6b;fill-opacity:1;stroke-width:0.264583"
+         id="path10"
+         cx="51.410538"
+         cy="19.710463"
+         rx="4.209497"
+         ry="2.3173823"
+         transform="rotate(31.806684)" />
+      <ellipse
+         style="fill:#6b6b6b;fill-opacity:1;stroke-width:0.264583"
+         id="path11"
+         cx="42.398968"
+         cy="31.267195"
+         rx="4.8876915"
+         ry="1.3697712" />
+    </g>
+    <path
+       d="m 39.687554,54.774506 c 0.808042,0.09215 1.630332,0.122556 2.464966,0.0739 5.672932,-0.330772 15.789694,-7.074093 16.583484,-10.49807 1.407981,-6.073472 1.471724,-14.741535 -2.221053,-17.542598 -2.670598,-2.025714 -7.039192,-2.831629 -14.163994,-1.951302 -0.929153,0.114812 -1.808086,0.240406 -2.663403,0.371037 z"
+       style="fill:#000000;fill-opacity:0.15;stroke-width:0.264583"
+       id="path4"
+       inkscape:label="shadow" />
+  </g>
+  <g
+     id="g12"
+     inkscape:label="mining ship"
+     inkscape:highlight-color="#ffcc00"
+     transform="rotate(45,39.872994,70.278299)">
+    <path
+       sodipodi:type="star"
+       style="fill:#515151;fill-opacity:1;stroke-width:0.264583"
+       id="path12"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="13.891333"
+       sodipodi:cy="75.057632"
+       sodipodi:r1="2.0414994"
+       sodipodi:r2="1.0207496"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 15.659323,76.078382 -3.535981,0 1.767991,-3.062249 z"
+       inkscape:transform-center-y="-0.51037576"
+       transform="translate(1.4967108,1.4733233)"
+       inkscape:label="thruster" />
+    <rect
+       style="fill:#ffcc00;fill-opacity:1;stroke-width:0.264583"
+       id="rect11"
+       width="7.5770912"
+       height="11.318865"
+       x="11.599498"
+       y="64.358505"
+       inkscape:label="body" />
+    <g
+       id="g14"
+       inkscape:label="solar panel">
+      <rect
+         style="fill:#002c84;fill-opacity:1;stroke-width:0.264583"
+         id="rect12"
+         width="10.45358"
+         height="4.4901299"
+         x="0.60803807"
+         y="70.894913" />
+      <rect
+         style="fill:#002c84;fill-opacity:1;stroke-width:0.264583"
+         id="rect13"
+         width="10.45358"
+         height="4.4901299"
+         x="0.60803807"
+         y="66.030609" />
+      <rect
+         style="fill:#6d9dff;fill-opacity:1;stroke-width:0.264583"
+         id="rect14"
+         width="10.617282"
+         height="0.37417734"
+         x="0.98221546"
+         y="70.520737" />
+    </g>
+    <g
+       id="g17"
+       inkscape:label="solar panel"
+       transform="matrix(-1,0,0,1,30.776087,0)">
+      <rect
+         style="fill:#002c84;fill-opacity:1;stroke-width:0.264583"
+         id="rect15"
+         width="10.45358"
+         height="4.4901299"
+         x="0.60803807"
+         y="70.894913" />
+      <rect
+         style="fill:#002c84;fill-opacity:1;stroke-width:0.264583"
+         id="rect16"
+         width="10.45358"
+         height="4.4901299"
+         x="0.60803807"
+         y="66.030609" />
+      <rect
+         style="fill:#6d9dff;fill-opacity:1;stroke-width:0.264583"
+         id="rect17"
+         width="10.617282"
+         height="0.37417734"
+         x="0.98221546"
+         y="70.520737" />
+    </g>
+    <g
+       id="g39"
+       inkscape:label="grabbers">
+      <rect
+         style="fill:#6d9dff;fill-opacity:1;stroke-width:0.264583"
+         id="rect18"
+         width="0.65232116"
+         height="4.2664061"
+         x="15.061883"
+         y="61.118748" />
+      <rect
+         style="fill:#6d9dff;fill-opacity:1;stroke-width:0.264583"
+         id="rect19"
+         width="0.65232116"
+         height="4.2664061"
+         x="19.17659"
+         y="61.118748" />
+      <rect
+         style="fill:#6d9dff;fill-opacity:1;stroke-width:0.264583"
+         id="rect20"
+         width="0.65232116"
+         height="4.2664061"
+         x="10.947177"
+         y="61.118748"
+         inkscape:label="rect20" />
+    </g>
+    <path
+       id="path35"
+       style="fill:#000000;fill-opacity:0.15;stroke-width:0.264583"
+       d="m 15.388118,61.118745 v 3.239596 1.02681 9.104354 1.188041 1.874304 h 1.767851 l -1.082105,-1.874304 h 3.102653 v -4.782654 h 0.537952 v 4.490166 h 10.453625 v -4.490166 h -0.374137 v -0.374137 h 0.374137 V 66.03059 H 19.714469 v 4.490165 h -0.537952 v -5.135604 h 0.652157 v -4.266406 h -0.652157 v 3.239596 h -3.462321 v -3.239596 z"
+       inkscape:label="shadow" />
+  </g>
+  <g
+     id="g49"
+     inkscape:label="mining ship"
+     inkscape:highlight-color="#ffcc00"
+     transform="matrix(1,1.9201424e-6,1.9201424e-6,-1,24.299352,88.797435)">
+    <path
+       sodipodi:type="star"
+       style="fill:#515151;fill-opacity:1;stroke-width:0.264583"
+       id="path39"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="13.891333"
+       sodipodi:cy="75.057632"
+       sodipodi:r1="2.0414994"
+       sodipodi:r2="1.0207496"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 15.659323,76.078382 -3.535981,0 1.767991,-3.062249 z"
+       inkscape:transform-center-y="-0.51037576"
+       transform="translate(1.4967108,1.4733233)"
+       inkscape:label="thruster" />
+    <rect
+       style="fill:#ffcc00;fill-opacity:1;stroke-width:0.264583"
+       id="rect39"
+       width="7.5770912"
+       height="11.318865"
+       x="11.599498"
+       y="64.358505"
+       inkscape:label="body" />
+    <g
+       id="g42"
+       inkscape:label="solar panel">
+      <rect
+         style="fill:#002c84;fill-opacity:1;stroke-width:0.264583"
+         id="rect40"
+         width="10.45358"
+         height="4.4901299"
+         x="0.60803807"
+         y="70.894913" />
+      <rect
+         style="fill:#002c84;fill-opacity:1;stroke-width:0.264583"
+         id="rect41"
+         width="10.45358"
+         height="4.4901299"
+         x="0.60803807"
+         y="66.030609" />
+      <rect
+         style="fill:#6d9dff;fill-opacity:1;stroke-width:0.264583"
+         id="rect42"
+         width="10.617282"
+         height="0.37417734"
+         x="0.98221546"
+         y="70.520737" />
+    </g>
+    <g
+       id="g45"
+       inkscape:label="solar panel"
+       transform="matrix(-1,0,0,1,30.776087,0)">
+      <rect
+         style="fill:#002c84;fill-opacity:1;stroke-width:0.264583"
+         id="rect43"
+         width="10.45358"
+         height="4.4901299"
+         x="0.60803807"
+         y="70.894913" />
+      <rect
+         style="fill:#002c84;fill-opacity:1;stroke-width:0.264583"
+         id="rect44"
+         width="10.45358"
+         height="4.4901299"
+         x="0.60803807"
+         y="66.030609" />
+      <rect
+         style="fill:#6d9dff;fill-opacity:1;stroke-width:0.264583"
+         id="rect45"
+         width="10.617282"
+         height="0.37417734"
+         x="0.98221546"
+         y="70.520737" />
+    </g>
+    <g
+       id="g48"
+       inkscape:label="grabbers">
+      <rect
+         style="fill:#6d9dff;fill-opacity:1;stroke-width:0.264583"
+         id="rect46"
+         width="0.65232116"
+         height="4.2664061"
+         x="15.061883"
+         y="61.118748" />
+      <rect
+         style="fill:#6d9dff;fill-opacity:1;stroke-width:0.264583"
+         id="rect47"
+         width="0.65232116"
+         height="4.2664061"
+         x="19.17659"
+         y="61.118748" />
+      <rect
+         style="fill:#6d9dff;fill-opacity:1;stroke-width:0.264583"
+         id="rect48"
+         width="0.65232116"
+         height="4.2664061"
+         x="10.947177"
+         y="61.118748"
+         inkscape:label="rect20" />
+    </g>
+    <path
+       id="path48"
+       style="fill:#000000;fill-opacity:0.15;stroke-width:0.264583"
+       d="m 15.388118,61.118745 v 3.239596 1.02681 9.104354 1.188041 1.874304 h 1.767851 l -1.082105,-1.874304 h 3.102653 v -4.782654 h 0.537952 v 4.490166 h 10.453625 v -4.490166 h -0.374137 v -0.374137 h 0.374137 V 66.03059 H 19.714469 v 4.490165 h -0.537952 v -5.135604 h 0.652157 v -4.266406 h -0.652157 v 3.239596 h -3.462321 v -3.239596 z"
+       inkscape:label="shadow" />
+  </g>
+  <g
+     id="g59"
+     inkscape:label="mining ship"
+     inkscape:highlight-color="#ffcc00"
+     transform="rotate(-45,17.307025,7.2110088)">
+    <path
+       sodipodi:type="star"
+       style="fill:#515151;fill-opacity:1;stroke-width:0.264583"
+       id="path49"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="13.891333"
+       sodipodi:cy="75.057632"
+       sodipodi:r1="2.0414994"
+       sodipodi:r2="1.0207496"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 15.659323,76.078382 -3.535981,0 1.767991,-3.062249 z"
+       inkscape:transform-center-y="-0.51037576"
+       transform="translate(1.4967108,1.4733233)"
+       inkscape:label="thruster" />
+    <rect
+       style="fill:#ffcc00;fill-opacity:1;stroke-width:0.264583"
+       id="rect49"
+       width="7.5770912"
+       height="11.318865"
+       x="11.599498"
+       y="64.358505"
+       inkscape:label="body" />
+    <g
+       id="g52"
+       inkscape:label="solar panel">
+      <rect
+         style="fill:#002c84;fill-opacity:1;stroke-width:0.264583"
+         id="rect50"
+         width="10.45358"
+         height="4.4901299"
+         x="0.60803807"
+         y="70.894913" />
+      <rect
+         style="fill:#002c84;fill-opacity:1;stroke-width:0.264583"
+         id="rect51"
+         width="10.45358"
+         height="4.4901299"
+         x="0.60803807"
+         y="66.030609" />
+      <rect
+         style="fill:#6d9dff;fill-opacity:1;stroke-width:0.264583"
+         id="rect52"
+         width="10.617282"
+         height="0.37417734"
+         x="0.98221546"
+         y="70.520737" />
+    </g>
+    <g
+       id="g55"
+       inkscape:label="solar panel"
+       transform="matrix(-1,0,0,1,30.776087,0)">
+      <rect
+         style="fill:#002c84;fill-opacity:1;stroke-width:0.264583"
+         id="rect53"
+         width="10.45358"
+         height="4.4901299"
+         x="0.60803807"
+         y="70.894913" />
+      <rect
+         style="fill:#002c84;fill-opacity:1;stroke-width:0.264583"
+         id="rect54"
+         width="10.45358"
+         height="4.4901299"
+         x="0.60803807"
+         y="66.030609" />
+      <rect
+         style="fill:#6d9dff;fill-opacity:1;stroke-width:0.264583"
+         id="rect55"
+         width="10.617282"
+         height="0.37417734"
+         x="0.98221546"
+         y="70.520737" />
+    </g>
+    <g
+       id="g58"
+       inkscape:label="grabbers">
+      <rect
+         style="fill:#6d9dff;fill-opacity:1;stroke-width:0.264583"
+         id="rect56"
+         width="0.65232116"
+         height="4.2664061"
+         x="15.061883"
+         y="61.118748" />
+      <rect
+         style="fill:#6d9dff;fill-opacity:1;stroke-width:0.264583"
+         id="rect57"
+         width="0.65232116"
+         height="4.2664061"
+         x="19.17659"
+         y="61.118748" />
+      <rect
+         style="fill:#6d9dff;fill-opacity:1;stroke-width:0.264583"
+         id="rect58"
+         width="0.65232116"
+         height="4.2664061"
+         x="10.947177"
+         y="61.118748"
+         inkscape:label="rect20" />
+    </g>
+    <path
+       id="path58"
+       style="fill:#000000;fill-opacity:0.15;stroke-width:0.264583"
+       d="m 15.388118,61.118745 v 3.239596 1.02681 9.104354 1.188041 1.874304 h 1.767851 l -1.082105,-1.874304 h 3.102653 v -4.782654 h 0.537952 v 4.490166 h 10.453625 v -4.490166 h -0.374137 v -0.374137 h 0.374137 V 66.03059 H 19.714469 v 4.490165 h -0.537952 v -5.135604 h 0.652157 v -4.266406 h -0.652157 v 3.239596 h -3.462321 v -3.239596 z"
+       inkscape:label="shadow" />
+  </g>
+</svg>
