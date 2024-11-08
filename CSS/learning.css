@@ -23,7 +23,7 @@ header{
 
 
     /* estética */
-    background-image: url('../Imagens/tourism.svg');
+    background-image: url('../Imagens/concepts.svg');
 
     /* posição */
     left: 10px;
@@ -35,7 +35,7 @@ header{
     --size: 75px;
 
     /* estética */
-    background-image: url('../Imagens/tourism.svg');
+    background-image: url('../Imagens/concepts.svg');
 
     /* posição */
     right: 10px;
@@ -74,7 +74,7 @@ header{
 
 
     /* estética */
-    background-image: url('../Imagens/tourism.svg');
+    background-image: url('../Imagens/light_a_engine.svg');
 
     /* posição */
     left: 10px;
@@ -86,7 +86,7 @@ header{
     --size: 75px;
 
     /* estética */
-    background-image: url('../Imagens/tourism.svg');
+    background-image: url('../Imagens/light_a_engine.svg');
 
     /* posição */
     right: 10px;
@@ -125,7 +125,7 @@ header{
 
 
     /* estética */
-    background-image: url('../Imagens/tourism.svg');
+    background-image: url('../Imagens/manouver.svg');
 
     /* posição */
     left: 10px;
@@ -137,7 +137,7 @@ header{
     --size: 75px;
 
     /* estética */
-    background-image: url('../Imagens/tourism.svg');
+    background-image: url('../Imagens/manouver.svg');
 
     /* posição */
     right: 10px;

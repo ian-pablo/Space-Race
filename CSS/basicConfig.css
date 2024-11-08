@@ -376,7 +376,7 @@ a{
     /* estética */
     border-radius: 5px;
     color: var(--interfaceTextColor);
-    background-color: var(--interfaceButtonColor);/* tecnicamente estas partes são para animação mas decidi colocar aqui.... :) */
+    background-color: transparent;/* tecnicamente estas partes são para animação mas decidi colocar aqui.... :) */
     background-image: linear-gradient(to right, var(--interfaceHoverButtonColor), var(--interfaceHoverButtonColor));
     background-repeat: no-repeat;
     background-size: 0% 100%;
