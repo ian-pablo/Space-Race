@@ -76,11 +76,11 @@
 }
 
 
-.icon{
+/*.icon{
     /* o tamanho máximo dos icones */
-    max-width: calc(100% - 2.5px) !important;
-    max-height: calc(100% - 2.5px) !important;
-}
+    /*max-width: calc(100% - 2.5px) !important;
+    max-height: calc(100% - 2.5px) !important;*/
+/*}*/
 
 
 @media screen and (max-width: 900px) {

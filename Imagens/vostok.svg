@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="22.627417"
-     inkscape:cx="24.837126"
-     inkscape:cy="25.433747"
+     inkscape:zoom="16"
+     inkscape:cx="22.8125"
+     inkscape:cy="23.40625"
      inkscape:window-width="1920"
      inkscape:window-height="1046"
      inkscape:window-x="-11"
@@ -60,11 +60,6 @@
        cy="8.099494"
        r="1.4200511"
        inkscape:label="window" />
-    <path
-       id="path68"
-       style="fill:#5f8d00;fill-opacity:1;stroke-width:1.32292"
-       d="M 8.5989583 3.3708537 A 3.0547304 4.3993711 0 0 1 11.653552 7.7700684 A 3.0547304 4.3993711 0 0 1 8.5989583 12.1698 A 3.2418191 4.3993711 0 0 0 11.840621 7.7700684 A 3.2418191 4.3993711 0 0 0 8.5989583 3.3708537 z M 8.5989583 3.3708537 A 3.2418191 4.3993711 0 0 0 5.3572957 7.7700684 A 3.2418191 4.3993711 0 0 0 8.5989583 12.1698 A 3.0547304 4.3993711 0 0 1 5.5443644 7.7700684 A 3.0547304 4.3993711 0 0 1 8.5989583 3.3708537 z "
-       inkscape:label="hold strips" />
     <g
        id="g4"
        inkscape:label="oxigen/nitrogen storages">

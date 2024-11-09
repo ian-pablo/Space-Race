@@ -299,7 +299,7 @@ button, a{
 .botaoBrilho{
 
     /* estética */
-    outline-offset: -5px;
+    outline-offset: -3px;
 
     /* animação */
     transition: outline 0.2s ease-in, text-shadow 0.2s ease-in;
