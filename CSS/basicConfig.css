@@ -51,6 +51,9 @@
 
 /* --- estilos padrões para todos os elementos na página --- */
 *{
+    /* créditos: w3scholls; faz com que a rolagem do mouse seja suave */
+    scroll-behavior: smooth;
+
     /* tamanho */
     max-width: 100vw;
 
@@ -369,6 +372,11 @@ button, a{
     position: absolute;
     bottom: 50%;
     transform: translateY(50%);
+}
+
+.fundo{
+    /* tamanho */
+    width: 100%;
 }
 
 /* configuração de estilos para todos os links presentes no site */
