@@ -155,3 +155,54 @@ header{
     /* background-image: url('../Imagens/turismo_do_espaco.svg');
 
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#pousoImgLeft{
+    /* variáveis locais */
+    --size: 75px;
+
+
+    /* estética */
+    background-image: url('../Imagens/survive.svg');
+
+    /* posição */
+    left: 10px;
+
+}
+
+#pousoImgRight{
+    /* variáveis locais */
+    --size: 75px;
+
+    /* estética */
+    background-image: url('../Imagens/survive.svg');
+
+    /* posição */
+    right: 10px;
+
+}
+
+#pousoCartao{
+    /* variáveis locais */
+    --height: calc(max-content + 140px);
+}
+
+/* #pouso{ */
+
+    /*estética*/
+    /* background-image: url('../Imagens/turismo_do_espaco.svg');
+
+} */
