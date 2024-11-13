@@ -136,6 +136,7 @@ main{
 
     /* estética */
     margin-top: 75px;
+    display: block !important;
 }
 
 footer{

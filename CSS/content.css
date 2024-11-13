@@ -1,0 +1,73 @@
+.fundoEstrelado{
+    
+    /* variáveis locais */
+    --blurColor: rgb(6, 0, 6);
+
+    /* tamanho */
+    height: max-content;
+
+    /* estética */
+    background-image: url('../Imagens/fundoSobre.svg');
+    background-size: cover !important;
+
+    /* posicionamneto */
+    margin-bottom: 40px;
+
+
+}
+
+.titulo-section{
+    /* estética */
+    font-size: 4em;
+    text-align: center;
+
+    /* posicionamento */
+    position: relative;
+    top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main h1, main p{
+    /* estética */
+    color: var(--interfaceTextColor);
+
+}
+
+main h1:not(.titulo-section), main p{
+    /* variáveis locais */
+    --margem: 75px;
+
+    /* posicionamento */
+    margin: auto auto;
+    margin-left: var(--margem);
+    margin-right: var(--margem);
+}
+
+.subtitulo{
+    /* estética */
+    font-size: 2.5em;
+
+    /* posicionamento */
+    clear: both;
+    margin-top: 85px !important;
+    margin-bottom: 10px !important;
+}
+
+main p{
+    /* estética */
+    font-size: 1.8em;
+    text-align: justify;
+}
