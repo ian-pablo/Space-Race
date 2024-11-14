@@ -78,3 +78,18 @@
     margin: 60px;
 
 }
+
+
+
+#falcon{
+    /* tamanho */
+    --size: 400px;
+
+    /* estética */
+    background-image: url(../Imagens/falcon.svg);
+
+    /* posicionamento */
+    float: left;
+    margin: 50px;
+
+}

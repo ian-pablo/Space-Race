@@ -71,3 +71,34 @@ main p{
     font-size: 1.8em;
     text-align: justify;
 }
+
+
+
+footer{
+    /* posicionamento */
+    margin-top: 40px;
+}
+
+
+/* media queries */
+@media screen and (max-width: 895px) {
+    .textSide{
+        /* posicionamento */
+        float: none !important;
+        margin-left: calc(50vw - var(--size) / 2) !important;
+        margin-right: calc(50vw - var(--size) / 2) !important;
+    }
+
+    main p{
+        /* estética */
+        text-align: left;
+    }
+}
+
+@media screen and(max-width: 735px){
+
+    .subtitulo{
+        /* estética */
+        text-align: center;
+    }
+}
