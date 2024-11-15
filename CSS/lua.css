@@ -1,0 +1,7 @@
+#lua {
+    /* tamanho */
+    --size: 500px;
+
+    /* estética */
+    background-image: url(../Imagens/lua.svg);
+}
