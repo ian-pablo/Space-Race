@@ -5,3 +5,50 @@
     /* estética */
     background-image: url(../Imagens/lua.svg);
 }
+
+#luna{
+    /* tamanho */
+    --size: 400px;
+
+    /* estética */
+    background-image: url(../Imagens/luna.svg);
+
+    /* posicionamento */
+    float: right;
+    margin: 30px;
+
+}
+
+
+
+
+
+#luna9{
+    /* tamanho */
+    --size: 400px;
+
+    /* estética */
+    background-image: url(../Imagens/luna9.svg);
+
+    /* posicionamento */
+    float: left;
+    margin: 30px;
+
+}
+
+
+
+
+
+#apollo{
+    /* tamanho */
+    --size: 400px;
+
+    /* estética */
+    background-image: url(../Imagens/apollo-lander.svg);
+
+    /* posicionamento */
+    float: right;
+    margin: 60px;
+
+}

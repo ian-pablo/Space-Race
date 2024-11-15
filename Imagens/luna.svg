@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300"
+   height="300"
+   viewBox="0 0 79.374998 79.375"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="luna.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.9540685"
+     inkscape:cx="118.81918"
+     inkscape:cy="140.31496"
+     inkscape:window-width="1920"
+     inkscape:window-height="1046"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Luna 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="rotate(-30,30.016979,28.831983)">
+    <rect
+       style="fill:#474747;fill-opacity:1;stroke:none;stroke-width:1.323"
+       id="rect4"
+       width="46.635334"
+       height="1.3434862"
+       x="13.819632"
+       y="36.642815"
+       ry="0.67174309"
+       inkscape:label="antena" />
+    <circle
+       style="fill:#656565;fill-opacity:1;stroke:none;stroke-width:1.323"
+       id="path1"
+       cx="39.687489"
+       cy="-53.828995"
+       r="12.529326"
+       inkscape:label="sphere"
+       transform="rotate(90)" />
+    <g
+       id="g10"
+       inkscape:label="tetails"
+       transform="translate(1.125e-6)">
+      <path
+         d="m 54.856029,52.177822 v -24.94628 a 12.529326,12.529326 0 0 0 -0.93121,-0.07338 12.529326,12.529326 0 0 0 -2.488737,0.28112 v 24.496179 a 12.529326,12.529326 0 0 0 2.488737,0.28112 12.529326,12.529326 0 0 0 0.93121,-0.03876 z"
+         style="fill:#4c4c4c;fill-opacity:1;stroke-width:0.529167;stroke-linecap:round"
+         id="path7"
+         transform="translate(1.125e-6)"
+         inkscape:label="detail" />
+      <circle
+         style="fill:#6d6d6d;fill-opacity:1;stroke-width:0.529167;stroke-linecap:round"
+         id="path9"
+         cx="39.68737"
+         cy="-53.146057"
+         r="1.4048971"
+         transform="rotate(90)" />
+      <circle
+         style="fill:#6d6d6d;fill-opacity:1;stroke-width:0.529167;stroke-linecap:round"
+         id="circle9"
+         cx="47.357239"
+         cy="-53.146057"
+         r="1.4048971"
+         transform="rotate(90)" />
+      <circle
+         style="fill:#6d6d6d;fill-opacity:1;stroke-width:0.529167;stroke-linecap:round"
+         id="circle10"
+         cx="32.017502"
+         cy="-53.146057"
+         r="1.4048971"
+         transform="rotate(90)" />
+    </g>
+    <path
+       id="path1-7"
+       style="fill:#000000;fill-opacity:0.15;stroke:none;stroke-width:1.323"
+       inkscape:label="shadow"
+       d="M 66.358462,39.687864 A 12.529326,12.529326 0 0 1 53.828995,52.216816 12.529326,12.529326 0 0 1 41.299526,39.687865 Z" />
+    <rect
+       style="fill:#474747;fill-opacity:1;stroke:none;stroke-width:1.323"
+       id="rect1"
+       width="40.555408"
+       height="1.3434862"
+       x="-2.0752869"
+       y="63.02607"
+       ry="0.67174309"
+       transform="rotate(-15)"
+       inkscape:label="antena" />
+    <rect
+       style="fill:#474747;fill-opacity:1;stroke:none;stroke-width:1.323"
+       id="rect2"
+       width="40.555408"
+       height="1.3434862"
+       x="18.468473"
+       y="-13.644295"
+       ry="0.67174309"
+       transform="matrix(0.96592583,0.25881905,0.25881905,-0.96592583,0,0)"
+       inkscape:label="antena" />
+    <rect
+       style="fill:#474747;fill-opacity:1;stroke:none;stroke-width:1.323"
+       id="rect3"
+       width="46.635334"
+       height="1.3434862"
+       x="6.9145508"
+       y="41.610844"
+       ry="0.67174309"
+       inkscape:label="antena" />
+  </g>
+</svg>
