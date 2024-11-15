@@ -1,0 +1,64 @@
+#marte {
+    /* tamanho */
+    --size: 500px;
+
+    /* estética */
+    background-image: url(../Imagens/marte_2.svg);
+}
+
+
+
+
+
+
+
+#mariner{
+    /* tamanho */
+    --size: 400px;
+
+    /* estética */
+    background-image: url(../Imagens/mariner.svg);
+
+    /* posicionamento */
+    float: right;
+    margin: 30px;
+
+}
+
+
+
+
+
+
+
+#mariner9{
+    /* tamanho */
+    --size: 400px;
+
+    /* estética */
+    background-image: url(../Imagens/mariner9.svg);
+
+    /* posicionamento */
+    float: left;
+    margin: 30px;
+
+}
+
+
+
+
+
+
+
+#viking{
+    /* tamanho */
+    --size: 400px;
+
+    /* estética */
+    background-image: url(../Imagens/viking.svg);
+
+    /* posicionamento */
+    float: right;
+    margin: 60px;
+
+}

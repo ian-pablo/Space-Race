@@ -24,13 +24,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="6.1361953"
-     inkscape:cx="102.91393"
-     inkscape:cy="99.328651"
-     inkscape:window-width="2560"
-     inkscape:window-height="1057"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:zoom="4.3389453"
+     inkscape:cx="107.1689"
+     inkscape:cy="114.6592"
+     inkscape:window-width="1920"
+     inkscape:window-height="1046"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      showgrid="false" />
@@ -40,8 +40,8 @@
        id="linearGradient10"
        inkscape:collect="always">
       <stop
-         style="stop-color:#d25d3c;stop-opacity:0.46246973;"
-         offset="0.77168149"
+         style="stop-color:#d25d3c;stop-opacity:1;"
+         offset="1"
          id="stop10" />
       <stop
          style="stop-color:#d35c3b;stop-opacity:0;"
@@ -57,20 +57,34 @@
        fx="29.222198"
        fy="23.369852"
        r="17.65498"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.113979,0,0,1.113979,-3.3307184,-2.6636735)" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1"
+       x="-0.44742736"
+       y="-0.44742736"
+       width="1.8948547"
+       height="1.8948547">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="7.3330647"
+         id="feGaussianBlur1" />
+    </filter>
   </defs>
   <g
      inkscape:label="Camada 1"
      inkscape:groupmode="layer"
      id="layer1">
     <circle
-       style="fill:url(#radialGradient11);fill-opacity:1;stroke-width:0.089421"
+       style="mix-blend-mode:normal;fill:url(#radialGradient11);fill-opacity:1;stroke-width:0.1394;filter:url(#filter1)"
        id="circle10"
-       cx="29.222198"
-       cy="23.369852"
-       r="17.65498"
+       cx="29.222197"
+       cy="23.36985"
+       r="19.667276"
        inkscape:label="atm"
-       transform="rotate(6.349645)" />
+       transform="matrix(0.63753683,0.07094392,-0.07094392,0.63753683,9.4860544,9.486054)" />
     <circle
        style="fill:#b32828;fill-opacity:1;stroke-width:0.079375"
        id="path1"

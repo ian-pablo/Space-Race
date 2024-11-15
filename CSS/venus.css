@@ -1,0 +1,64 @@
+#venus {
+    /* tamanho */
+    --size: 500px;
+
+    /* estética */
+    background-image: url(../Imagens/venus.svg);
+}
+
+
+
+
+
+
+
+#mariner{
+    /* tamanho */
+    --size: 400px;
+
+    /* estética */
+    background-image: url(../Imagens/mariner1.svg);
+
+    /* posicionamento */
+    float: right;
+    margin: 60px;
+
+}
+
+
+
+
+
+
+
+#venera_land{
+    /* tamanho */
+    --size: 400px;
+
+    /* estética */
+    background-image: url(../Imagens/venera_7.svg);
+
+    /* posicionamento */
+    float: left;
+    margin: 30px;
+
+}
+
+
+
+
+
+
+
+#venera_orbity{
+    /* tamanho */
+    --size: 400px;
+
+    /* estética */
+    background-image: url(../Imagens/venera_9_orbiter.svg);
+
+    /* posicionamento */
+    float: right;
+    margin: 60px;
+
+}
