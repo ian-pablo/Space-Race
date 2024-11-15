@@ -81,24 +81,43 @@ footer{
 
 
 /* media queries */
-@media screen and (max-width: 895px) {
+@media screen and (max-width: 900px) {
     .textSide{
         /* posicionamento */
         float: none !important;
-        margin-left: calc(50vw - var(--size) / 2) !important;
-        margin-right: calc(50vw - var(--size) / 2) !important;
+        margin: 45px auto !important;
     }
-
-    main p{
-        /* estética */
-        text-align: left;
-    }
-}
-
-@media screen and(max-width: 735px){
 
     .subtitulo{
         /* estética */
         text-align: center;
     }
 }
+
+@media screen and (max-width: 600px){
+    .subtitulo{
+        /* estética */
+        font-size: 2em;
+    }
+    
+    main p{
+        /* estética */
+        font-size: 1.3em;
+    }
+    
+}
+
+@media screen and (max-width: 520px) {
+    .textSide{
+        /* variáveis locais */
+        --size: calc(80vw - 75px) !important;
+    }
+}
+
+
+
+
+
+
+
+
