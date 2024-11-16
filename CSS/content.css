@@ -81,6 +81,13 @@ footer{
 
 
 /* media queries */
+@media screen and (max-width: 1000px) {
+    .titulo-section{
+        /* estética */
+        font-size: 2.8em;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .textSide{
         /* posicionamento */
@@ -105,6 +112,13 @@ footer{
         font-size: 1.3em;
     }
     
+}
+
+@media screen and (max-width: 550px){
+    .fundoEstrelado .image{
+        max-width: calc(100vw - 20px);
+        max-height: calc(100vw - 20px);
+    }
 }
 
 @media screen and (max-width: 520px) {

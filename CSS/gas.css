@@ -1,0 +1,64 @@
+#gas {
+    /* tamanho */
+    --size: 500px;
+
+    /* estética */
+    background-image: url(../Imagens/outer_planets.svg);
+}
+
+
+
+
+
+
+
+#voyager{
+    /* tamanho */
+    --size: 400px;
+
+    /* estética */
+    background-image: url(../Imagens/voyager_better.svg);
+
+    /* posicionamento */
+    float: right;
+    margin: 60px;
+
+}
+
+
+
+
+
+
+
+#juno{
+    /* tamanho */
+    --size: 400px;
+
+    /* estética */
+    background-image: url(../Imagens/juno.svg);
+
+    /* posicionamento */
+    float: left;
+    margin: 60px;
+
+}
+
+
+
+
+
+
+
+#galileo{
+    /* tamanho */
+    --size: 400px;
+
+    /* estética */
+    background-image: url(../Imagens/galileo_atm.svg);
+
+    /* posicionamento */
+    float: right;
+    margin: 60px;
+
+}

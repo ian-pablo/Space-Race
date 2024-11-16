@@ -1,9 +1,9 @@
-#mercury {
+#dwarf {
     /* tamanho */
     --size: 500px;
 
     /* estética */
-    background-image: url(../Imagens/mercurio.svg);
+    background-image: url(../Imagens/dwarf_planets.svg);
 }
 
 
@@ -12,12 +12,12 @@
 
 
 
-#mariner{
+#dawn{
     /* tamanho */
     --size: 400px;
 
     /* estética */
-    background-image: url(../Imagens/mariner10.svg);
+    background-image: url(../Imagens/dawn.svg);
 
     /* posicionamento */
     float: right;
@@ -31,12 +31,12 @@
 
 
 
-#messenger{
+#newhorizons{
     /* tamanho */
     --size: 400px;
 
     /* estética */
-    background-image: url(../Imagens/messenger.svg);
+    background-image: url(../Imagens/horizons.svg);
 
     /* posicionamento */
     float: left;
