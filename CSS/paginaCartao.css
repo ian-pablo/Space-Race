@@ -10,6 +10,11 @@
     --botaoCartaoMargin: 10px;
 }
 
+h1{
+    /* posição */
+    clear: both;
+}
+
 .cartaoBotao{
     
     /* estética */
@@ -23,7 +28,6 @@
 .conteudoCartao{
     /* tamanho */
     width: 100%;
-    height: var(--height);
 
     /* estética */
     background-size: cover !important;
@@ -42,7 +46,7 @@
 
 .conteudoCartao p{
     /* tamanho */
-    width: 50%;
+    width: 80%;
 
     /* estética */
     color: var(--interfaceTextColor);
@@ -73,6 +77,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.conteudoCartao p{
+    /* estética */
+    text-align: justify;
 }
 
 

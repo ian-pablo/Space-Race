@@ -327,15 +327,18 @@ button, a{
     width: 100%;
 
     /* animação */
-    transition: height var(--time) ease-in;
+    transition: max-height var(--time) ease-in;
 }
 
 .conteudoCartao{
+    /* tamanho */
+    height: calc(max-content + 120px);
+
     /* posição */
     transform: rotateX(90deg);
 
     /* animação */
-    transition: transform var(--time) ease-in;
+    transition: transform var(--time) linear;
 
 }
 

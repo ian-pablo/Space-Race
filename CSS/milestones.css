@@ -9,6 +9,13 @@ header{
     background-image: url('../Imagens/fundoSobre.svg');
 }
 
+.conteudoCartao{
+    /* tamanho */
+    height: calc(100vh - 150px) !important;
+}
+
+
+
 
 
 

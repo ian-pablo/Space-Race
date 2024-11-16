@@ -281,5 +281,54 @@ header{
 /*}*/
 
 
+/* @media screen and (max-width: 1470px) {
+    #challengerCartao{
+        variáveis locais
+        --height: 900px;
+    }
+}
+
+@media screen and (max-width: 1005px) {
+    #challengerCartao{
+        variáveis locais
+        --height: 1100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #challengerCartao{
+        variáveis locais
+        --height: 900px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    #challengerCartao{
+        variáveis locais
+        --height: 1100px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    #challengerCartao{
+        variáveis locais
+        --height: 400px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #challengerCartao{
+        variáveis locais
+        --height: 600px;
+    }
+}
+
+@media screen and (max-width: 233px) {
+    #challengerCartao{
+        variáveis locais
+        --height: 800px;
+    }
+} */
+
 
 

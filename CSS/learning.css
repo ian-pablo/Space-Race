@@ -42,11 +42,6 @@ header{
 
 }
 
-#principiosCartao{
-    /* variáveis locais */
-    --height: calc(max-content + 140px);
-}
-
 /* #principios{
 
     /* estética */
@@ -54,6 +49,78 @@ header{
 
 } */
 
+#formula{
+    /* tamanho */
+    --size: 400px;
+
+    /* estética */
+    background-image: url(../Imagens/formula.svg);
+
+    /* posição */
+}
+
+#gravity{
+
+    /* tamanho */
+    --size: 500px;
+
+    /* estética */
+    background-image: url(../Imagens/gravity.svg);
+
+    /* posição */
+    float: right;
+    margin: 30px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #gravity{
+        float: none;
+        margin: 30px auto;
+    }
+}
+
+#kepler{
+
+    /* tamanho */
+    --size: 500px;
+
+    /* estética */
+    background-image: url(../Imagens/kepler.svg);
+
+    /* posição */
+    float: left;
+    margin: 60px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #kepler{
+        float: none;
+        margin: 60px auto;
+    }
+}
+
+#propulsion{
+
+    /* tamanho */
+    --size: 500px;
+
+    /* estética */
+    background-image: url(../Imagens/propulsion.svg);
+
+    /* posição */
+    float: right;
+    margin: 60px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #propulsion{
+        float: none;
+        margin: 60px auto;
+    }
+}
 
 
 
@@ -93,17 +160,33 @@ header{
 
 }
 
-#ignicaoCartao{
-    /* variáveis locais */
-    --height: calc(max-content + 140px);
-}
-
 /* #ignicao{ */
 
     /*estética*/
     /* background-image: url('../Imagens/turismo_do_espaco.svg');
 
 } */
+
+#ignition{
+
+    /* tamanho */
+    --size: 500px;
+
+    /* estética */
+    background-image: url(../Imagens/ignition.svg);
+
+    /* posição */
+    float: left;
+    margin: 60px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #ignition{
+        float: none;
+        margin: 60px auto;
+    }
+}
 
 
 
@@ -144,17 +227,33 @@ header{
 
 }
 
-#manobrasCartao{
-    /* variáveis locais */
-    --height: calc(max-content + 140px);
-}
-
 /* #manobras{ */
 
     /*estética*/
     /* background-image: url('../Imagens/turismo_do_espaco.svg');
 
 } */
+
+#manouver{
+
+    /* tamanho */
+    --size: 500px;
+
+    /* estética */
+    background-image: url(../Imagens/manobras.svg);
+
+    /* posição */
+    float: right;
+    margin: 60px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #manouver{
+        float: none;
+        margin: 60px auto;
+    }
+}
 
 
 
@@ -193,11 +292,6 @@ header{
     /* posição */
     right: 10px;
 
-}
-
-#pousoCartao{
-    /* variáveis locais */
-    --height: calc(max-content + 140px);
 }
 
 /* #pouso{ */
@@ -244,11 +338,6 @@ header{
     /* posição */
     right: 10px;
 
-}
-
-#usosCartao{
-    /* variáveis locais */
-    --height: calc(max-content + 140px);
 }
 
 /* #usos{ */
