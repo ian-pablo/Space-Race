@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Space Race </title>
+
+    <!-- Os arquivos CSS desta página -->
+    <link rel="stylesheet" href="CSS/basicConfig.css"> <!-- configurações padrões que todas as páginas devem possuir -->
+    <link rel="stylesheet" href="CSS/incidents.css">
+    <link rel="stylesheet" href="CSS/paginaCartao.css">
+
+    <!-- Os scripts em javascript -->
+    <script src="SCRIPTS/basic.js" defer> </script>
+    <script src="SCRIPTS/botaoAbertura.js" defer> </script>
+    <script src="SCRIPTS/resizeTexto.js" defer> </script>
+
+    <!-- Icone da guia -->
+    <link rel="icon" href="Imagens/terra_logo.svg">
+
+</head>
+<body>
+
+    <header>
+        <h1 id="titulo" onclick="window.location.href = 'index_eng.html'" aria-label="Click to go to the homepage of Space Race!"> Space Race </h1>
+        
+        <button id="botaoMenu" class="button" type="button" aria-label="Click to expand the side menu"> 
+            <p> &#9776 </p> 
+        </button>
+    </header>
+
+    <nav id="menu">
+
+    </nav>
+
+    <main>
+        <button id="challengerBotao" class="total fundo botaoBrilho _botaoCartao cartaoBotao" type="button" aria-label="click for more details about the dwarf planets" onclick="abrir('#challenger', '#challengerCartao')">  
+            <div id="challengerImgLeft" class="image yCenter icon"> </div>  
+            <p class="textoAdaptavel"  data-larguras-adaptavel="630;535" data-textos-adaptavel="The Challenger Disaster;Challenger Disaster;Challenger;"> The Challenger Disaster </p>
+            <div id="challengerImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="challengerCartao" class="cartao">
+            <div id="challenger" class="image conteudoCartao">
+        
+                <h1> The Space Shuttle Challenger Disaster </h1>
+        
+                <p>
+                    The Space Shuttle Challenger disaster occurred on January 28, 1986, just 73 seconds after launch, when the spacecraft exploded, resulting in the deaths of the seven crew members on board. Among them was Christa McAuliffe, a teacher who had been selected for the "Teacher in Space" program, drawing significant public attention to the mission.
+                </p>
+        
+                <p>
+                    The tragedy was caused by a failure in one of the O-rings of one of the solid rocket boosters. Due to the low temperatures on the morning of the launch, the O-rings did not seal properly, allowing hot pressurized gas to leak. This leak damaged the main liquid fuel tank, causing it to explode and destroying the space shuttle.
+                </p>
+        
+                <p>
+                    Subsequent investigations revealed that NASA had been warned about the risks associated with the performance of the O-rings in cold temperatures, but these warnings were ignored due to pressure to maintain the launch schedule. The disaster exposed significant flaws in NASA's organizational culture, including communication problems and a lack of prioritizing safety.
+                </p>
+        
+                <p>
+                    As a consequence, the Space Shuttle program was suspended for almost three years while safety measures and technical reviews were implemented. The disaster also led to the creation of new policies to improve transparency and risk management at NASA, as well as significant changes to the design of the boosters and launch protocols.
+                    <br>
+                    <br>
+                </p>
+        
+            </div>
+        </div>
+        
+        <button id="columbiaBotao" class="total fundo botaoBrilho _botaoCartao cartaoBotao" type="button" aria-label="click for more details about the dwarf planets" onclick="abrir('#columbia', '#columbiaCartao')">  
+            <div id="columbiaImgLeft" class="image yCenter icon"> </div>  
+            <p class="textoAdaptavel"  data-larguras-adaptavel="630;535" data-textos-adaptavel="The Columbia Disaster;Columbia Disaster;Columbia"> The Columbia Disaster </p>
+            <div id="columbiaImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="columbiaCartao" class="cartao">
+            <div id="columbia" class="image conteudoCartao">
+        
+                <h1> The Space Shuttle Columbia Disaster </h1>
+        
+                <p>
+                    The Space Shuttle Columbia disaster occurred on February 1, 2003, during re-entry into Earth's atmosphere, resulting in the destruction of the spacecraft and the deaths of the seven astronauts on board. Columbia was completing mission STS-107, a 16-day scientific mission dedicated to microgravity experiments.
+                </p>
+        
+                <p>
+                    The cause of the accident was a piece of insulating foam that detached from the external tank during launch and struck the left wing of the spacecraft. This impact created a breach in the thermal protection system of the wing, allowing superheated gases to enter the structure during re-entry, leading to the disintegration of the spacecraft.
+                </p>
+        
+                <p>
+                    Subsequent investigations identified organizational failures at NASA, including the underestimation of known risks and the lack of corrective actions after similar damage was observed in previous missions. The accident highlighted the need for a more robust and transparent safety culture at the agency.
+                </p>
+        
+                <p>
+                    The Columbia disaster led to the suspension of Space Shuttle flights for over two years, while NASA reviewed procedures, implemented improvements to spacecraft design, and developed new strategies to monitor damage during flight. This incident also influenced the decision to end the Space Shuttle program in 2011 and prioritize the development of safer systems for crewed missions.
+                    <br>
+                    <br>
+                </p>
+        
+            </div>
+        </div>
+        
+        <button id="nedelinBotao" class="total fundo botaoBrilho _botaoCartao cartaoBotao" type="button" aria-label="click for more details about the dwarf planets" onclick="abrir('#nedelin', '#nedelinCartao')">  
+            <div id="nedelinImgLeft" class="image yCenter icon"> </div>  
+            The Nedelin Catastrophe
+            <div id="nedelinImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="nedelinCartao" class="cartao">
+            <div id="nedelin" class="image conteudoCartao">
+        
+                <h1> The Nedelin Catastrophe </h1>
+        
+                <p>
+                    The Nedelin catastrophe occurred on October 24, 1960, during the final stages of preparation for the launch of an R-16 ballistic missile at the Baikonur Cosmodrome in the then-Soviet Union. This accident is considered one of the most tragic in space exploration history, resulting in the deaths of at least 78 people, though some estimates suggest even higher numbers.
+                </p>
+        
+                <p>
+                    The tragedy was triggered by a series of rushed decisions and security failures. Under pressure to meet tight deadlines and impress the Soviet leadership, engineers and technicians made adjustments to the rocket while it was already fueled with highly toxic and flammable propellants. A short circuit in the control system inadvertently triggered the second-stage engine, resulting in a devastating explosion.
+                </p>
+        
+                <p>
+                    Among the victims was Marshal Mitrofan Nedelin, commander of the Soviet Strategic Missile Program, who was on-site to oversee the launch. This accident was kept secret by the Soviet Union for several decades, with the first public information emerging only after the dissolution of the USSR.
+                </p>
+        
+                <p>
+                    The Nedelin catastrophe highlighted the dangers of haste and negligence in space and military programs. As a result, it reinforced the importance of stricter safety protocols in rocket operations, influencing Soviet practices in the following decades.
+                    <br>
+                    <br>
+                </p>
+        
+            </div>
+        </div>
+        
+        <button id="soyuz11Botao" class="total fundo botaoBrilho _botaoCartao cartaoBotao" type="button" aria-label="click for more details about the dwarf planets" onclick="abrir('#soyuz11', '#soyuz11Cartao')">  
+            <div id="soyuz11ImgLeft" class="image yCenter icon"> </div>  
+            The Soyuz 11 Disaster
+            <div id="soyuz11ImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="soyuz11Cartao" class="cartao">
+            <div id="soyuz11" class="image conteudoCartao">
+        
+                <h1> The Soyuz 11 Disaster </h1>
+        
+                <p>
+                    The Soyuz 11 disaster occurred on June 30, 1971, when the Russian spacecraft was returning from the Salyut 1 space station, the first space station in history. The three cosmonauts aboard, Georgi Dobrovolski, Viktor Patsayev, and Vladislav Volkov, successfully completed a historic mission but lost their lives during the return to Earth.
+                </p>
+        
+                <p>
+                    The Soyuz 11 crew was responsible for establishing a milestone by performing the first extended occupation of a space station, spending 23 days in orbit. However, during the re-entry process into Earth's atmosphere, a defective valve was inadvertently triggered, resulting in the depressurization of the capsule. Since the cosmonauts were not wearing spacesuits during the descent, they died of asphyxiation in a matter of seconds.
+                </p>
+        
+                <p>
+                    The tragedy highlighted the dangers of space exploration and led to a complete review of the Soyuz spacecraft's safety systems. One of the most significant changes was the requirement that cosmonauts wear spacesuits during critical flight phases, such as launch and re-entry. This accident serves as a somber reminder of the risks involved in conquering space.
+                    <br>
+                    <br>
+                </p>
+        
+            </div>
+        </div>
+        
+        <button id="apolloBotao" class="total fundo botaoBrilho _botaoCartao cartaoBotao" type="button" aria-label="click for more details about the dwarf planets" onclick="abrir('#apollo', '#apolloCartao')">  
+            <div id="apolloImgLeft" class="image yCenter icon"> </div>  
+            The Apollo 1 Disaster
+            <div id="apolloImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="apolloCartao" class="cartao">
+            <div id="apollo" class="image conteudoCartao">
+        
+                <h1> The Apollo 1 Disaster </h1>
+        
+                <p>
+                    The Apollo 1 disaster occurred on January 27, 1967, when a cabin fire broke out during a pre-launch test of the Apollo 1 spacecraft at Kennedy Space Center in Florida. The fire killed all three astronauts aboard: Gus Grissom, Ed White, and Roger B. Chaffee. They were preparing for the first crewed mission of the Apollo program, which aimed to land a man on the Moon.
+                </p>
+        
+                <p>
+                    The fire was caused by a spark that ignited the highly flammable pure oxygen atmosphere inside the spacecraft. Despite the rapid response of the fire suppression system, the astronauts were unable to escape due to the design of the spacecraft's hatch, which was not quick to open under pressure. This incident shocked the space community and led to a reevaluation of NASA's spacecraft design, crew training, and safety procedures.
+                </p>
+        
+                <p>
+                    As a result of the tragedy, NASA undertook an extensive review of the Apollo program, making numerous design changes to improve safety, such as replacing the pure oxygen atmosphere with a safer mixture and improving the hatch design. The Apollo 1 disaster, although a painful loss, led to vital improvements that ultimately contributed to the successful Apollo 11 Moon landing in 1969.
+                    <br>
+                    <br>
+                </p>
+        
+            </div>
+        </div>
+
+
+
+
+
+        <button id="soyuz1Botao" class="total fundo botaoBrilho _botaoCartao cartaoBotao" type="button" aria-label="clique para mais detalhes sobre os planetas anões" onclick="abrir('#soyuz1', '#soyuz1Cartao')">  
+            <div id="soyuz1ImgLeft" class="image yCenter icon"> </div>  
+            The Soyuz 1 Disaster
+            <div id="soyuz1ImgRight" class="image yCenter icon"> </div>  
+        </button>
+
+        <div id="soyuz1Cartao" class="cartao">
+            <div id="soyuz1" class="image conteudoCartao">
+        
+                <h1> The Soyuz 1 Disaster </h1>
+        
+                <p>
+                    The Soyuz 1 disaster occurred on April 24, 1967, during re-entry into Earth's atmosphere. The mission, which aimed to test the new Soyuz spacecraft, tragically ended with the death of Soviet cosmonaut Vladimir Komarov, the only crew member aboard.
+                </p>
+        
+                <p>
+                    Several technical issues marked the mission from the beginning. After launch, one of the spacecraft's solar panel wings failed to open, causing power supply issues. Problems with the altitude control system made it difficult to stabilize the spacecraft, further exacerbating the situation.
+                </p>
+        
+                <p>
+                    During re-entry, the main parachute system failed, and the backup parachute became tangled, preventing the necessary deceleration. The spacecraft collided violently with the ground, resulting in Komarov's instant death. This was the first fatal accident in a crewed space mission in history.
+                </p>
+        
+                <p>
+                    The Soyuz 1 disaster highlighted the importance of rigorous testing and improvements in spacecraft design, leading to a pause in the Soyuz program for extensive reviews. The lessons learned helped improve safety in subsequent missions, making Soyuz one of the most reliable spacecraft used to this day.
+                    <br>
+                    <br>
+                </p>
+        
+            </div>
+        </div>
+        
+        
+    </main>
+
+    <footer>
+        <h5> <sup>©</sup>2024 Ian_Productions. All rights reserved. </h5>
+    </footer>
+
+</body>
+</html>

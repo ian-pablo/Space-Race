@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Space Race </title>
+
+    <!-- Os arquivos CSS desta página -->
+    <link rel="stylesheet" href="CSS/basicConfig.css"> <!-- configurações padrões que todas as páginas devem possuir -->
+    <link rel="stylesheet" href="CSS/learning.css">
+    <link rel="stylesheet" href="CSS/paginaCartao.css">
+
+    <!-- Os scripts em javascript -->
+    <script src="SCRIPTS/basic.js" defer> </script>
+    <script src="SCRIPTS/botaoAbertura.js" defer> </script>
+    <script src="SCRIPTS/resizeTexto.js" defer> </script>
+
+    <!-- Icone da guia -->
+    <link rel="icon" href="Imagens/terra_logo.svg">
+
+</head>
+<body>
+
+    <header>
+        <h1 id="titulo" onclick="window.location.href = 'index_eng.html'" aria-label="Click to go to the homepage of Space Race!"> Space Race </h1>
+        
+        <button id="botaoMenu" class="button" type="button" aria-label="Click to expand the side menu"> 
+            <p> &#9776 </p> 
+        </button>
+    </header>
+
+    <nav id="menu">
+
+    </nav>
+
+    <main>
+        <button id="principiosBotao" class="total fundo botaoBrilho _botaoCartao cartaoBotao" type="button" aria-label="description" onclick="abrir('#principios', '#principiosCartao')">  
+            <div id="principiosImgLeft" class="image yCenter icon"> </div>  
+            <p class="textoAdaptavel" data-larguras-adaptavel="600;520" data-textos-adaptavel="Principles of Space Flight;Space Principles;Principles"> Principles of Space Flight </p>
+            <div id="principiosImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="principiosCartao" class="cartao">
+            <div id="principios" class="image conteudoCartao">
+        
+                <h1> Principles of Space Flight </h1>
+        
+                <p>
+                    To understand how space missions occur and how complex they are, it is necessary to understand some basic principles: gravity, orbits, and propulsion.
+                </p>
+                
+                <h1> What is gravity? </h1>
+                
+                <p>
+                    Gravity is a principle described during the time of Isaac Newton when he published his book Philosophiæ Naturalis Principia Mathematica in 1687, in which he formulated the Universal Law of Gravitation. This book contains many of Newton's discoveries, and one of them — gravity — is fundamental to understanding space missions.
+                </p>
+                
+                <p>
+                    The Universal Law of Gravitation states that all bodies attract each other with a force that depends on the masses of the bodies and the distance between them. The equation that describes this force is:
+                </p>
+        
+                <div id="formula" class="image" role="img" aria-label="The gravity formula, where F equals G times mass 1 times mass 2 divided by the distance squared"> </div>
+        
+                <p>
+                    Where:
+                </p>
+                <div id="gravity" class="image icon" role="img" aria-label="An image of an apple falling on a planet, with arrows representing the force F, masses written as m1 and m2 on both bodies, and a line representing their distances"> </div>
+                <p>
+                    F is the resultant force of attraction between the two bodies.
+                    <br>
+                    <br>
+                    m<sub>1</sub> and m<sub>2</sub> are the masses of the first and second bodies, respectively.
+                    <br>
+                    <br>
+                    d<sup>2</sup> is the distance between the two bodies squared.
+                    <br>
+                    <br>
+                    G is the gravitational constant, which is approximately 6.674×10<sup>−11</sup> N⋅m<sup>2</sup>/kg<sup>2</sup>, according to modern experiments.
+                    <br>
+                    <br>
+                    With F, you can then use the formula F = m . a to calculate gravitational acceleration.
+                    <br>
+                    <br>
+                </p>
+                
+                <p>
+                    Although Newton's formula was revolutionary, Albert Einstein's theory of general relativity, published in 1915, improved our understanding of gravity. For Einstein, gravity is not a force, but rather the curvature of space-time caused by the presence of mass. Einstein's equations will not be addressed here due to their complexity and because Newton's equation is sufficient for this context.
+                </p>
+                
+                <h1> What is an orbit? </h1>
+                
+                <p>
+                    Now that you have an idea of how gravity works, you can understand how an orbit works.
+                </p>
+                
+                <p>
+                    Simply put, an orbit occurs when an object has sufficient horizontal velocity to fall toward the planet but, due to the planet's curvature, it never reaches the surface. This happens because the planet's gravitational pull pulls the object downward, while its forward velocity causes it to follow a curved path around the planet.
+                </p>
+        
+                <p>
+                    In other words, the combination of the object's horizontal velocity and gravitational attraction results in a curved trajectory. This trajectory can be circular or elliptical, like the orbits of planets around the Sun, described by Johannes Kepler in his book Astronomia Nova, published in 1609.
+                </p>
+        
+                <div id="kepler" class="image icon" role="img" aria-label="An image of a planet orbiting a star, where two equal areas in different sections of the trajectory are compared, and it is seen that the farther an object is from the central body, the slower it moves"> </div>
+        
+                <p>
+                    To understand how space missions occur, it is necessary to understand Kepler's laws, which are fundamental to understanding the principles of orbital mechanics.
+                    <br>
+                    <br>
+                    Kepler's first law states that the orbit of every planet is an ellipse, with the Sun at one of the foci. This means that the distance between a planet and the Sun varies throughout its orbit.
+                    <br>
+                    <br>
+                    Kepler's second law, known as the Law of Areas, states that an imaginary line connecting a planet to the Sun sweeps out equal areas in equal time intervals. This means that when a planet is closer to the Sun in its orbit (perihelion), it moves faster, and when it is farther (aphelion), it moves slower. This occurs because of the variation in gravitational force with distance, causing the planet's orbital speed to not be constant.
+                    <br>
+                    <br>
+                    Kepler's third law, also known as the Law of Periods, describes the relationship between a planet's orbital period and its average distance from the Sun. It states that the square of a planet's orbital period is proportional to the cube of its average distance from the Sun. In other words, planets farther from the Sun have longer orbits and take more time to complete a revolution.
+                    <br>
+                    <br>
+                    These three laws are fundamental to understanding orbital mechanics, and they provide the foundation for predicting the motions of celestial bodies, such as planets, satellites, and even spacecraft on a mission.
+                </p>
+        
+                <h1> What is propulsion? </h1>
+        
+                <div id="propulsion" class="image icon" role="img" aria-label="An image of a rocket ejecting exhaust gases behind it, and as a reaction, it moves in the opposite direction"> </div>
+                
+                <p>
+                    Propulsion is the mechanism that enables rockets and spacecraft to move, allowing them to overcome Earth's gravity and perform maneuvers in space. This concept is based on Isaac Newton's third law of motion, which states: "For every action, there is an equal and opposite reaction."
+                </p>
+                
+                <p>
+                    In the case of rockets, the action occurs when burning fuel in the engines generates a large amount of hot gases, which are expelled at high speed backward. The reaction to this expulsion is thrust — a force that propels the rocket forward.
+                </p>
+                
+                <p>
+                    This principle is essential for rockets to leave Earth's atmosphere, reach orbit, and make trajectory adjustments. Propulsion systems can use different types of fuel, such as solid or liquid fuel, and the choice depends on the mission's characteristics, such as the distance to be traveled, payload, and the maneuvers required along the way.
+                </p>
+                
+                <p>
+                    There are two main types of space propulsion currently used: chemical propulsion and electric propulsion.
+                </p>
+                
+                <h1>Chemical Propulsion</h1>
+        
+                <p>
+                    Chemical propulsion is the most widely used in launches and missions that require high initial power. It is based on burning chemical fuels that release a large amount of energy in a short period. Chemical engines can be solid or liquid fuel, with the latter being more versatile as it allows for thrust adjustment during burning.
+                </p>
+                
+                <h1>Electric Propulsion</h1>
+        
+                <p>
+                    Electric propulsion, on the other hand, is used in missions where fuel efficiency is more important than initial thrust. This type of propulsion uses electric fields to accelerate charged particles (ions), generating thrust. Although the thrust generated is small, it is constant over long periods, making it ideal for long-distance missions, such as exploring other planets or adjusting satellite orbits.
+                    <br>
+                    <br>
+                </p>
+        
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <button id="ignicaoBotao" class="total fundo botaoBrilho _botaoCartao cartaoBotao" type="button" aria-label="description" onclick="abrir('#ignicao', '#ignicaoCartao')">  
+            <div id="ignicaoImgLeft" class="image yCenter icon"> </div>  
+            <p class="textoAdaptavel"  data-larguras-adaptavel="530" data-textos-adaptavel="Engine Ignition;Ignition"> Engine Ignition </p>
+            <div id="ignicaoImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="ignicaoCartao" class="cartao">
+            <div id="ignicao" class="image conteudoCartao">
+                <h1> Engine Ignition </h1>
+        
+                <div id="ignition" class="image icon" role="img" aria-label="An image of a rocket engine using flammable gas to produce the spark needed to ignite the rocket engine"> </div>
+        
+                <p>
+                    The ignition of a rocket engine is one of the most critical steps in any space mission. If something goes wrong or the system doesn't function as expected, the entire mission can be compromised, leading to launch failure and possibly the loss of valuable equipment or cargo.
+                </p>
+                <p>
+                    The ignition process involves activating the system that starts the fuel burning in the engine. For liquid fuel rockets, this is usually done by electrical or chemical ignition systems, which generate a spark or sufficient heat to ignite the fuel and oxidizer. In solid-fuel rockets, the process is simpler but equally delicate, as ignition starts the combustion of all the fuel, which will continue burning until fully consumed.
+                </p>
+                <p>
+                    There are various techniques for igniting rocket engines. In Russia's Soyuz rockets, pyrotechnic cartridges are used in the engines, which generate enough heat to start burning the kerosene (RP-1) and liquid oxygen. In SpaceX's Merlin engines, a chemical compound called TEA-TEB (Triethylaluminum-Triethylborane) is used, which spontaneously reacts with liquid oxygen, creating the spark needed for ignition. This method allows multiple ignitions during the same flight, which is crucial for reusable stages.
+                </p>
+                <p>
+                    Due to its importance, redundant systems and rigorous testing are applied to ensure ignition occurs precisely and safely. Any failure could cause significant delays or even the cancellation of missions planned for years.
+                </p>
+            </div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <button id="manobrasBotao" class="total fundo botaoBrilho _botaoCartao cartaoBotao" type="button" aria-label="description" onclick="abrir('#manobras', '#manobrasCartao')">  
+            <div id="manobrasImgLeft" class="image yCenter icon"> </div>  
+            <p class="textoAdaptavel"  data-larguras-adaptavel="700;530" data-textos-adaptavel="Guide to Space Maneuvers;Space Maneuvers;Maneuvers"> Guide to Space Maneuvers </p>
+            <div id="manobrasImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="manobrasCartao" class="cartao">
+            <div id="manobras" class="image conteudoCartao">
+                <h1>Guide to Space Maneuvers</h1>
+                <div id="manouver" class="image icon" role="img" aria-label="An image of a series of maneuvers being planned to reach another planet"> </div>
+                <p>
+                    Orbital mechanics is the study of the motion of objects in space under the influence of gravity. It is essential for planning routes, adjusting orbits, and performing rendezvous between spacecraft and other celestial bodies.
+                </p>
+                <p>
+                    Orbital rendezvous occur when a spacecraft adjusts its trajectory to coincide with that of another object, such as a space station or satellite. To do this, it is necessary to calculate velocity, orbital inclination, and intersection points.
+                </p>
+                <p>
+                    To perform these maneuvers, it is crucial to review some of the concepts discussed earlier, such as Kepler's Laws. To understand how two spacecraft can approach each other, one can use the principle of areas: the closer you are to the celestial body, the faster you move, and the further you are, the slower you move. Based on these principles, an approach maneuver can be performed. If the target station or spacecraft is ahead in the orbit, it is ideal to reduce its orbit to make it lower, or at least to lower one of its extremes, allowing it to reach the target. Conversely, if needed, you would raise your orbit to reduce speed and be caught by the target. This type of maneuver is called rendezvous.
+                </p>
+                <p>
+                    Interplanetary injection maneuvers allow a spacecraft to leave Earth's orbit to reach other planets. They involve precise burns to alter speed and direct the spacecraft towards the desired trajectory.
+                </p>
+                <p>
+                    These maneuvers are based on the concept of velocity injection, which involves increasing the spacecraft's velocity at the exact moment to allow it to escape the orbit of a planet and enter a new trajectory leading to another celestial body. To leave Earth's orbit and travel to another planet, the spacecraft must achieve escape velocity. Escape velocity is the minimum speed required for an object to overcome the gravitational pull of a celestial body.
+                </p>
+                <p>
+                    During an injection maneuver, the spacecraft performs a burn at the exact moment, known as the injection point, accelerating until it reaches the necessary speed to escape the gravitational pull of the origin planet and head toward its destination. This moment is crucial, as any error in timing or direction can lead to significant deviations from the planned trajectory.
+                </p>
+                <p>
+                    After injection, the spacecraft follows a parabolic or hyperbolic trajectory, depending on the speed reached. During interplanetary travel, the spacecraft can perform trajectory corrections (adjustment maneuvers) to ensure it stays on the correct path to its destination planet.
+                </p>
+                <p>
+                    The spacecraft may also use gravity assists to reach more distant locations with less fuel consumption, using the gravity of other celestial bodies to change its speed without burning much fuel.
+                </p>
+            </div>
+        </div>
+        
+
+
+
+
+        <button id="pousoBotao" class="total fundo botaoBrilho _botaoCartao cartaoBotao" type="button" aria-label="descrição" onclick="abrir('#pouso', '#pousoCartao')">  
+            <div id="pousoImgLeft" class="image yCenter icon"> </div>  
+            <p class="textoAdaptavel"  data-larguras-adaptavel="560" data-textos-adaptavel="We need to land;Landings"> We need to land </p>
+            <div id="pousoImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="pousoCartao" class="cartao">
+            <div id="pouso" class="image conteudoCartao">
+                <h1>We Need to Land</h1>
+                <div id="reentry" class="image icon" role="img" aria-label="An image of a capsule during atmospheric reentry, with incandescent material passing around it"> </div>
+                <p>
+                    Landings on Earth or other celestial bodies with reasonable atmospheres rely on several systems. They require heat shields to protect the spacecraft from the extreme heat generated during atmospheric entry, caused by friction with the atmosphere. In addition, they need parachutes to slow the vehicle down to safer speeds. These parachutes must be robust enough to withstand the environment during initial deceleration and allow the spacecraft to land in a controlled manner.
+                    <br>
+                    <br>
+                    On airless celestial bodies, like the Moon, landings are performed only with engines since there is no atmospheric drag to slow the spacecraft. The engines must be used to brake the spacecraft until it reaches a safe speed to touch down.
+                    <br>
+                    <br>
+                    On celestial bodies with thinner atmospheres, like Mars, landing is much more complex, requiring a combination of heat shields, parachutes, and retro-rockets. The heat shield protects the spacecraft during the initial moments of atmospheric entry, where extreme heat is generated. However, due to the low density of the Martian atmosphere, the parachutes cannot slow the spacecraft down to a safe speed. Therefore, retro-rockets are used to further reduce speed as the spacecraft approaches the surface, ensuring a safe landing.
+                    <br>
+                    <br>
+                </p>
+            </div>
+        </div>    
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <button id="usosBotao" class="total fundo botaoBrilho _botaoCartao cartaoBotao" type="button" aria-label="descrição" onclick="abrir('#usos', '#usosCartao')">  
+            <div id="usosImgLeft" class="image yCenter icon"> </div>  
+            <p class="textoAdaptavel"  data-larguras-adaptavel="700;640;525" data-textos-adaptavel="Uses of Space Technologies;Space Technologies Uses;Technologies Uses;Technologies"> Uses of Space Technologies </p>
+            <div id="usosImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="usosCartao" class="cartao">
+            <div id="usos" class="image conteudoCartao">
+                <h1>Uses of Space Technologies</h1>
+
+                <div id="uses" class="image icon" role="img" aria-label="An image of a capsule during atmospheric reentry, with incandescent material passing around it"> </div>
+
+                <p>
+                    Space technologies have an impact far beyond the environment outside Earth. Many innovations developed for space exploration are applied in everyday life, bringing significant advances to various sectors. 
+                </p>
+                <p>
+                    A notable example is the use of satellites. They play a key role in global communication, enabling television, telephony, and internet transmissions in remote areas where it would be unfeasible to install terrestrial infrastructure. Additionally, meteorological satellites help predict weather with greater accuracy, allowing for responses that anticipate natural disasters such as hurricanes and floods.
+                </p>
+                <p>
+                    In the transportation sector, space technologies contributed to the development of GPS navigation systems. This advancement allows people and products to move more efficiently, revolutionizing everything from daily travel to complex logistical operations.
+                </p>
+                <p>
+                    Space exploration has spurred the development of new materials and production technologies. Lightweight and durable plastics, originally created or improved for spacecraft, are now widely used in products like cars and airplanes, contributing to greater energy efficiency. Insulating materials, developed to protect equipment in space, are also applied in buildings and winter clothing, promoting greater comfort and energy savings.
+                </p>
+                <p>
+                    Another important impact is sustainability. Space technologies are applied in environmental monitoring programs, tracking deforestation, melting glaciers around the world, and measuring air quality. Data collected by satellites helps governments and organizations make more informed decisions to protect the environment and combat climate change.
+                </p>
+                <p>
+                    In the energy sector, space research has driven advances in solar panel technology. Systems developed to power satellites and probes are now also used on Earth, helping to popularize solar energy as a renewable and sustainable alternative.
+                </p>
+                <p>
+                    Space exploration also inspires new generations of scientists and engineers, encouraging innovation and the search for creative solutions to the complex problems of modern humanity. As a result, the impact of space technologies transcends the scientific field, transforming our society and providing benefits that go beyond just space.
+                    <br>
+                    <br>
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+
+        
+    </main>
+
+    <footer>
+        <h5> <sup>©</sup>2024 Ian_Productions. All rights reserved. </h5>
+    </footer>
+
+</body>
+</html>

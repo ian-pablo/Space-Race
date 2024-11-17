@@ -13,6 +13,21 @@ function cprint(str){
     console.log(str);
 }
 
+
+
+// responsável por adicionar o tradutor em todas as páginas automaticamente
+{
+    let nome = window.location.href.split('/');
+    let header = document.querySelector('header');
+
+    if (!nome[nome.length - 1].includes('eng')) {
+        header.innerHTML = `<button id="traduzir" class="button" type="button" aria-label="click here to go to the english version of the website" onclick="window.location.href = '${nome[nome.length - 1].replace('.', '_eng.')}'"> </button>` + header.innerHTML;
+    } else {
+        header.innerHTML = `<button id="translate" class="button" type="button" aria-label="clique aqui para ir a versão em português do website" onclick="window.location.href = '${nome[nome.length - 1].replace('_eng', '')}'"> </button>` + header.innerHTML;
+    }
+}
+
+
 // este bloco de código é responsável pela animação do menu do site
 {
 
@@ -24,10 +39,10 @@ function cprint(str){
     // variáveis importantes para controlar a animação do menu
     let mostrar = false;
     let posição = "-var(--width)";
-
+    
     // função a ser executada toda vez que o botão de abrir menu for pressionado
     botaoMenu.addEventListener('click', () => {
-
+        
         mostrar = !mostrar;
 
         if (mostrar == true) {
@@ -91,6 +106,7 @@ function cprint(str){
 document.addEventListener('contextmenu', (evento) => {
     evento.preventDefault();
 });
+
 
 
 

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Space Race </title>
+
+    <!-- Os arquivos CSS desta página -->
+    <link rel="stylesheet" href="CSS/basicConfig.css"> <!-- configurações padrões que todas as páginas devem possuir -->
+    <link rel="stylesheet" href="CSS/milestones.css">
+    <link rel="stylesheet" href="CSS/paginaCartao.css">
+
+    <!-- Os scripts em javascript -->
+    <script src="SCRIPTS/basic.js" defer> </script>
+    <script src="SCRIPTS/botaoAbertura.js" defer> </script>
+    <script src="SCRIPTS/resizeTexto.js" defer> </script>
+
+    <!-- Icone da guia -->
+    <link rel="icon" href="Imagens/terra_logo.svg">
+
+</head>
+<body>
+
+    <header>
+        <h1 id="titulo" onclick="window.location.href = 'index_eng.html'" aria-label="Click to go to the homepage of Space Race!"> Space Race </h1>
+        
+        <button id="botaoMenu" class="button" type="button" aria-label="Click to expand the side menu"> 
+            <p> &#9776 </p> 
+        </button>
+    </header>
+
+    <nav id="menu">
+
+    </nav>
+
+    <main>
+        <button id="terraBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="Click to know more details about Earth" onclick="abrir('#terra', '#terraCartao')">  
+            <div id="terraImgLeft" class="image yCenter icon"> </div>  
+            Earth 
+            <div id="terraImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="terraCartao" class="cartao">
+            <div id="terra" class="image conteudoCartao conteudoCenter">
+
+                <h1> Earth, our home </h1>
+
+                <p class="almostTransparent">
+                    Planet Earth, our home. Click in the button bellow to discover about the most important milestones that mankind has been able to do in the space around our home
+                </p>
+
+                <button class="button almostTransparent" type="button" aria-label="Click to know more" onclick="window.location.href = 'earth_eng.html'">
+                    Right here
+                </button>
+                
+            </div>
+        </div>
+
+
+
+
+        <button id="luaBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="click to know more details about the Moon" onclick="abrir('#lua', '#luaCartao')">  
+            <div id="luaImgLeft" class="image yCenter icon"> </div>  
+            Moon 
+            <div id="luaImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="luaCartao" class="cartao">
+            <div id="lua" class="image conteudoCartao conteudoCenter">
+
+                <div id="terra_fundo" class="image"> </div>
+
+                <h1> Moon, our natural satelite </h1>
+
+                <p class="almostTransparent">
+                    By a lot of centures, our ancestors have looked to the sky and wondered with its beauty, today the modern ciivlization already got great milestones there and you can discover a little more about then
+                </p>
+
+                <button class="button almostTransparent" type="button" aria-label="click to know more" onclick="window.location.href = 'lua_eng.html'">
+                    Over here
+                </button>
+
+            </div>
+        </div>
+
+
+
+
+        <button id="marteBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="click here to espand details about Mars" onclick="abrir('#marte', '#marteCartao')">  
+            <div id="marteImgLeft" class="image yCenter icon"> </div>  
+            Mars 
+            <div id="marteImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="marteCartao" class="cartao">
+            <div id="marte" class="image conteudoCartao conteudoCenter">
+
+                <h1> Mars, the final frontier </h1>
+
+                <p>
+                    Mars, the misterious red planet, that humanity dreams of setting foot on, discover the great milestones that have been done in the red planet and in its moons, Phobos and Deimos
+                </p>
+
+                <button class="button lightButton" type="button" aria-label="click to know more about" onclick="window.location.href = 'marte_eng.html'">
+                    Right over here
+                </button>
+
+            </div>
+        </div>
+
+
+
+
+        <button id="venusBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="click to expand details on venus" onclick="abrir('#venus', '#venusCartao')">  
+            <div id="venusImgLeft" class="image yCenter icon"> </div>  
+            Venus 
+            <div id="venusImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="venusCartao" class="cartao">
+            <div id="venus" class="image conteudoCartao conteudoCenter">
+
+                <h1> Venus, the space hell </h1>
+
+                <p class="almostTransparent">
+                    Venus, the hottest planet in the solar system, one of the most challenging planets to explore due to its thick and deadly atmosphere with temperatures above 470°C, capable of melting lead. Now you can learn more about humanity's achievements there.
+                </p>
+
+                <button class="button almostTransparent" type="button" aria-label="click to know more" onclick="window.location.href = 'venus_eng.html'">
+                    Over here
+                </button>
+
+            </div>
+        </div>
+
+
+
+
+        <button id="mercurioBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="click to expand informations about mercury" onclick="abrir('#mercurio', '#mercurioCartao')">  
+            <div id="mercurioImgLeft" class="image yCenter icon"> </div>  
+            Mercury 
+            <div id="mercurioImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="mercurioCartao" class="cartao">
+            <div id="mercurio" class="image conteudoCartao conteudoCenter">
+
+                <h1> Mercury, the smallest planet </h1>
+
+                <p>
+                    The smallest planet in the Solar System, Mercury, unlike Pluto, is a planet. It is the closest planet to the Sun and has the thinnest atmosphere among all planets. Now you have the chance to discover humanity's achievements there.
+                </p>
+
+                <button class="button lightButton" type="button" aria-label="click to know more about" onclick="window.location.href = 'mercury_eng.html'">
+                    Over here
+                </button>
+
+            </div>
+        </div>
+        
+
+
+
+        <button id="gasososBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="click for more details about the gas giants" onclick="abrir('#gasosos', '#gasososCartao')">  
+            <div id="gasososImgLeft" class="image yCenter icon"> </div>  
+            <p class="textoAdaptavel" data-larguras-adaptavel="290" data-textos-adaptavel="Gas Giants; G. Giants"> 
+                Gas Giants 
+            </p>
+            <div id="gasososImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="gasososCartao" class="cartao">
+            <div id="gasosos" class="image conteudoCartao conteudoCenter">
+
+                <h1> The gas giants </h1>
+
+                <p>
+                    The massive and giant gas planets, considered by many to be the most beautiful in our system, some with dozens of natural satellites. Now you can discover what we have achieved around them and on their moons.
+                </p>
+
+                <button class="button lightButton" type="button" aria-label="click to learn more about" onclick="window.location.href = 'gas_eng.html'">
+                    Right here
+                </button>
+
+            </div>
+        </div>
+        
+
+
+
+        <button id="dwarfBotao" class="total fundo botaoBrilho _botoesCartao cartaoBotao" type="button" aria-label="click for more details about the dwarf planets" onclick="abrir('#dwarf', '#dwarfCartao')">  
+            <div id="dwarfImgLeft" class="image yCenter icon"> </div>  
+            <p class="textoAdaptavel" data-larguras-adaptavel="290" data-textos-adaptavel="Dwarf Planets; D. Planets"> 
+                Dwarf Planets 
+            </p>
+            <div id="dwarfImgRight" class="image yCenter icon"> </div>  
+        </button>
+        
+        <div id="dwarfCartao" class="cartao">
+            <div id="dwarf" class="image conteudoCartao conteudoCenter">
+
+                <h1> Dwarf Planets </h1>
+
+                <p class="almostTransparent">
+                    The dwarg planets, the smallest celestial bodies on our Solar System whiout just being considered asteroids, the most well know being Pluto, as well as Eris, Makemake, Ceres and Haumea. Now you have the possibility to discover the human achievements in those celestial dwarfs
+                </p>
+
+                <button class="button almostTransparent" type="button" aria-label="click to learn more about" onclick="window.location.href = 'dwarf_eng.html'">
+                    Right here
+                </button>
+
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <h5> <sup>©</sup>2024 Ian_Productions. All rights reserved. </h5>
+    </footer>
+
+</body>
+</html>

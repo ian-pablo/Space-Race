@@ -54,6 +54,27 @@ header{
 
 } */
 
+#shepard{
+
+    /* tamanho */
+    --size: 500px;
+
+    /* estética */
+    background-image: url(../Imagens/new-shepard.svg);
+
+    /* posição */
+    float: right;
+    margin: 60px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #shepard{
+        float: none;
+        margin: 60px auto;
+    }
+}
+
 
 
 
@@ -105,6 +126,27 @@ header{
     /* background-image: url('../Imagens/mineracao_do_espaco.svg');
 
 } */
+
+#miner{
+
+    /* tamanho */
+    --size: 500px;
+
+    /* estética */
+    background-image: url(../Imagens/miner.svg);
+
+    /* posição */
+    float: left;
+    margin: 60px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #miner{
+        float: none;
+        margin: 60px auto;
+    }
+}
 
 
 
@@ -158,6 +200,27 @@ header{
 
 } */
 
+#colony{
+
+    /* tamanho */
+    --size: 500px;
+
+    /* estética */
+    background-image: url(../Imagens/colony.svg);
+
+    /* posição */
+    float: right;
+    margin: 60px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #colony{
+        float: none;
+        margin: 60px auto;
+    }
+}
+
 
 
 
@@ -209,6 +272,27 @@ header{
     /*background-image: url('../Imagens/mineracao_do_espaco.svg');
 
 }*/
+
+#anti{
+
+    /* tamanho */
+    --size: 500px;
+
+    /* estética */
+    background-image: url(../Imagens/antimatterprop.svg);
+
+    /* posição */
+    float: left;
+    margin: 60px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #anti{
+        float: none;
+        margin: 60px auto;
+    }
+}
 
 
 

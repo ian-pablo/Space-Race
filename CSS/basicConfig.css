@@ -234,6 +234,46 @@ button, a{
     
 }
 
+#traduzir, #translate{
+    /* tamanho */
+    width: 60px;
+    height: 60px;
+    
+    /* estética */
+    font-size: 60px;
+    text-align: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 0px solid white;
+
+    /* posicionamento */
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    /* animação */
+    transition: outline 0.2s ease-in;
+    
+}
+
+#traduzir:hover, #translate:hover{
+    
+    /* estética */
+    outline: 6px solid white;
+    
+}
+
+#traduzir{
+    background-image: url(../Imagens/usa.svg);
+}
+
+#translate{
+    background-image: url(../Imagens/brazil.svg);
+}
+
 #botaoMenu p{
     position: absolute;
     left: 3px;
@@ -304,6 +344,7 @@ button, a{
 
     /* estética */
     outline-offset: -3px;
+    outline: 0px solid var(--interfaceTextColor);
 
     /* animação */
     transition: outline 0.2s ease-in, text-shadow 0.2s ease-in;
@@ -436,6 +477,16 @@ a:hover{
 
     }
 
+    #traduzir, #translate{
+        /* tamanho */
+        width: 50px;
+        height: 50px;
+
+        /* posição */
+        left: 18px;
+
+    }
+
     #botaoMenu p{
         /* estética */
         font-size: 0.75em;
@@ -489,6 +540,16 @@ a:hover{
 
         /* posição */
         right: 12px;
+
+    }
+
+    #traduzir, #translate{
+        /* tamanho */
+        width: 25px;
+        height: 25px;
+
+        /* posição */
+        left: 12px;
 
     }
 

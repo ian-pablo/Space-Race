@@ -1,0 +1,30 @@
+#logo {
+    /* tamanho */
+    --size: 500px;
+
+    /* estética */
+    background-image: url(../Imagens/terra.svg);
+}
+
+
+
+#development{
+
+    /* tamanho */
+    --size: 530px;
+
+    /* estética */
+    background-image: url(../Imagens/development.svg);
+
+    /* posição */
+    float: right;
+    margin: -60px 60px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #development{
+        float: none;
+        margin: -30px auto;
+    }
+}

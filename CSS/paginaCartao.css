@@ -84,6 +84,12 @@ h1{
     text-align: justify;
 }
 
+.conteudoCartao div{
+    /* tamanho */
+    max-width: 90vw;
+    max-height: 90vw;
+}
+
 
 /*.icon{
     /* o tamanho máximo dos icones */
@@ -124,11 +130,11 @@ h1{
 }
 
 @media screen and (max-width: 445px){
-    :root{
+    /* :root{ */
         /* variáveis locais */
-        --titleFontSize: 1em;
-        --contentFontSize: 0.75em;
-    }
+        /* --titleFontSize: 1em;
+        --contentFontSize: 0.75em; */
+    /* } */
 
     .conteudoCartao button{
         /* tamanho */
