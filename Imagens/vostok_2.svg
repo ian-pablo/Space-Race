@@ -24,12 +24,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="11.313709"
-     inkscape:cx="21.831922"
-     inkscape:cy="24.792931"
-     inkscape:window-width="1920"
-     inkscape:window-height="1046"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:cx="21.831921"
+     inkscape:cy="24.881319"
+     inkscape:window-width="2560"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -308,11 +308,6 @@
          cy="11.430456"
          r="1.5625796" />
     </g>
-    <path
-       d="M 10.62855,3.8649022 A 4.4412022,4.4412022 0 0 0 8.5945655,3.3703588 4.4412022,4.4412022 0 0 0 6.5693662,3.8700699 2.4013362,0.78983456 0 0 0 8.5945655,4.2385228 2.4013362,0.78983456 0 0 0 10.62855,3.8649022 Z"
-       style="display:inline;fill:#acacac;fill-opacity:1;stroke-width:1.9456"
-       id="path18"
-       inkscape:label="holder" />
     <g
        id="g5"
        inkscape:label="antenas"

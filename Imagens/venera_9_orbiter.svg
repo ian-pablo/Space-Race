@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="2.9540685"
-     inkscape:cx="121.86583"
-     inkscape:cy="144.37715"
+     inkscape:zoom="1.4770343"
+     inkscape:cx="15.571745"
+     inkscape:cy="194.64681"
      inkscape:window-width="2560"
      inkscape:window-height="1057"
      inkscape:window-x="-8"
@@ -69,9 +69,9 @@
     <g
        id="g3"
        inkscape:label="solar panels"
-       style="fill:#00078f;fill-opacity:1">
+       style="fill:#0045a1;fill-opacity:1">
       <rect
-         style="fill:#00078f;fill-opacity:1;stroke-width:0.33352;stroke-linecap:round"
+         style="fill:#0045a1;fill-opacity:1;stroke-width:0.33352;stroke-linecap:round"
          id="rect12"
          width="12.645029"
          height="20.460085"
@@ -80,7 +80,7 @@
          transform="rotate(-30)"
          ry="3.8386693" />
       <rect
-         style="fill:#00078f;fill-opacity:1;stroke-width:0.33352;stroke-linecap:round"
+         style="fill:#0045a1;fill-opacity:1;stroke-width:0.33352;stroke-linecap:round"
          id="rect13"
          width="12.645029"
          height="20.460085"

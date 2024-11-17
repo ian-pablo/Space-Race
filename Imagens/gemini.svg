@@ -25,13 +25,13 @@
      inkscape:document-units="mm"
      inkscape:zoom="2.0888418"
      inkscape:cx="14.362026"
-     inkscape:cy="155.34924"
-     inkscape:window-width="1920"
-     inkscape:window-height="1046"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:cy="154.87051"
+     inkscape:window-width="2560"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g24" />
   <defs
      id="defs1" />
   <g
@@ -44,7 +44,7 @@
        inkscape:label="service module">
       <path
          sodipodi:type="star"
-         style="fill:#1d1d1d;fill-opacity:1;stroke-width:1.62292"
+         style="fill:#262626;fill-opacity:1;stroke-width:1.62292"
          id="path8"
          inkscape:flatsided="true"
          sodipodi:sides="3"
@@ -70,11 +70,11 @@
        inkscape:label="capsule">
       <path
          id="path1"
-         style="fill:#2a2a2a;fill-opacity:1;stroke-width:1.323"
+         style="fill:#4d4d4d;fill-opacity:1;stroke-width:1.323"
          inkscape:transform-center-y="-8.517958"
          d="M 33.229308,7.3442009 21.237538,40.561866 H 58.137463 L 46.145692,7.3442009 Z" />
       <rect
-         style="fill:#2a2a2a;fill-opacity:1;stroke-width:1.323"
+         style="fill:#4d4d4d;fill-opacity:1;stroke-width:1.323"
          id="rect1"
          width="12.916387"
          height="27.633177"
