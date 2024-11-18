@@ -64,7 +64,6 @@ function cprint(str){
     const menu = document.querySelector("#menu");
     const botaoMenu = document.querySelector("#botaoMenu");
     const animationFramesCount = 10;
-    const body = document.querySelector("body");
 
     // variáveis importantes para controlar a animação do menu
     let mostrar = false;
@@ -72,8 +71,6 @@ function cprint(str){
     
     // função a ser executada toda vez que o botão de abrir menu for pressionado
     botaoMenu.addEventListener('click', () => {
-        
-        body.style.overflow = 'hidden';
 
         mostrar = !mostrar;
 
@@ -120,8 +117,6 @@ function cprint(str){
                     posição = "-var(--width)";
 
                 }
-                
-                body.style.overflow = 'auto';
             }
 
             else if(mostrar == true && posição > 0){
