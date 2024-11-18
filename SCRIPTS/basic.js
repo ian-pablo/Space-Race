@@ -22,7 +22,11 @@ function cprint(str){
     let nav = document.querySelector('nav');
 
     if (!nome[nome.length - 1].includes('eng')) {
-        header.innerHTML = `<button id="traduzir" class="button" type="button" aria-label="click here to go to the english version of the website" onclick="window.location.href = '${nome[nome.length - 1].replace('.', '_eng.')}'"> </button>` + header.innerHTML;
+        if (nome[nome.length - 1]){
+            header.innerHTML = `<button id="traduzir" class="button" type="button" aria-label="click here to go to the english version of the website" onclick="window.location.href = '${nome[nome.length - 1].replace('.', '_eng.')}'"> </button>` + header.innerHTML;
+        } else{
+            header.innerHTML = `<button id="traduzir" class="button" type="button" aria-label="click here to go to the english version of the website" onclick="window.location.href = 'index_eng.html'"> </button>` + header.innerHTML;
+        }
         nav.innerHTML = `<br>
         <br>
         <br>
