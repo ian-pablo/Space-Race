@@ -63,7 +63,7 @@ function cprint(str){
     // as constantes que o código precissa para funcionar normalmente
     const menu = document.querySelector("#menu");
     const botaoMenu = document.querySelector("#botaoMenu");
-    const animationFramesCount = 10;
+    const animationFramesCount = 3;
 
     // variáveis importantes para controlar a animação do menu
     let mostrar = false;
@@ -88,6 +88,7 @@ function cprint(str){
 
         // atualiza a width e a velocidade do menu para uma melhor responsividade
         width = parseFloat( getComputedStyle(menu).getPropertyValue('--width') );
+        console.log(width, posição);
         const velocidadeMenu = width / animationFramesCount;
 
         // checa se a posição é igual a 'var(--width)', caso sim muda ela para o valor desta variável CSS
