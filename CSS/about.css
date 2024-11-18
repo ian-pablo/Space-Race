@@ -25,6 +25,30 @@
 @media screen and (max-width: 1000px) {
     #development{
         float: none;
-        margin: -30px auto;
+        margin: -120px auto;
     }
 }
+
+
+
+#developer{
+
+    /* tamanho */
+    --size: 530px;
+
+    /* estética */
+    background-image: url(../Imagens/the_dev.svg);
+
+    /* posição */
+    float: left;
+    margin: 60px 60px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #developer{
+        float: none;
+        margin: 30px auto;
+    }
+}
+

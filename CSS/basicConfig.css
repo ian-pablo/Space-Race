@@ -255,7 +255,7 @@ button, a{
     transform: translateY(-50%);
 
     /* animação */
-    transition: outline 0.2s ease-in;
+    transition: outline 0.1s ease-in;
     
 }
 
@@ -446,6 +446,11 @@ a:hover{
     /* animação do link */
     color: var(--interfaceColor);
     background-size: 100% 100%;
+}
+
+nav button{
+    /* posicionamento */
+    margin: 5px 15px;
 }
 
 

@@ -15,15 +15,40 @@ function cprint(str){
 
 
 
-// responsável por adicionar o tradutor em todas as páginas automaticamente
+// responsável por adicionar o tradutor em todas as páginas automaticamente e os botões do menu
 {
     let nome = window.location.href.split('/');
     let header = document.querySelector('header');
+    let nav = document.querySelector('nav');
 
     if (!nome[nome.length - 1].includes('eng')) {
         header.innerHTML = `<button id="traduzir" class="button" type="button" aria-label="click here to go to the english version of the website" onclick="window.location.href = '${nome[nome.length - 1].replace('.', '_eng.')}'"> </button>` + header.innerHTML;
+        nav.innerHTML = `<br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button class="button styledButton lightButton" type="button" aria-label="Clique aqui para saber mais sobre o nosso website" onclick="window.location.href='about.html'"> sobre nós </button><br>
+        <button class="button styledButton lightButton" type="button" aria-label="Clique aqui para saber sobre os mais importantes feitos da humanidade no espaço" onclick="window.location.href='milestones.html'"> conquistas </button><br>
+        <button class="button styledButton lightButton" type="button" aria-label="Clique aqui para saber mais sobre os piores incidentes na história da exploração espacial" onclick="window.location.href='incidents.html'"> incidentes </button><br>
+        <button class="button styledButton lightButton" type="button" aria-label="Clique aqui para aprender sobre diversos conceitos importantes para missões espaciais e as aplicações no cotidiano de tecnologias espaciais" onclick="window.location.href='learning.html'"> aprendizado </button><br>
+        <button class="button styledButton lightButton" type="button" aria-label="Clique aqui para descobrir o que o futuro nos reserva" onclick="window.location.href='future.html'"> futuro </button>`;
+
     } else {
         header.innerHTML = `<button id="translate" class="button" type="button" aria-label="clique aqui para ir a versão em português do website" onclick="window.location.href = '${nome[nome.length - 1].replace('_eng', '')}'"> </button>` + header.innerHTML;
+        nav.innerHTML = `<br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button class="button styledButton lightButton" type="button" aria-label="Click here to learn more about our website" onclick="window.location.href='about_eng.html'">about us</button><br>
+        <button class="button styledButton lightButton" type="button" aria-label="Click here to learn about humanity's most important achievements in space" onclick="window.location.href='milestones_eng.html'">milestones</button><br>
+        <button class="button styledButton lightButton" type="button" aria-label="Click here to learn more about the worst incidents in the history of space exploration" onclick="window.location.href='incidents_eng.html'">incidents</button><br>
+        <button class="button styledButton lightButton" type="button" aria-label="Click here to learn about important concepts for space missions and the everyday applications of space technologies" onclick="window.location.href='learning_eng.html'">learning</button><br>
+        <button class="button styledButton lightButton" type="button" aria-label="Click here to discover what the future holds" onclick="window.location.href='future_eng.html'">future</button>
+        `;
     }
 }
 
