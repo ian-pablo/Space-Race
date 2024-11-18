@@ -116,7 +116,7 @@ nav{
 
     /* tamanho */
     width: var(--width);
-    height: 100%;
+    height: 1000vh;
 
     /* estética */
     background-color: var(--menuColor);
