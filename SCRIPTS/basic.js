@@ -33,7 +33,7 @@ function cprint(str){
         <br>
         <br>
         <br>
-        <button class="button styledButton lightButton" type="button" aria-label="Clique aqui para saber mais sobre o nosso website" onclick="window.location.href='about.html'"> sobre nós </button><br>
+        <button class="button styledButton lightButton" type="button" aria-label="Clique aqui para saber mais sobre o nosso website" onclick="window.location.href='about.html'"> sobre </button><br>
         <button class="button styledButton lightButton" type="button" aria-label="Clique aqui para saber sobre os mais importantes feitos da humanidade no espaço" onclick="window.location.href='milestones.html'"> conquistas </button><br>
         <button class="button styledButton lightButton" type="button" aria-label="Clique aqui para saber mais sobre os piores incidentes na história da exploração espacial" onclick="window.location.href='incidents.html'"> incidentes </button><br>
         <button class="button styledButton lightButton" type="button" aria-label="Clique aqui para aprender sobre diversos conceitos importantes para missões espaciais e as aplicações no cotidiano de tecnologias espaciais" onclick="window.location.href='learning.html'"> aprendizado </button><br>
@@ -47,7 +47,7 @@ function cprint(str){
         <br>
         <br>
         <br>
-        <button class="button styledButton lightButton" type="button" aria-label="Click here to learn more about our website" onclick="window.location.href='about_eng.html'">about us</button><br>
+        <button class="button styledButton lightButton" type="button" aria-label="Click here to learn more about our website" onclick="window.location.href='about_eng.html'"> about </button><br>
         <button class="button styledButton lightButton" type="button" aria-label="Click here to learn about humanity's most important achievements in space" onclick="window.location.href='milestones_eng.html'">milestones</button><br>
         <button class="button styledButton lightButton" type="button" aria-label="Click here to learn more about the worst incidents in the history of space exploration" onclick="window.location.href='incidents_eng.html'">incidents</button><br>
         <button class="button styledButton lightButton" type="button" aria-label="Click here to learn about important concepts for space missions and the everyday applications of space technologies" onclick="window.location.href='learning_eng.html'">learning</button><br>
@@ -88,7 +88,6 @@ function cprint(str){
 
         // atualiza a width e a velocidade do menu para uma melhor responsividade
         width = parseFloat( getComputedStyle(menu).getPropertyValue('--width') );
-        console.log(width, posição);
         const velocidadeMenu = width / animationFramesCount;
 
         // checa se a posição é igual a 'var(--width)', caso sim muda ela para o valor desta variável CSS
